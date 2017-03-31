@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>discount</key>
+		<string>经济舱3.3折</string>
+		<key>price</key>
+		<string>415</string>
+		<key>arriveTime</key>
+		<string>08:50</string>
+		<key>departTime</key>
+		<string>06:35</string>
+		<key>flyNumber</key>
+		<string>吉祥航HO1252 空客321(中)</string>
+	</dict>
+	<dict>
+		<key>discount</key>
+		<string>经济舱6.1折</string>
+		<key>price</key>
+		<string>760</string>
+		<key>arriveTime</key>
+		<string>08:50</string>
+		<key>departTime</key>
+		<string>06:35</string>
+		<key>flyNumber</key>
+		<string>国航CA3202 空客321(中) 共享</string>
+	</dict>
+	<dict>
+		<key>discount</key>
+		<string>经济舱8.6折</string>
+		<key>price</key>
+		<string>1070</string>
+		<key>arriveTime</key>
+		<string>08:50</string>
+		<key>departTime</key>
+		<string>06:35</string>
+		<key>flyNumber</key>
+		<string>东航MU3924 空客321(中) 共享</string>
+	</dict>
+	<dict>
+		<key>discount</key>
+		<string>经济舱2.5折</string>
+		<key>price</key>
+		<string>310</string>
+		<key>arriveTime</key>
+		<string>09:00</string>
+		<key>departTime</key>
+		<string>06:40</string>
+		<key>flyNumber</key>
+		<string>南航CZ6412 空客321(中)</string>
+	</dict>
+	<dict>
+		<key>discount</key>
+		<string>经济舱5.1折</string>
+		<key>price</key>
+		<string>630</string>
+		<key>arriveTime</key>
+		<string>09:00</string>
+		<key>departTime</key>
+		<string>06:40</string>
+		<key>flyNumber</key>
+		<string>东航MU3662 空客321(中) 共享</string>
+	</dict>
+	<dict>
+		<key>discount</key>
+		<string>经济舱4.0折</string>
+		<key>price</key>
+		<string>500</string>
+		<key>arriveTime</key>
+		<string>09:15</string>
+		<key>departTime</key>
+		<string>07:00</string>
+		<key>flyNumber</key>
+		<string>国航CA6231 空客321(中)</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>index</key>
+		<string>100</string>
+		<key>image</key>
+		<string>dsxg01.png</string>
+		<key>count</key>
+		<string>280</string>
+		<key>price</key>
+		<string>53.9</string>
+		<key>title</key>
+		<string>黑客防摔手机壳膜套装iPhone 7 Plus5.5英寸 1</string>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>101</string>
+		<key>image</key>
+		<string>dsxg02.png</string>
+		<key>count</key>
+		<string>280</string>
+		<key>price</key>
+		<string>420</string>
+		<key>title</key>
+		<string>Zippo 小幸运-挚爱之礼推荐 *新机不含油，需加油后才能正常使用</string>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>102</string>
+		<key>image</key>
+		<string>dsxg03.png</string>
+		<key>count</key>
+		<string>280</string>
+		<key>price</key>
+		<string>798</string>
+		<key>title</key>
+		<string>华尔兹智薄扫地机器人 红外线超微距感应 微电流智能检测</string>
+	</dict>
+</array>
+</plist>
