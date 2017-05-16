@@ -14,7 +14,7 @@
 #import <MobLink/MobLink.h>
 #import <MobLink/MLSDKScene.h>
 
-static NSString *const baseShareUrl = @"http://f.moblink.mob.com/test";
+static NSString *const baseShareUrl = @"http://f.moblink.mob.com";
 
 @interface MLDTool()
 
@@ -219,7 +219,7 @@ static NSString *const baseShareUrl = @"http://f.moblink.mob.com/test";
 - (void)showAlertWithScene:(MLSDKScene *)scene
 {
     NSString *path = scene.path == nil ? @"" : scene.path;
-    NSString *source = scene.souce == nil ? @"" : scene.souce;
+    NSString *source = scene.source == nil ? @"" : scene.source;
     __block NSMutableString *msg = [NSMutableString stringWithFormat:@"路径path\n%@ \n\n来源\n%@ \n\n参数", path, source];
     [scene.params enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         [msg appendFormat:@"\n%@ : %@;", key, obj];

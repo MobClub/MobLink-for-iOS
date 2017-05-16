@@ -103,8 +103,4 @@
     }
 }
 
-- (IBAction)check:(UIButton *)sender {
-    [self checkParams];
-}
-
 @end

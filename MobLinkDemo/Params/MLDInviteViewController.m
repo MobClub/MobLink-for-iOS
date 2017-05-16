@@ -139,6 +139,7 @@
 
 - (void)shareItemClick:(UIButton *)shareBtn
 {
+    //先获取mobid成功后分享
     NSString *inviteID = [NSString stringWithFormat:@"%lu", (unsigned long)self.num];
     NSDictionary *params = @{
                              @"inviteID" : inviteID

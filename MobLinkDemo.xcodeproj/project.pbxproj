@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44009F031E8BA7AE006617AD /* MobLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44009F021E8BA7AE006617AD /* MobLink.framework */; };
 		44043A4D1E30AEE500074BD1 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44043A211E30AEE500074BD1 /* ShareSDK.framework */; };
 		44043A4E1E30AEE500074BD1 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44043A241E30AEE500074BD1 /* ShareSDKExtension.framework */; };
 		44043A4F1E30AEE600074BD1 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44043A251E30AEE500074BD1 /* ShareSDKUI.bundle */; };
@@ -25,7 +24,6 @@
 		44043A611E30BB5200074BD1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44043A601E30BB5200074BD1 /* JavaScriptCore.framework */; };
 		44043A631E30BB5B00074BD1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44043A621E30BB5B00074BD1 /* ImageIO.framework */; };
 		44043A651E30BB6900074BD1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44043A641E30BB6900074BD1 /* libsqlite3.tbd */; };
-		441599731E71520800037547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441599721E71520800037547 /* Main.storyboard */; };
 		442469601E4C186000721E13 /* sp01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4424694E1E4C186000721E13 /* sp01@2x.png */; };
 		442469611E4C186000721E13 /* sp01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4424694F1E4C186000721E13 /* sp01@3x.png */; };
 		442469621E4C186000721E13 /* sp02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 442469501E4C186000721E13 /* sp02@2x.png */; };
@@ -58,9 +56,9 @@
 		4424698E1E4C55DE00721E13 /* jipiao_wxtj.png in Resources */ = {isa = PBXBuildFile; fileRef = 4424698B1E4C55DE00721E13 /* jipiao_wxtj.png */; };
 		442469951E4DA8FD00721E13 /* moblink_wxtj.png in Resources */ = {isa = PBXBuildFile; fileRef = 442469941E4DA8FD00721E13 /* moblink_wxtj.png */; };
 		44619E5F1E2A087E00D456FA /* RightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44619E5E1E2A087E00D456FA /* RightImageButton.m */; };
-		447EB72B1E769A1B0096FE85 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447EB72A1E769A1B0096FE85 /* MOBFoundation.framework */; };
 		4484AB6B1E46D2280098E37D /* xwxg03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4484AB691E46D2280098E37D /* xwxg03@2x.png */; };
 		4484AB6C1E46D2280098E37D /* xwxg03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4484AB6A1E46D2280098E37D /* xwxg03@3x.png */; };
+		448884D51E9F588D0006A492 /* MobLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448884D41E9F588D0006A492 /* MobLink.framework */; };
 		4494430D1E25E76C00064C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494430C1E25E76C00064C11 /* main.m */; };
 		449443101E25E76C00064C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4494430F1E25E76C00064C11 /* AppDelegate.m */; };
 		449443181E25E76C00064C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449443171E25E76C00064C11 /* Assets.xcassets */; };
@@ -100,6 +98,7 @@
 		449E713A1E5451A70034DB32 /* MLDDemoRestoreDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E71391E5451A70034DB32 /* MLDDemoRestoreDViewController.m */; };
 		44B984AD1E570635006B9437 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B984AB1E570635006B9437 /* TencentOpenAPI.framework */; };
 		44B984AE1E570635006B9437 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44B984AC1E570635006B9437 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		44CD521C1E822C1B00F478EF /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD521A1E822C1B00F478EF /* MOBFoundation.framework */; };
 		44D6BF731E35AC4200CCEFB5 /* xw01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D6BF611E35AC4200CCEFB5 /* xw01@2x.png */; };
 		44D6BF741E35AC4200CCEFB5 /* xw01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D6BF621E35AC4200CCEFB5 /* xw01@3x.png */; };
 		44D6BF751E35AC4200CCEFB5 /* xw02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D6BF631E35AC4200CCEFB5 /* xw02@2x.png */; };
@@ -147,10 +146,10 @@
 		44D6BFF81E35BDDE00CCEFB5 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D6BFF51E35BDDE00CCEFB5 /* Products.plist */; };
 		44D6BFF91E35BDDE00CCEFB5 /* Tickets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D6BFF61E35BDDE00CCEFB5 /* Tickets.plist */; };
 		44D6BFFA1E35BDDE00CCEFB5 /* Videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D6BFF71E35BDDE00CCEFB5 /* Videos.plist */; };
+		44D6C0291E36141700CCEFB5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6C0281E36141700CCEFB5 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44009F021E8BA7AE006617AD /* MobLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobLink.framework; sourceTree = "<group>"; };
 		44043A211E30AEE500074BD1 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
 		44043A241E30AEE500074BD1 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
 		44043A251E30AEE500074BD1 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
@@ -183,7 +182,6 @@
 		44043A601E30BB5200074BD1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		44043A621E30BB5B00074BD1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		44043A641E30BB6900074BD1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		441599721E71520800037547 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4424694E1E4C186000721E13 /* sp01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sp01@2x.png"; sourceTree = "<group>"; };
 		4424694F1E4C186000721E13 /* sp01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sp01@3x.png"; sourceTree = "<group>"; };
 		442469501E4C186000721E13 /* sp02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sp02@2x.png"; sourceTree = "<group>"; };
@@ -218,9 +216,9 @@
 		44619E5D1E2A087E00D456FA /* RightImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightImageButton.h; sourceTree = "<group>"; };
 		44619E5E1E2A087E00D456FA /* RightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightImageButton.m; sourceTree = "<group>"; };
 		44619E651E2A494700D456FA /* MobLinkDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobLinkDemo.entitlements; sourceTree = "<group>"; };
-		447EB72A1E769A1B0096FE85 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		4484AB691E46D2280098E37D /* xwxg03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xwxg03@2x.png"; sourceTree = "<group>"; };
 		4484AB6A1E46D2280098E37D /* xwxg03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xwxg03@3x.png"; sourceTree = "<group>"; };
+		448884D41E9F588D0006A492 /* MobLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobLink.framework; sourceTree = "<group>"; };
 		449443081E25E76C00064C11 /* MobLinkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobLinkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4494430C1E25E76C00064C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4494430E1E25E76C00064C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -297,6 +295,7 @@
 		449E71391E5451A70034DB32 /* MLDDemoRestoreDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDDemoRestoreDViewController.m; sourceTree = "<group>"; };
 		44B984AB1E570635006B9437 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		44B984AC1E570635006B9437 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		44CD521A1E822C1B00F478EF /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		44D6BF611E35AC4200CCEFB5 /* xw01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xw01@2x.png"; sourceTree = "<group>"; };
 		44D6BF621E35AC4200CCEFB5 /* xw01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xw01@3x.png"; sourceTree = "<group>"; };
 		44D6BF631E35AC4200CCEFB5 /* xw02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xw02@2x.png"; sourceTree = "<group>"; };
@@ -344,6 +343,7 @@
 		44D6BFF51E35BDDE00CCEFB5 /* Products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
 		44D6BFF61E35BDDE00CCEFB5 /* Tickets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tickets.plist; sourceTree = "<group>"; };
 		44D6BFF71E35BDDE00CCEFB5 /* Videos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Videos.plist; sourceTree = "<group>"; };
+		44D6C0281E36141700CCEFB5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,23 +351,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D6C0291E36141700CCEFB5 /* MediaPlayer.framework in Frameworks */,
 				44043A611E30BB5200074BD1 /* JavaScriptCore.framework in Frameworks */,
 				44043A631E30BB5B00074BD1 /* ImageIO.framework in Frameworks */,
 				44043A651E30BB6900074BD1 /* libsqlite3.tbd in Frameworks */,
 				4494434B1E262E0300064C11 /* libz.1.2.5.tbd in Frameworks */,
 				4494434D1E262E0B00064C11 /* libstdc++.tbd in Frameworks */,
+				44CD521C1E822C1B00F478EF /* MOBFoundation.framework in Frameworks */,
 				449443491E262DF900064C11 /* libicucore.tbd in Frameworks */,
 				44043A5D1E30AEE600074BD1 /* ShareSDKConnector.framework in Frameworks */,
 				44043A531E30AEE600074BD1 /* WechatConnector.framework in Frameworks */,
 				44043A521E30AEE600074BD1 /* SinaWeiboConnector.framework in Frameworks */,
-				44009F031E8BA7AE006617AD /* MobLink.framework in Frameworks */,
 				44043A501E30AEE600074BD1 /* ShareSDKUI.framework in Frameworks */,
+				448884D51E9F588D0006A492 /* MobLink.framework in Frameworks */,
 				44043A4E1E30AEE500074BD1 /* ShareSDKExtension.framework in Frameworks */,
 				44043A511E30AEE600074BD1 /* QQConnector.framework in Frameworks */,
 				44043A581E30AEE600074BD1 /* libWeChatSDK.a in Frameworks */,
 				44043A4D1E30AEE500074BD1 /* ShareSDK.framework in Frameworks */,
 				44B984AD1E570635006B9437 /* TencentOpenAPI.framework in Frameworks */,
-				447EB72B1E769A1B0096FE85 /* MOBFoundation.framework in Frameworks */,
 				44043A561E30AEE600074BD1 /* libWeiboSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,8 +472,8 @@
 		446141D21E5151640053FDF3 /* MobLink */ = {
 			isa = PBXGroup;
 			children = (
-				44009F021E8BA7AE006617AD /* MobLink.framework */,
-				447EB72A1E769A1B0096FE85 /* MOBFoundation.framework */,
+				448884D41E9F588D0006A492 /* MobLink.framework */,
+				44CD521A1E822C1B00F478EF /* MOBFoundation.framework */,
 			);
 			path = MobLink;
 			sourceTree = SOURCE_ROOT;
@@ -562,7 +563,6 @@
 		4494430B1E25E76C00064C11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				441599721E71520800037547 /* Main.storyboard */,
 				44043A201E30AEE500074BD1 /* ShareSDK */,
 				44D6BF5E1E35ABEA00CCEFB5 /* Files */,
 				44D6BF5F1E35ABEA00CCEFB5 /* Images */,
@@ -637,6 +637,7 @@
 		449443471E262DF900064C11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44D6C0281E36141700CCEFB5 /* MediaPlayer.framework */,
 				44043A641E30BB6900074BD1 /* libsqlite3.tbd */,
 				44043A621E30BB5B00074BD1 /* ImageIO.framework */,
 				44043A601E30BB5200074BD1 /* JavaScriptCore.framework */,
@@ -863,7 +864,7 @@
 				TargetAttributes = {
 					449443071E25E76C00064C11 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Q87QUX3533;
+						DevelopmentTeam = LW5266U92D;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.SafariKeychain = {
@@ -923,7 +924,6 @@
 				4424696E1E4C186000721E13 /* sp08@2x.png in Resources */,
 				4484AB6B1E46D2280098E37D /* xwxg03@2x.png in Resources */,
 				44D6BFF81E35BDDE00CCEFB5 /* Products.plist in Resources */,
-				441599731E71520800037547 /* Main.storyboard in Resources */,
 				44D6BF761E35AC4200CCEFB5 /* xw02@3x.png in Resources */,
 				44D6BFB71E35AC7100CCEFB5 /* spxg02@3x.png in Resources */,
 				44D6BFE11E35AE1700CCEFB5 /* ds07@2x.png in Resources */,
@@ -1129,8 +1129,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MobLinkDemo/MobLinkDemo.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chen GangQiang (785VZN2ZN7)";
-				DEVELOPMENT_TEAM = Q87QUX3533;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangzhou ZhangTao Network Technology Co., Ltd.";
+				DEVELOPMENT_TEAM = LW5266U92D;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MobLinkDemo",
@@ -1151,10 +1152,10 @@
 					"$(PROJECT_DIR)/MobLinkDemo/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mob.MobLink;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.MobLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d6a058d1-8e82-4b8b-89ab-cfc5dd49f7c0";
-				PROVISIONING_PROFILE_SPECIFIER = MobLinkDev;
+				PROVISIONING_PROFILE = "1d2eb2e2-d432-4ea4-9ad7-fec03a931e1e";
+				PROVISIONING_PROFILE_SPECIFIER = MobLink;
 			};
 			name = Debug;
 		};
@@ -1163,8 +1164,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MobLinkDemo/MobLinkDemo.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chen GangQiang (785VZN2ZN7)";
-				DEVELOPMENT_TEAM = Q87QUX3533;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangzhou ZhangTao Network Technology Co., Ltd.";
+				DEVELOPMENT_TEAM = LW5266U92D;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MobLinkDemo",
@@ -1185,10 +1187,10 @@
 					"$(PROJECT_DIR)/MobLinkDemo/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mob.MobLink;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.MobLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d6a058d1-8e82-4b8b-89ab-cfc5dd49f7c0";
-				PROVISIONING_PROFILE_SPECIFIER = MobLinkDev;
+				PROVISIONING_PROFILE = "1d2eb2e2-d432-4ea4-9ad7-fec03a931e1e";
+				PROVISIONING_PROFILE_SPECIFIER = MobLink;
 			};
 			name = Release;
 		};

@@ -8,6 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+
+/**
+ 场景恢复方式枚举
+
+ - Present: Present
+ - Push: Push
+ */
+typedef NS_ENUM(NSInteger, RestoreStyle)
+{
+    Default,
+    Present,
+    Push
+};
+
 @class MLSDKScene;
 
 @protocol IMLSDKRestoreDelegate <NSObject>
@@ -30,7 +44,7 @@
  @param scene 场景参数
  @param restoreHandler 恢复回调 回调参数YES,或者不实现本方法,将会进行自动场景恢复;回调参数 NO,则不会进行自动恢复场景,请自行根据场景对象scene进行处理
  */
-- (void)IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL isRestore))restoreHandler;
+- (void)IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL isRestore, RestoreStyle style))restoreHandler;
 
 /**
  完成场景恢复

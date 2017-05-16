@@ -18,6 +18,7 @@
 #import <ShareSDK/ShareSDK.h>
 #import <MobLink/MobLink.h>
 #import <MobLink/MLSDKScene.h>
+#import <MobLink/IMLSDKRestoreDelegate.h>
 
 @interface AppDelegate () <IMLSDKRestoreDelegate>
 
@@ -35,12 +36,16 @@
     self.window.rootViewController = [[MLDMainViewController alloc] init];
     [self.window makeKeyAndVisible];
     
-    [self setNavBackItem];
+    // 初始化MobLink 线上:1b8898cb51ccb
+    [MobLink registerApp:@"1b8898cb51ccb"];
     
-    // 线上：1b8898cb51ccb 技术支持：1bf42e96da8f0
-    [MobLink registerApp:@"1bf42e96da8f0"];
+    // 设置MobLink代理
     [MobLink setDelegate:self];
     
+    // 设置返回按钮样式
+    [self setNavBackItem];
+    
+    // 初始化ShareSDK
     [self initShareSDK];
     
     return YES;
@@ -125,8 +130,6 @@
 }
 
 
-# pragma mark - IMLSDKRestoreDelegate
-
 - (void)IMLSDKStartCheckScene
 {
     NSLog(@"Start Check Scene");
@@ -137,7 +140,7 @@
     NSLog(@"End Check Scene");
 }
 
-- (void) IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL))restoreHandler
+- (void) IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL, RestoreStyle))restoreHandler
 {
     NSLog(@"Will Restore Scene - Path:%@",scene.path);
     
@@ -148,12 +151,12 @@
                                         cancelTitle:@"否"
                                          otherTitle:@"是"
                                          clickBlock:^(MLDButtonType type) {
-                                             type == MLDButtonTypeSure ? restoreHandler(YES) : restoreHandler (NO);
+                                             type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler (NO, Default);
                                          }];
     }
     else
     {
-        restoreHandler(YES);
+        restoreHandler(YES, Default);
     }
     
 }
@@ -173,6 +176,5 @@
                                      otherTitle:nil
                                      clickBlock:nil];
 }
-
 
 @end

@@ -18,7 +18,7 @@
 /**
  来源标识
  */
-@property (nonatomic, copy) NSString *souce;
+@property (nonatomic, copy) NSString *source;
 
 /**
  自定义参数
