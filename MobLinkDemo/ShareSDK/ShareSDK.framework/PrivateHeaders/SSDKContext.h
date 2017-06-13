@@ -64,7 +64,7 @@ extern NSString *const SSDKVersionString;
 /**
  *  设备标识
  */
-@property (nonatomic, readonly) NSString *deviceKey;
+@property (nonatomic, strong) NSString *deviceKey;
 
 /**
  *  数据开关，用于控制是否与服务器进行数据通讯、统计，默认为YES

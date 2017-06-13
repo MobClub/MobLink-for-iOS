@@ -8,7 +8,7 @@ s.homepage            = 'http://www.mob.com'
 s.source              = { :git => "https://github.com/MobClub/MobLink-for-iOS.git", :tag => s.version.to_s }
 s.platform            = :ios, '7.0'
 s.frameworks          = "ImageIO", "JavaScriptCore"
-s.libraries           = "z", "stdc++", "sqlite3"
-s.vendored_frameworks = 'MobProducts/SDK/MobLink/MobLink.framework'
+s.libraries           = "icucore", "z", "stdc++", "sqlite3"
+s.vendored_frameworks = 'MobLink/MobLink.framework'
 s.dependency 'MOBFoundation'
 end

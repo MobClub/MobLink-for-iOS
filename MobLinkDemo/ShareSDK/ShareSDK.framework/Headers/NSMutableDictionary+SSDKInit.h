@@ -67,20 +67,6 @@
                     appKey:(NSString *)appKey
                   authType:(NSString *)authType;
 
-
-/**
- *  设置QQ分享平台（QQ空间，QQ好友分享）应用信息 3.6.4增加
- *
- *  @param appId          应用标识
- *  @param appKey         应用Key
- *  @param authType       授权方式。值可以是：SSDKAuthTypeSSO、SSDKAuthTypeWeb、SSDKAuthTypeBoth，分别代表SSO、网页授权、SSO＋网页授权。
- *  @param useTIM         是否优先使用TIM进行授权及分享
- */
-- (void)SSDKSetupQQByAppId:(NSString *)appId
-                    appKey:(NSString *)appKey
-                  authType:(NSString *)authType
-                    useTIM:(BOOL)useTIM;
-
 /**
  *  设置Facebook应用信息 不需要使用facebook客户端分享
  *

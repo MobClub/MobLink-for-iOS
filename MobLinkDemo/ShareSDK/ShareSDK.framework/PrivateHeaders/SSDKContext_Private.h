@@ -7,6 +7,7 @@
 //
 
 #import "SSDKContext.h"
+#import <MOBFoundation/MOBFoundation.h>
 #import <MOBFoundation/MOBFErrorReport.h>
 #import <MOBFoundation/MOBFJSContext.h>
 
@@ -41,11 +42,6 @@
  *  应用标识
  */
 @property (nonatomic, strong) NSString *appKey;
-
-/**
- *  设备标识
- */
-@property (nonatomic, strong) NSString *deviceKey;
 
 /**
  *  统计设备信息开关，默认YES
@@ -161,6 +157,7 @@
  *  配置文件平台配置信息
  */
 @property (nonatomic, strong) NSMutableDictionary *platformXMLConfig;
+
 
 /**
  *  获取服务器端应用配置信息

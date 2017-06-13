@@ -15,7 +15,6 @@ typedef enum
 {
     kIphoneQQ,
     kIphoneQZONE,
-    kIphoneTIM,
     kThirdApp,
 }
 TecnentPlatformType;

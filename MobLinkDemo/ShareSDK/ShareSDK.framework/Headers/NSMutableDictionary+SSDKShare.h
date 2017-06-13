@@ -300,7 +300,7 @@
                                  type:(SSDKContentType)type;
 
 /**
- *  设置Facebook分享参数
+ *  设置Facebook分享参数 非客户端分享是使用
  *
  *  @param text             分享内容
                             分享类型为Text类型时,作为文字主体内容
