@@ -11,27 +11,27 @@
 	
 	![mob_reg](http://onmw6wg88.bkt.clouddn.com/mob_reg.png)
 
-2. 注册或登录完成后，会返回至首页，点击右上角的**“进入后台”**，会跳转至管理后台，点击**下拉列表**，选择**“创建新应用”**。如下图：
+2. 注册或登录完成后，会返回至首页，点击右上角的 **“进入后台”** ，会跳转至管理后台，点击 **下拉列表** ，选择 **“创建新应用”** 。如下图：
 
 	![Snip20170612_9](http://onmw6wg88.bkt.clouddn.com/Snip20170612_9.png)
 	
-	输入应用名称后点击**“保存”**，如下图：
+	输入应用名称后点击 **“保存”** ，如下图：
 	
 	![mob_create_app](http://onmw6wg88.bkt.clouddn.com/Snip20170525_11.png)
 	
-	应用创建后在左边导航栏点击**“添加产品”**，如下图：
+	应用创建后在左边导航栏点击 **“添加产品”** ，如下图：
 	
 	![mob_add_product](http://onmw6wg88.bkt.clouddn.com/Snip20170525_12.png)
 	
-	在产品列表中选择MobLink并点击**“马上开始”**，如下图：
+	在产品列表中选择MobLink并点击 **“马上开始”** ，如下图：
 	
 	![mob_start](http://onmw6wg88.bkt.clouddn.com/Snip20170525_14.png)
 	
-	此时左边导航栏就能看到您添加的产品了，点击**“概况”**即可看到您接下来需要的AppKey和AppSecret了，如下图：
+	此时左边导航栏就能看到您添加的产品了，点击 **“概况”** 即可看到您接下来需要的AppKey和AppSecret了，如下图：
 	
 	![mob_appkey](http://onmw6wg88.bkt.clouddn.com/Snip20170525_16.png)
 
-3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击**“保存”**以确保生效。
+3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击 **“保存”** 以确保生效。
 
 	![mob_conf](http://onmw6wg88.bkt.clouddn.com/Snip20170525_17.png)
 	
@@ -137,13 +137,13 @@ ii. Universal Link
 	
 ![Snip20170525_9](http://onmw6wg88.bkt.clouddn.com/Snip20170525_9.png)
 	
-然后在项目中配置Universal Link，***<font color=red>请务必填写与后台生成的Universal Link地址</font>*** 参考下图：
+然后在项目中配置Universal Link， **<font color=red>请务必填写与后台生成的Universal Link地址</font>** 参考下图：
 	
 ![Snip20170526_11](http://onmw6wg88.bkt.clouddn.com/Snip20170526_11.png)
 	
 #### 4. 添加代码
 
-i. 在Info.plist文件中右键空白处，选择**“Add Row”**，添加“MOBAppKey”和“MOBAppSecret”对应值为上述在管理后台中获得的AppKey和AppSecret（点击**“显示”**查看），如下图所示：
+i. 在Info.plist文件中右键空白处，选择 **“Add Row”** ，添加“MOBAppKey”和“MOBAppSecret”对应值为上述在管理后台中获得的AppKey和AppSecret（点击 **“显示”** 查看），如下图所示：
 	
 ![Snip20170526_12](http://onmw6wg88.bkt.clouddn.com/Snip20170526_12.png)
 	
@@ -231,7 +231,7 @@ iii. 获取MobId
 
 ### 二、Web 快速集成
 
-1. 在后台找到JS引入模块，点击**“复制”**来复制代码内容。如下图所示：
+1. 在后台找到JS引入模块，点击 **“复制”** 来复制代码内容。如下图所示：
 
 	![mob_js](http://onmw6wg88.bkt.clouddn.com/mob_js.png)
 
@@ -303,18 +303,16 @@ iii. 获取MobId
 
 	```
 	- (void) IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL, RestoreStyle))restoreHandler
-{
-    NSLog(@"Will Restore Scene - Path:%@",scene.path);
-    
-    
-    [[MLDTool shareInstance] showAlertWithTitle:nil
+	{
+	   NSLog(@"Will Restore Scene - Path:%@",scene.path);
+	   [[MLDTool shareInstance] showAlertWithTitle:nil
                                         message:@"是否进行场景恢复？"
                                     cancelTitle:@"否"
                                      otherTitle:@"是"
                                      clickBlock:^(MLDButtonType type) {
                                          type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler(NO, Default);
                                      }];
-}
+    }
 	```
 
 	#### <a name="complete">场景恢复完成示例代码</a>
