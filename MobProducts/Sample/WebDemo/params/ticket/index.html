@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>机票 Demo</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <style type="text/css">
+        body{
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden; 
+        }
+        .bar{
+            background: #fff;
+        }
+        .content{
+            background: #fff;
+            width: 100%;
+            overflow-x: hidden; 
+            padding-bottom: 1rem;
+            font-size: .7rem;
+        }
+        .content .main-content{
+            margin-top: 1rem;
+            padding: 0 .3rem;
+        }
+        .content .main-content .box-check{
+            display: inline-block;
+            width: 100%;
+            border-bottom: #e7e7e7 solid 1px;
+            font-size: .62rem;
+            padding-bottom: .5rem;
+        }
+        .content .main-content .box-check input{
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: center;
+        }
+        .content .main-content .box-content{
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+        }
+        .content .main-content label{
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .content .main-content label.active .box{
+            border-color: #6298ef;
+            color: #6298ef;
+        }
+        .content .main-content label .box{
+            margin-top: 1rem;
+            display: inline-block;
+            padding: .3rem 0;
+            width: 80%;
+            text-align: center;
+            border: #ddd solid 1px;
+            border-radius: 5px;
+            font-size: .63rem;
+        }
+        
+        .content .main-content label input[type=checkbox]{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+        }
+        .content .button{
+            width: 80%;
+            margin:  0 auto;
+            display: block;
+            margin-top: 2rem;
+            background: #4E8BED;
+            height: 1.8rem;
+            line-height: 1.8rem;
+        }
+        .content .button  a{
+            color: #fff;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+        <header class="bar bar-nav">
+            <h1 class="title">单程机票</h1>
+        </header>
+        <div class="content">
+            <div class="main-content">
+                <div class="row no-gutter">
+                    <div class="col-33">
+                        <span class="box-check">
+                            <input type="text" id='from' placeholder="北京" />
+                        </span>
+                    </div>
+                    <div class="col-33">
+                        <span class="box-content">
+                            飞往
+                        </span>
+                    </div>
+                    <div class="col-33">
+                        <span class="box-check">
+                            <input type="text" id='to' placeholder="上海"/>
+                        </span>
+                    </div>
+                </div>
+                <div class="row no-gutter">
+                    <div class="col-33">
+                        <label class="active">
+                            <input type="checkbox" name="date" class="input-box" value="1月3日">
+                            <span class="box">
+                                1月3日
+                            </span>
+                        </label>
+                    </div>
+                    <div class="col-33">
+                        <label>
+                            <input type="checkbox" name="date" class="input-box" value="1月4日">
+                            <span class="box">
+                                1月4日
+                            </span>
+                        </label>
+                    </div>
+                    <div class="col-33">
+                        <label>
+                            <input type="checkbox" name="date" class="input-box" value="1月5日">
+                            <span class="box">
+                                1月5日
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <span class="button button-fill" id="moblink-href">搜索</span>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type="text/javascript" id="-moblink-js" src="//f.moblink.mob.com/moblink.js?appkey=1bf42e96da8f0"></script>
+    <script type="text/javascript">
+    $(document).on("pageInit", ".page",function(e, id, page){
+        var updatedata = {
+            from: "北京",
+            to: "上海",
+            date: "1月3日"
+        };
+        // 初始化
+        MobLink.init({
+            path: "params/ticket", //对应客户端路径
+            showDefaultUI: false, // 不显示默认UI
+            initCallback: function(){
+                // 初始化完成 TODO
+                // 初始化完成刷新链接。因为此处参数为动态参数，所以用动态刷新的方法。
+                MobLink.updateScheme(updatedata);
+            }
+        });
+        
+        $("#from,#to").picker({
+                toolbarTemplate: '<header class="bar bar-nav">\
+                  <button class="button button-link pull-left">按钮</button>\
+                  <button class="button button-link pull-right close-picker">确定</button>\
+                  <h1 class="title">请选择</h1>\
+              </header>',
+                cols: [
+                    {
+                        textAlign: 'center',
+                        values: ["北京","上海","广州","深圳"]
+                    }
+                ],
+                onClose: function(e){
+                    updatedata[e.input[0].id] = e.value[0];
+                    MobLink.updateScheme(updatedata);
+                }
+        });
+
+        $("input[name=date]").change(function(e){
+            $(".main-content label").removeClass("active");
+            $(this).parents("label").addClass("active");
+            updatedata.date = $(this).val();
+            MobLink.updateScheme(updatedata);
+
+        });
+    });
+    
+    $.init();
+    </script>
+  </body>
+</html>

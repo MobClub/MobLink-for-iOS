@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>index</key>
+		<string>100</string>
+		<key>source</key>
+		<string>新闻网 12-23 11:00</string>
+		<key>content</key>
+		<string>国土资源部副部长王广华在今天的新闻发布会上指出，针对温州当地二十年住房土地使用权到期问题，国土资源部和住建部会商后回复，可以采用“两不一正常”的过渡性办法处理，即不需要提出续期申请，不收取费用，正常办理交易和登记手续，涉及“土地使用期限”，仍填写该住宅建设用地使用权的原起始日期和到期日期，并注明：“根据《国土资源部办公厅关于妥善处理少数住宅建设用地使用权到期问题的复函》办理相关手续”。</string>
+		<key>imageName</key>
+		<string>xwxg.png</string>
+		<key>subTitle</key>
+		<string>83人浏览</string>
+		<key>title</key>
+		<string>国土部回复温州20年住房土地使用权到期：自动续期</string>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>101</string>
+		<key>source</key>
+		<string>新闻网 12-23 11:30</string>
+		<key>content</key>
+		<string>半年前，犯罪嫌疑人菲律宾籍船员阿兰（ALLAN）在驾驶马耳他籍散货船“CATALINA”轮时，与我国渔船“鲁荣渔58398”发生碰撞后逃逸，造成渔船沉没，导致船员14人死亡、5人失踪。记者23日从浙江海警驻宁波部队获悉，目前此案已告破，犯罪嫌疑人已被宁波市北仑区检察院批准逮捕。据了解，今年5月7日，马耳他籍散货船“CATALINA”轮在二副菲律宾籍船员ALLAN驾驶下，从连云港驶往印度尼西亚。当该轮船途经宁波象山海域时，ALLAN在海面起雾能见度极差、周边作业渔船密集且通航环境复杂的情况下，违反国际海上避碰规则的相关规定，没有及时判断碰撞危险，且未使用安全航速驾驶船舶，导致“CATALINA”轮与“鲁荣渔58398”船发生碰撞。</string>
+		<key>imageName</key>
+		<string>xwxg02.png</string>
+		<key>subTitle</key>
+		<string>103人浏览</string>
+		<key>title</key>
+		<string>外籍货船撞沉中国渔船致14人死亡案告破 嫌犯被捕</string>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>102</string>
+		<key>source</key>
+		<string>新闻网 02-04 08:21</string>
+		<key>content</key>
+		<string>党的十八届六中全会正式确立习近平同志为党中央的核心、全党的核心，是关系党和人民根本利益的大事，是关系党中央权威、关系全党团结和集中统一的大事，是关系党和国家事业长远发展的大事。坚决维护以习近平同志为核心的党中央权威、保证全党令行禁止，是党、国家和军队前途命运所系，是人民群众福祉所在。全军要进一步增强“四个意识”，坚定不移把维护党中央权威，维护习近平总书记作为党中央的核心、全党的核心落实到行动中去，落实到推进军队建设改革和军事斗争准备中去，始终不渝坚持党对军队绝对领导，朝着实现强军目标、建设世界一流军队开拓奋进。</string>
+		<key>imageName</key>
+		<string>xwxg03.png</string>
+		<key>subTitle</key>
+		<string>136人浏览</string>
+		<key>title</key>
+		<string>中央军委政治工作部：坚定维护核心 坚决听党指挥</string>
+	</dict>
+</array>
+</plist>

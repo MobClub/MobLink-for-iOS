@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>index</key>
+		<string>100</string>
+		<key>url</key>
+		<string>http://player.youku.com/embed/XMTg5NDUxNDYyNA==</string>
+		<key>count</key>
+		<string>5.7亿次播放</string>
+		<key>image</key>
+		<string>spxg01.png</string>
+		<key>title</key>
+		<string>神探夏洛克 第4季</string>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>101</string>
+		<key>url</key>
+		<string>http://player.youku.com/embed/XMTg2MDEyMzQxMg==</string>
+		<key>count</key>
+		<string>20.6亿次播放</string>
+		<key>image</key>
+		<string>spxg02.png</string>
+		<key>title</key>
+		<string>放弃我抓紧我</string>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>102</string>
+		<key>url</key>
+		<string>http://player.youku.com/embed/XMTg5NDU2OTI5Mg==</string>
+		<key>count</key>
+		<string>1986.7万次播放</string>
+		<key>image</key>
+		<string>spxg03.png</string>
+		<key>title</key>
+		<string>守护丽人</string>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>103</string>
+		<key>url</key>
+		<string>http://player.youku.com/embed/XMjQ4Nzc1MDgyMA==</string>
+		<key>count</key>
+		<string>1057.6次播放</string>
+		<key>image</key>
+		<string>spxg04.png</string>
+		<key>title</key>
+		<string>淘气爷孙</string>
+	</dict>
+</array>
+</plist>

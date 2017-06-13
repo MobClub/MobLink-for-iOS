@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>今日新闻</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <style type="text/css">
+        body{
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden; 
+        }
+        .bar{
+            background: #fff;
+        }
+        .content{
+            background: #fff;
+            width: 100%;
+            overflow-x: hidden; 
+            padding-bottom: 1rem;
+        }
+        .content .article-content{
+            font-size: .7rem;
+            line-height: 1.2rem;
+        }
+        .content .article-content h1{
+            font-size: 1rem;
+            line-height: 1.2rem;
+            text-align: left;
+        }
+        .content .article-content .sub{
+            color: #ddd;
+            font-size: .6rem;
+            margin-bottom: .2rem;
+        }
+        .content .article-content .line{
+            height: 1px;
+            background: #e7e7e7;
+            width: 100%;
+            margin-top: 0;
+        }
+        .content .recommend{
+            font-size: .7rem;
+        }
+        .content .recommend .content-block-title{
+            margin-left: 0;
+        }
+        .content .recommend ul::before{
+            left: -1rem;
+            width: 110%;
+        }
+        .content .recommend ul li{
+            padding: .5rem 0;
+            position: relative;
+        }
+        .content .recommend ul li::after{
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            display: block;
+            background: #e7e7e7;
+            bottom: 0;
+            left: 0;
+        }
+        .content .recommend ul li .left img{
+            width: 100%;
+        }
+        .content .recommend ul li .right{
+            padding-left: 1rem;
+        }
+        .content .recommend ul li .right h1{
+            font-size: .7rem;
+            margin-top: 0;
+        }
+        .content .recommend ul li .right span{
+            display: inline-block;
+            float: left;
+            font-size: .5rem;
+        }
+        .content .recommend ul li .right .tip{
+            font-size: .5rem;
+            color: #ddd;
+            display: inline-block;
+            float: right;
+            padding: .2rem .5rem;
+            border: #ddd solid 1px;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="bar bar-nav">
+        <h1 class="title">今日新闻</h1>
+    </header>
+    <div class="content">
+        <div class="content-padded">
+            <div class="article-content">
+                <h1>国土部回复温州20年住房土地使用权到期：自动续期</h1>
+                <p class="sub">新闻网 12-23 11:00</p>
+                <p class="line"></p>
+                <p class="article">
+                    国土资源部副部长王广华在今天的新闻发布会上指出，针对温州当地二十年住房土地使用权到期问题，国土资源部和住建部会商后回复，可以采用“两不一正常”的过渡性办法处理，即不需要提出续期申请，不收取费用，正常办理交易和登记手续，涉及“土地使用期限”，仍填写该住宅建设用地使用权的原起始日期和到期日期，并注明：“根据《国土资源部办公厅关于妥善处理少数住宅建设用地使用权到期问题的复函》办理相关手续”。
+                </p>
+            </div>
+            <div class="recommend list-block">
+                <div class="content-block-title">相关推荐</div>
+                <ul>
+                    <li class="row no-gutter" moblink-featured = "scene/news?newsID=102">
+                        <div class="col-40 left">
+                            <img src="//f.moblink.mob.com/images/xwxg03@2x.png">
+                        </div>
+                        <div class="col-60 right">
+                            <h1>中央军委政治工作部：坚定维护核心坚决听党指挥</h1>
+                            <p><span>83人浏览</span><span class="tip">应用内打开</span></p>
+                        </div>
+                    </li>
+                    <li class="row no-gutter" moblink-featured = "scene/news?newsID=101">
+                        <div class="col-40 left">
+                            <img src="//f.moblink.mob.com/images/xwxg02@2x.png">
+                        </div>
+                        <div class="col-60 right">
+                            <h1>外籍货船撞沉中国渔船致14人死亡案告破 嫌犯被捕</h1>
+                            <p><span>103人浏览</span><span class="tip">应用内打开</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" id="-moblink-js" src="//f.moblink.mob.com/moblink.js?appkey=1bf42e96da8f0"></script>
+    <script type="text/javascript">
+        MobLink.init({
+            path: "scene/news",
+            params: {
+                newsID: "100"
+            }
+        });
+    </script>
+  </body>
+</html>
