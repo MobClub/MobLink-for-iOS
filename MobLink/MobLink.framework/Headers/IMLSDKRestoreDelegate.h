@@ -11,15 +11,15 @@
 /**
  场景恢复方式枚举
  
- - Present: Present
- - Push: Push
+ - MLPresent: Present
+ - MLPush: Push
  */
-typedef NS_ENUM(NSInteger, RestoreStyle)
-{
-    Default,
-    Present,
-    Push
-};
+typedef enum : NSUInteger {
+    MLDefault,
+    MLPresent,
+    MLPush,
+} RestoreStyle;
+
 
 @class MLSDKScene;
 
@@ -39,7 +39,7 @@ typedef NS_ENUM(NSInteger, RestoreStyle)
 
 /**
  即将进行场景还原(注意: 一旦实现该方法,请务必执行restoreHandler)
- 
+
  @param scene 场景参数
  @param restoreHandler 恢复回调 回调参数YES,或者不实现本方法,将会进行自动场景恢复;回调参数 NO,则不会进行自动恢复场景,请自行根据场景对象scene进行处理;style 为期望场景恢复方式,当传入的不是Default时MobLink会根据期望的方式去进行场景恢复,但前提是期望方式可行,如果期望方式无法达到时,MobLink会自动选择默认方式.
  */

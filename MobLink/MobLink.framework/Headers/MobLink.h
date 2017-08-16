@@ -14,15 +14,8 @@
 @interface MobLink : NSObject
 
 /**
- 获取MobLinkSDK版本号
- 
- @return 版本号
- */
-+ (NSString *)version;
-
-/**
  获取MobId
-
+ 
  @param scene 当前场景信息(即传入您需要还原的场景)
  @param result 回调处理,返回mobid
  */
@@ -30,7 +23,7 @@
 
 /**
  设置场景恢复委托
-
+ 
  @param delegate 委托对象
  */
 + (void)setDelegate:(id <IMLSDKRestoreDelegate>)delegate;

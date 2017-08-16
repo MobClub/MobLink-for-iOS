@@ -147,12 +147,12 @@
                                         cancelTitle:@"否"
                                          otherTitle:@"是"
                                          clickBlock:^(MLDButtonType type) {
-                                             type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler (NO, Default);
+                                             type == MLDButtonTypeSure ? restoreHandler(YES, MLDefault) : restoreHandler (NO, MLDefault);
                                          }];
     }
     else
     {
-        restoreHandler(YES, Default);
+        restoreHandler(YES, MLDefault);
     }
     
 }
