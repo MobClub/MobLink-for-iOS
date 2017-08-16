@@ -50,7 +50,6 @@
 		449443351E25EAEB00064C11 /* PopListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449443341E25EAEB00064C11 /* PopListTableViewController.m */; };
 		449443381E25EB0300064C11 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 449443371E25EB0300064C11 /* CustomButton.m */; };
 		4494434B1E262E0300064C11 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4494434A1E262E0300064C11 /* libz.1.2.5.tbd */; };
-		4494434D1E262E0B00064C11 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4494434C1E262E0B00064C11 /* libstdc++.tbd */; };
 		449E70E01E54284F0034DB32 /* MLDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E70DF1E54284F0034DB32 /* MLDMainViewController.m */; };
 		449E70E31E5429E70034DB32 /* MLDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E70E21E5429E70034DB32 /* MLDTool.m */; };
 		449E70E71E542BB50034DB32 /* UILabel+MLDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E70E61E542BB50034DB32 /* UILabel+MLDLabel.m */; };
@@ -149,6 +148,7 @@
 		44EEB6461F443C3400B1363F /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EEB6151F443C3400B1363F /* ShareSDKConnector.framework */; };
 		44EEB6481F443D3900B1363F /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EEB6471F443D3900B1363F /* MOBFoundation.framework */; };
 		44EEB64A1F443DC800B1363F /* MobLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EEB6491F443DC800B1363F /* MobLink.framework */; };
+		44EEB64C1F44402A00B1363F /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EEB64B1F44402A00B1363F /* libstdc++.6.0.9.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,7 +203,6 @@
 		449443371E25EB0300064C11 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 		4494433E1E260C5B00064C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4494434A1E262E0300064C11 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
-		4494434C1E262E0B00064C11 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		4494434E1E262E1200064C11 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		449443501E262E1C00064C11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		449E70DE1E54284F0034DB32 /* MLDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDMainViewController.h; sourceTree = "<group>"; };
@@ -342,6 +341,7 @@
 		44EEB6151F443C3400B1363F /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
 		44EEB6471F443D3900B1363F /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		44EEB6491F443DC800B1363F /* MobLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobLink.framework; sourceTree = "<group>"; };
+		44EEB64B1F44402A00B1363F /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +349,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EEB64C1F44402A00B1363F /* libstdc++.6.0.9.tbd in Frameworks */,
 				44EEB61B1F443C3400B1363F /* ShareSDKUI.framework in Frameworks */,
 				44043A611E30BB5200074BD1 /* JavaScriptCore.framework in Frameworks */,
 				44EEB62A1F443C3400B1363F /* QQConnector.framework in Frameworks */,
@@ -367,7 +368,6 @@
 				4494434B1E262E0300064C11 /* libz.1.2.5.tbd in Frameworks */,
 				44EEB6401F443C3400B1363F /* libWeiboSDK.a in Frameworks */,
 				44EEB63C1F443C3400B1363F /* TencentOpenAPI.framework in Frameworks */,
-				4494434D1E262E0B00064C11 /* libstdc++.tbd in Frameworks */,
 				44EEB62D1F443C3400B1363F /* SMSConnector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,12 +543,12 @@
 		449443471E262DF900064C11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44EEB64B1F44402A00B1363F /* libstdc++.6.0.9.tbd */,
 				44043A641E30BB6900074BD1 /* libsqlite3.tbd */,
 				44043A621E30BB5B00074BD1 /* ImageIO.framework */,
 				44043A601E30BB5200074BD1 /* JavaScriptCore.framework */,
 				449443501E262E1C00064C11 /* SystemConfiguration.framework */,
 				4494434E1E262E1200064C11 /* CoreTelephony.framework */,
-				4494434C1E262E0B00064C11 /* libstdc++.tbd */,
 				4494434A1E262E0300064C11 /* libz.1.2.5.tbd */,
 			);
 			name = Frameworks;
