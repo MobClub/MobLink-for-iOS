@@ -177,8 +177,9 @@
 	**<font color="red">关于实现带有场景参数初始化方法的补充：</font>**
 	
 	如果您的控制器采用xib的方式来初始化的，那么实现该初始化方法时请参考如下代码：
+	
 		
-		```
+	```
 		// 根据场景信息初始化方法
     	- (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
 		{
@@ -189,7 +190,7 @@
     		}
     		return self;
 		}
-		```
+	```
 	
 	iii. 获取MobId
 	
