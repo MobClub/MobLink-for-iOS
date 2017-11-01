@@ -35,7 +35,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>mlink</string>
+				<string>MobLink</string>
 			</array>
 		</dict>
 	</array>
@@ -72,9 +72,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MOBAppKey</key>
-	<string>1b8898cb51ccb</string>
+	<string>moba6b6c6d6</string>
 	<key>MOBAppSecret</key>
-	<string>fa16fc57a2a639c7b4980085a3e7e0b2</string>
+	<string>b89d2427a3bc7ad1aea1e1e8c1d36bf3</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

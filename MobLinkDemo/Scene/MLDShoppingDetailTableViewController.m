@@ -63,7 +63,7 @@ static NSString *const shoppingDetailReuseId = @"shoppingDetailReuseId";
     UIBarButtonItem *shareItme = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
     self.navigationItem.rightBarButtonItem = shareItme;
     
-    [self.tableView registerClass:[MLDShoppingDetailTableViewCell class] forCellReuseIdentifier:shoppingDetailReuseId];
+    [self.tableView registerNib:[UINib nibWithNibName:@"MLDShoppingDetailTableViewCell" bundle:nil] forCellReuseIdentifier:shoppingDetailReuseId];
     self.tableView.rowHeight = 80 * PUBLICSCALE;
     
     [self setupUI];

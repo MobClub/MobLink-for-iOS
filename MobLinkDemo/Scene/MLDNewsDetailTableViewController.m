@@ -61,7 +61,7 @@ static NSString *const newsDetailReuseId = @"newsDetailReuseId";
     UIBarButtonItem *shareItme = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
     self.navigationItem.rightBarButtonItem = shareItme;
     
-    [self.tableView registerClass:[MLDNewsDetailTableViewCell class] forCellReuseIdentifier:newsDetailReuseId];
+    [self.tableView registerNib:[UINib nibWithNibName:@"MLDNewsDetailTableViewCell" bundle:nil] forCellReuseIdentifier:newsDetailReuseId];
     self.tableView.rowHeight = 80 * PUBLICSCALE;
     
     [self setupUI];

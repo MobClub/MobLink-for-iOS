@@ -14,7 +14,7 @@
 #import <MobLink/MobLink.h>
 #import <MobLink/MLSDKScene.h>
 
-static NSString *const baseShareUrl = @"http://f.moblink.mob.com";
+static NSString *const baseShareUrl = @"http://f.moblink.mob.com/test";
 
 @interface MLDTool()
 

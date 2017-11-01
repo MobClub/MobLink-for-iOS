@@ -51,20 +51,14 @@
 - (void)setNavBackItem
 {
     UINavigationBar * navigationBar = [UINavigationBar appearance];
-    
     //设置返回样式图片
     UIImage *image = [[UIImage imageNamed:@"return"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    
     navigationBar.backIndicatorImage = image;
-    
     navigationBar.backIndicatorTransitionMaskImage = image;
     
     UIBarButtonItem *buttonItem = [UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil];
-    
     UIOffset offset;
-    
     offset.horizontal = - 800;
-    
     offset.vertical =  - 500;
     
     [buttonItem setBackButtonTitlePositionAdjustment:offset forBarMetrics:UIBarMetricsDefault];
@@ -147,12 +141,12 @@
                                         cancelTitle:@"否"
                                          otherTitle:@"是"
                                          clickBlock:^(MLDButtonType type) {
-                                             type == MLDButtonTypeSure ? restoreHandler(YES, MLDefault) : restoreHandler (NO, MLDefault);
+                                             type == MLDButtonTypeSure ? restoreHandler(YES, RestoreStyleMLDefault) : restoreHandler (NO, RestoreStyleMLDefault);
                                          }];
     }
     else
     {
-        restoreHandler(YES, MLDefault);
+        restoreHandler(YES, RestoreStyleMLDefault);
     }
     
 }

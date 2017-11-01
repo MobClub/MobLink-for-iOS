@@ -89,7 +89,7 @@ static NSString *const videoDetailReuseId = @"videoDetailReuseId";
     UIBarButtonItem *shareItme = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
     self.navigationItem.rightBarButtonItem = shareItme;
     
-    [self.tableView registerClass:[MLDVideoDetailTableViewCell class] forCellReuseIdentifier:videoDetailReuseId];
+    [self.tableView registerNib:[UINib nibWithNibName:@"MLDVideoDetailTableViewCell" bundle:nil] forCellReuseIdentifier:videoDetailReuseId];
     self.tableView.rowHeight = 80 * PUBLICSCALE;
     
     [self setupUI];

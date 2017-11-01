@@ -1,8 +1,7 @@
-# MobLink 集成文档 For iOS
+# MobLink 集成文档 For iOS V2.0.2
 
 
 ## 一、到Mob官网申请MobLink所需的APPKey
-
 1. 打开[Mob官网](http://mob.com/)，在官网首页选择登录或注册，新用户先注册，老用户直接登录。
 
 	![mob](http://onmw6wg88.bkt.clouddn.com/mob.png)
@@ -11,27 +10,27 @@
 	
 	![mob_reg](http://onmw6wg88.bkt.clouddn.com/mob_reg.png)
 
-2. 注册或登录完成后，会返回至首页，点击右上角的 **“进入后台”** ，会跳转至管理后台，点击 **下拉列表** ，选择 **“创建新应用”** 。如下图：
+2. 注册或登录完成后，会返回至首页，点击右上角的**“进入后台”**，会跳转至管理后台，点击**下拉列表**，选择**“创建新应用”**。如下图：
 
 	![Snip20170612_9](http://onmw6wg88.bkt.clouddn.com/Snip20170612_9.png)
 	
-	输入应用名称后点击 **“保存”** ，如下图：
+	输入应用名称后点击**“保存”**，如下图：
 	
 	![mob_create_app](http://onmw6wg88.bkt.clouddn.com/Snip20170525_11.png)
 	
-	应用创建后在左边导航栏点击 **“添加产品”** ，如下图：
+	应用创建后在左边导航栏点击**“添加产品”**，如下图：
 	
 	![mob_add_product](http://onmw6wg88.bkt.clouddn.com/Snip20170525_12.png)
 	
-	在产品列表中选择MobLink并点击 **“马上开始”** ，如下图：
+	在产品列表中选择MobLink并点击**“马上开始”**，如下图：
 	
 	![mob_start](http://onmw6wg88.bkt.clouddn.com/Snip20170525_14.png)
 	
-	此时左边导航栏就能看到您添加的产品了，点击 **“概况”** 即可看到您接下来需要的AppKey和AppSecret了，如下图：
+	此时左边导航栏就能看到您添加的产品了，点击**“概况”**即可看到您接下来需要的AppKey和AppSecret了，如下图：
 	
 	![mob_appkey](http://onmw6wg88.bkt.clouddn.com/Snip20170525_16.png)
 
-3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击 **“保存”** 以确保生效。
+3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击**“保存”**以确保生效。
 
 	![mob_conf](http://onmw6wg88.bkt.clouddn.com/Snip20170525_17.png)
 	
@@ -78,16 +77,12 @@
     	</tr>
 	</table>
 
-
-## 二、快速集成SDK
-
-### 一、iOS 快速集成
-
-#### 1. 手动添加MobLinkSDK
+## 二、下载客户端SDK
 
 请从官网[下载客户端SDK](http://mob.com/)，解压后可得到如下文件夹目录：
 
 ![Snip20170525_2](http://onmw6wg88.bkt.clouddn.com/Snip20170525_2.png)
+
 
 >**说明：**
 
@@ -95,153 +90,214 @@
 
 > * SDK文件夹下的MobLink文件夹里存放MobLink.framework - 核心功能库（必要）
 
-> * SDK文件夹下的Required文件夹里存放MOBFoundation.framework = 基础功能框架（必要）
+> * SDK文件夹下的Required文件夹里存放MOBFoundation.framework - 基础功能框架（必要）
 
-i. 将MobLink.framework，MOBFoundation.framework添加到项目中，如下图：
-	
-![Snip20170525_3](http://onmw6wg88.bkt.clouddn.com/Snip20170525_3.png)
+## 三、快速集成SDK
 
-ii. 选择将文件夹复制到项目中，如下图：
-	
-![Snip20170525_4](http://onmw6wg88.bkt.clouddn.com/Snip20170525_4.png)
-	
-iii. 添加依赖库
-	
-![Snip20170525_7](http://onmw6wg88.bkt.clouddn.com/Snip20170525_7.png)
-	
->选择项目Target - Build Phases - Link Binary With Libraries，然后选择“+”进行添加系统库：
-	
-> * libsqlite3
-> * libz1.2.5
-> * libstdc++
+### 一、iOS 快速集成
 
-#### 2. 使用CocoaPods集成MobLinkSDK
+1. 在项目中添加SDK
 
-i. 在 podfile 中添加 `pod 'MobLink', '~> 2.0.0'`
+	i. 将MobLink.framework，MOBFoundation.framework添加到项目中，如下图：
+	
+	![Snip20170525_3](http://onmw6wg88.bkt.clouddn.com/Snip20170525_3.png)
 
-ii. 执行 `pod install` 命令
+	
+	ii. 选择将文件夹复制到项目中，如下图：
+	
+	![Snip20170525_4](http://onmw6wg88.bkt.clouddn.com/Snip20170525_4.png)
+	
+	iii. 添加依赖库
+	
+	![Snip20170525_7](http://onmw6wg88.bkt.clouddn.com/Snip20170525_7.png)
+	
+	>选择项目Target - Build Phases - Link Binary With Libraries，然后选择“+”进行添加系统库：
+	
+	> * libsqlite3
+	> * libz1.2.5
+	> * libstdc++6.0.9
 
-#### 3. 配置URL Scheme及Universal Link
 
-i. URL Scheme
-项目中需要配置URL Scheme以用于场景恢复时跳转到应用中。请参考下图配置您自己的URL Scheme：
-	
-![mob_url](http://onmw6wg88.bkt.clouddn.com/mob_url.png)
-	
-这里所配置的务必与后台填写的一致，如下图：
-	
-![Snip20170525_8](http://onmw6wg88.bkt.clouddn.com/Snip20170525_8.png)
-	
-ii. Universal Link
-后台已经为您生成好您的Universal Link，如下图：
-	
-![Snip20170525_9](http://onmw6wg88.bkt.clouddn.com/Snip20170525_9.png)
-	
-然后在项目中配置Universal Link， **<font color=red>请务必填写与后台生成的Universal Link地址</font>** 参考下图：
-	
-![Snip20170526_11](http://onmw6wg88.bkt.clouddn.com/Snip20170526_11.png)
-	
-#### 4. 添加代码
+2. 配置URL Scheme及Universal Link
 
-i. 在Info.plist文件中右键空白处，选择 **“Add Row”** ，添加“MOBAppKey”和“MOBAppSecret”对应值为上述在管理后台中获得的AppKey和AppSecret（点击 **“显示”** 查看），如下图所示：
+	i. URL Scheme
+	项目中需要配置URL Scheme以用于场景恢复时跳转到应用中。请参考下图配置您自己的URL Scheme：
 	
-![Snip20170526_12](http://onmw6wg88.bkt.clouddn.com/Snip20170526_12.png)
+	![mob_url](http://onmw6wg88.bkt.clouddn.com/mob_url.png)
 	
-无需代码即可完成MobLink的初始化工作。
+	这里所配置的务必与后台填写的一致，如下图：
 	
-ii. 在需要恢复的控制器中实现`UIViewController+MLSDKRestore`的两个方法，如下图所示：
+	![Snip20170525_8](http://onmw6wg88.bkt.clouddn.com/Snip20170525_8.png)
 	
-![mob_restore_oc](http://onmw6wg88.bkt.clouddn.com/mob_restore_oc.png)
+	ii. Universal Link
+	后台已经为您生成好您的Universal Link，如下图：
 	
-第一个是实现标识控制器路径的方法：
+	![Snip20170525_9](http://onmw6wg88.bkt.clouddn.com/Snip20170525_9.png)
+	
+	然后在项目中配置Universal Link，***<font color=red>请务必填写与后台生成的Universal Link地址</font>*** 参考下图：
+	
+	![Snip20170526_11](http://onmw6wg88.bkt.clouddn.com/Snip20170526_11.png)
+	
+3. 添加代码
 
-```
-// 控制器路径
-+ (NSString *)MLSDKPath
-{
-	// 该控制器的特殊路径
-    return @"/demo/a";
-}
-```
+	i. 在Info.plist文件中右键空白处，选择**“Add Row”**，添加“MOBAppKey”和“MOBAppSecret”对应值为上述在管理后台中获得的AppKey和AppSecret（点击**“显示”**查看），如下图所示：
+	
+	![Snip20170526_12](http://onmw6wg88.bkt.clouddn.com/Snip20170526_12.png)
+	
+	无需代码即可完成MobLink的初始化工作。
+	
+	ii. 在需要恢复的控制器中实现`UIViewController+MLSDKRestore`的两个方法，如下图所示：
+	
+	![mob_restore_oc](http://onmw6wg88.bkt.clouddn.com/mob_restore_oc.png)
+	
+	第一个是实现标识控制器路径的方法：
 
-第二个是实现带有场景参数的初始化方法，并根据场景参数还原该控制器： 
+	```
+	// 控制器路径
+    + (NSString *)MLSDKPath
+	{
+		// 该控制器的特殊路径
+    	return @"/demo/a";
+	}
+	```
+	第二个是实现带有场景参数的初始化方法，并根据场景参数还原该控制器： 
 	
-```
-// 根据场景信息初始化方法
-- (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
-{
-    if (self = [super init])
-    {
-        self.scene = scene;
-    }
-    return self;
-}
-```
+	```
+	// 根据场景信息初始化方法
+    - (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
+	{
+    	if (self = [super init])
+    	{
+        	self.scene = scene;
+    	}
+    	return self;
+	}
+	```
 	
-iii. 获取MobId
+	**<font color="red">关于实现带有场景参数初始化方法的补充：</font>**
+	如果您的控制器采用xib的方式来初始化的，那么实现该初始化方法时请参考如下代码：
+		
+		```
+		// 根据场景信息初始化方法
+    	- (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
+		{
+    		// 使用xib进行初始化
+    		if (self = [super initWithNibName:@"xib 名称" bundle:nil])
+    		{
+        		self.scene = scene;
+    		}
+    		return self;
+		}
+		```
 	
-```
-- (void)getMobId
-{
-    // 构造自定义参数（可选）
-    NSMutableDictionary *customParams = [NSMutableDictionary dictionary];
-    customParams[@"key1"] = @"value1";
-    customParams[@"key2"] = @"value2";
-    // 根据路径、来源以及自定义参数构造scene
-    MLSDKScene *scene = [[MLSDKScene alloc] initWithMLSDKPath:@"控制器的特殊路径" source:@"来源信息，如：uuid-123456" params:customParams];
-    // 请求MobId
-    __weak typeof(self) weakSelf = self;
-    [MobLink getMobId:scene result:^(NSString *mobId) {
-        weakSelf.mobid = mobId;
-        NSString *msg = mobId == nil ? @"获取Mobid失败" : @"获取Mobid成功";
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-        [alert show];
-    }];
-}
-```
+	iii. 获取MobId
 	
-<table>
-	<tr>
-		<th colspan="2" align="center">参数说明</th>
-	</tr>
-	<tr>
-		<td>path</td>
-		<td>本次生成的mobid所对应的控制器唯一路径，即上述第2点中所提及的+ MLSDKPath方法返回的路径。在场景还原时（即客户端还原网页内容）会根据path寻找匹配的控制器进行还原。</td>
-	</tr>
-	<tr>
-		<td>source</td>
-		<td>来源标识,可用于在场景还原时辨别来源，例如：传入一个当前控制器名称。</td>
-	</tr>
-	<tr>
-		<td>params</td>
-		<td>字段类型,此时传入的字典数据，在场景还原时能够重新得到，例如：传入一些回复控制器时需要的参数。</td>
-	</tr>
-	<tr>
-		<th colspan="2" align="center">回调值说明</th>
-	</tr>
-	<tr>
-		<td>mobid</td>
-		<td>生成的mobid可用于拼接到需要进行推广的链接后，例如：http://www.abc.com/?mobid=123456，<strong><font color=red>注意：该网站页面必须集成了JS模块的代码（下文将说明），方可实现网页-应用无缝接合。</font></strong></td>
-	</tr>
-</table>
+	```
+	- (void)getMobId
+	{
+    	// 构造自定义参数（可选）
+    	NSMutableDictionary *customParams = [NSMutableDictionary dictionary];
+    	customParams[@"key1"] = @"value1";
+    	customParams[@"key2"] = @"value2";
+    	// 根据路径、来源以及自定义参数构造scene
+    	MLSDKScene *scene = [[MLSDKScene alloc] initWithMLSDKPath:@"控制器的特殊路径" source:@"来源信息，如：uuid-123456" params:customParams];
+    	// 请求MobId
+    	__weak typeof(self) weakSelf = self;
+    	[MobLink getMobId:scene result:^(NSString *mobId) {
+        	weakSelf.mobid = mobId;
+        	NSString *msg = mobId == nil ? @"获取Mobid失败" : @"获取Mobid成功";
+        	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        	[alert show];
+    	}];
+	}
+	```
 	
-**备注：如果您的页面参数固定，则可以将获取到的这个mobid缓存起来，不用每次都去获取新的mobid以节约时间成本。**
+	<table>
+		<tr>
+			<th colspan="2" align="center">参数说明</th>
+		</tr>
+		<tr>
+			<td>path</td>
+			<td>本次生成的mobid所对应的控制器唯一路径，即上述第2点中所提及的+ MLSDKPath方法返回的路径。在场景还原时（即客户端还原网页内容）会根据path寻找匹配的控制器进行还原。</td>
+		</tr>
+		<tr>
+			<td>source</td>
+			<td>来源标识,可用于在场景还原时辨别来源，例如：传入一个当前控制器名称。</td>
+		</tr>
+		<tr>
+			<td>params</td>
+			<td>字段类型,此时传入的字典数据，在场景还原时能够重新得到，例如：传入一些回复控制器时需要的参数。</td>
+		</tr>
+		<tr>
+			<th colspan="2" align="center">回调值说明</th>
+		</tr>
+		<tr>
+			<td>mobid</td>
+			<td>生成的mobid可用于拼接到需要进行推广的链接后，例如：http://www.abc.com/?mobid=123456，<strong><font color=red>注意：该网站页面必须集成了JS模块的代码（下文将说明），方可实现网页-应用无缝接合。</font></strong></td>
+		</tr>
+	</table>
 	
-到此，最简单的MobLink就集成好了，打开上述集成好JS模块(Web端集成请看下文)并带有mobid的链接即可跳转到您的APP并自动恢复到您实现了恢复方法的控制器中。 ***<font color="red">请注意：如果您的APP中带有导航控制器（UINavigationController），则恢复时MobLink会采用Push的方式，但是如果您的APP中没有导航控制器，则恢复时MobLink会采用Modal的方式，此时就需要您自行dismiss恢复出来的控制器了。</font>***
+	**备注：如果您的页面参数固定，则可以将获取到的这个mobid缓存起来，不用每次都去获取新的mobid以节约时间成本。**
+	
+	到此，最简单的MobLink就集成好了，打开上述集成好JS模块(Web端集成请看下文)并带有mobid的链接即可跳转到您的APP并自动恢复到您实现了恢复方法的控制器中。 ***<font color="red">请注意：如果您的APP中带有导航控制器（UINavigationController），则恢复时MobLink会采用Push的方式，但是如果您的APP中没有导航控制器，则恢复时MobLink会采用Modal的方式，此时就需要您自行dismiss恢复出来的控制器了。</font>***
 
 ### 二、Web 快速集成
 
-1. 在后台找到JS引入模块，点击 **“复制”** 来复制代码内容。如下图所示：
+1. 在开发者后台找到MobLink的 **页面配置** 栏，在 **浮层配置** 选项卡中，参考下图所示步骤来个性化你的App：
 
-	![mob_js](http://onmw6wg88.bkt.clouddn.com/mob_js.png)
+![mob_page](http://onmw6wg88.bkt.clouddn.com/Snip20171024_16.png)
 
-2. 随后直接在页面引入文件，并且调用初始化方法。代码如下：
+2. 浮层配置完成后切换到 **引用JS文件** 选项卡，直接点击 **复制** 按钮，如下图所示：
+
+![mob_js](http://onmw6wg88.bkt.clouddn.com/Snip20171024_17.png)
+
+3. 随后直接在你的网页源码的适当位置粘贴前面复制的JS代码，再根据你的需求做响应修改。代码及相关注释示例如下：
 
 	```
-	<script type="text/javascript" id="-moblink-js" src="http://f.moblink.mob.com/moblink.js?appkey=xxxxxxx"></script>
-	<script type="text/javascript">
-    	MobLink.init();
-	</script>
+	<script type="text/javascript" src="//f.moblink.mob.com/v2_0_1/moblink.js?appkey=请替换你自己的AppKey></script>
+/*
+ * MobLink 支持数组=>MobLink([...]) 和对象=>MobLink({...}) 两种初始化形式
+ * 页面上有多个元素需要跳转时使用数组方式,仅单个元素需要跳转时可以使用对象的方式进行初始化
+ * el: 表示网页上Element的id值,该字段为空或者不写则表示MobLink默认浮层上的打开按钮(注意:必须为元素id,以#开头)
+ * path: 对应App里的路径
+ * params: 网页需要带给客户端的参数
+ */
+ // 单元素初始化方式
+ MobLink({
+     el: '',
+     path: 'demo/a',
+     params: {
+         key1: 'value1',
+         key2: 'value2',
+     }
+ })
+ // 多元素初始化方式
+ MobLink([
+     {
+         el: '',
+         path: 'demo/a',
+         params: {
+             key1: 'value1',
+             key2: 'value2',
+         }
+     },
+     {
+         el: '#openAppBtn1',
+         path: 'demo/b',
+         params: {
+             key1: 'value1',
+             key2: 'value2',
+         }
+     },
+     {
+         el: '#openAppBtn2',
+         path: 'demo/c',
+         params: {
+             key1: 'value1',
+             key2: 'value2',
+         }
+     }
+ ]);
 	```
 
 ## 三、高级功能
@@ -303,16 +359,18 @@ iii. 获取MobId
 
 	```
 	- (void) IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL, RestoreStyle))restoreHandler
-	{
-	   NSLog(@"Will Restore Scene - Path:%@",scene.path);
-	   [[MLDTool shareInstance] showAlertWithTitle:nil
+{
+    NSLog(@"Will Restore Scene - Path:%@",scene.path);
+    
+    
+    [[MLDTool shareInstance] showAlertWithTitle:nil
                                         message:@"是否进行场景恢复？"
                                     cancelTitle:@"否"
                                      otherTitle:@"是"
                                      clickBlock:^(MLDButtonType type) {
                                          type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler(NO, Default);
                                      }];
-    }
+}
 	```
 
 	#### <a name="complete">场景恢复完成示例代码</a>
@@ -341,150 +399,7 @@ iii. 获取MobId
 	}
 	```
 	
-### 二、Web高级功能
-
-1. 初始化方法
-	
-	初始化方法目的是在页面加载完成后，获取请求下发的数据，生成或绑定跳转唤醒APP的事件。
-	
-	```
-	Moblink.init({
-    	debug: true,
-    	mobid: "qE",
-    	path: "demo/a",
-    	...
-	});
-	```
-	
-	详细参数如下表所示：
-	
-	<table>
-		<tr>
-			<th>参数名称</th>
-			<th>类型</th>
-			<th>默认值</th>
-			<th>说明</th>
-		</tr>
-		<tr>
-			<td>debug</td>
-			<td>Boolean</td>
-			<td>true</td>
-			<td>是否开启调试。开启之后可以在浏览器中查看debug信息，以及部分会有弹窗提示。</td>
-		</tr>
-		<tr>
-			<td>mobid</td>
-			<td>String</td>
-			<td></td>
-			<td>从客户端分享出来的页面会自动在url携带mobid，也可以在页面初始化时手动写入。</td>
-		</tr>
-		<tr>
-			<td>path</td>
-			<td>String</td>
-			<td></td>
-			<td>与页面相对应的客户端页面路由。</td>
-		</tr>
-		<tr>
-			<td>params</td>
-			<td>Object</td>
-			<td></td>
-			<td>需要传给客户端的参数。例如，要传入一个pageid，则{pageid: “0”}</td>
-		</tr>
-		<tr>
-			<td>showDefaultUI</td>
-			<td>Boolean</td>
-			<td>true</td>
-			<td>是否显示默认浮层样式。如果想要自定义打开按钮样式，则可以设置false，并且在自定义的元素上添加一个id，例如：id=”moblink-href”。</td>
-		</tr>
-		<tr>
-			<td>initCallback</td>
-			<td>Function</td>
-			<td></td>
-			<td>初始化成功的回调方法。</td>
-		</tr>
-	</table>
-
-2. 动态更新携带参数
-
-	在初始化的方法中有个params的参数设置，这个参数是为了携带参数传入客户端内，初始化时则会自动合并生成携带了这些参数信息的链接。
-	
-	但是初始化传入的params参数是固定不变的，在很多情况下我们可能需要传入动态参数，例如一些订票场景，可能需要传入用户选择的数据，这些参数是动态不断在变化的，对此我们也提供了一个更新链接携带参数的方法。
-	
-	```
-	Moblink.updateScheme(data);
-	```
-
-	<table>
-		<tr>
-			<th>参数名称</th>
-			<th>类型</th>
-			<th>默认值</th>
-			<th>说明</th>
-		</tr>
-		<tr>
-			<td>data</td>
-			<td>Object</td>
-			<td></td>
-			<td>需要更新的参数内容。</td>
-		</tr>
-	</table>
-	
-3. 推荐位链接
-
-	推荐位链接生成，是个衍生功能。方便在当前页面实现多个页面跳转。
-
-	推荐位链接是打开跳转链接的简易版本。配置方式也比较简单，推荐位跳转方式也撇去了打开跳转中的引导页引导跳转，跳转失败默认是停留在当前页。
-
-	集成方法： 在需要生成链接的元素上，添加一个属性 “moblink-featured”，如下图所示：
-	
-	![web_feature](http://onmw6wg88.bkt.clouddn.com/web_feature.png)
-	
-	设置的属性参数格式是： /path?key=value
-
-	其中path是需要跳转到客户端中的路径。key=value 是携带的参数的序列化形式。
-
-	推荐位的配置不像打开按钮的配置那么繁杂，是直接写在ui上的，自动生成链接的。因此为了部分需要自己绑定的开发者需求，我们提供了一个可以高级定制推荐位的方法。
-	
-	```
-	MobLink.updateFeatured(elementName, path, data, callback);
-	```
-	
-	参数详情：
-	
-	<table>
-		<tr>
-			<th>参数名称</th>
-			<th>类型</th>
-			<th>默认值</th>
-			<th>说明</th>
-		</tr>
-		<tr>
-			<td>elementName</td>
-			<td>String</td>
-			<td></td>
-			<td>需要绑定推荐位链接的元素名称。示例： “#mob-feature”</td>
-		</tr>
-		<tr>
-			<td>path</td>
-			<td>String</td>
-			<td></td>
-			<td>跳转至客户端的路径。示例：”scene/news”</td>
-		</tr>
-		<tr>
-			<td>data</td>
-			<td>Object</td>
-			<td></td>
-			<td>需要携带传入客户端的参数。示例：{“key1”: “value1″, “key2″: “value2″}</td>
-		</tr>
-		<tr>
-			<td>callback</td>
-			<td>Function</td>
-			<td></td>
-			<td>跳转失败后的回调方法。示例：function(){ alert(“跳转失败！”); }</td>
-		</tr>
-	</table>
-	
-	
-## 四、其他说明
+## 三、其他说明
 
 ### 一、Universal Link 介绍
 

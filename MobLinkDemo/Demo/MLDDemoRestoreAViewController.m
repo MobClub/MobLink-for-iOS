@@ -10,6 +10,7 @@
 #import "UIViewController+MLDBackItemHandler.h"
 #import <MobLink/MLSDKScene.h>
 #import <MobLink/UIViewController+MLSDKRestore.h>
+#import <objc/runtime.h>
 
 @interface MLDDemoRestoreAViewController()<MLDBackItemHandlerProtocol>
 
@@ -46,6 +47,48 @@
     });
 }
 
+
+- (void)setStatusBarBackgroundColor:(UIColor *)color {
+    
+    @try {
+        UIView *statusBar = [[[UIApplication sharedApplication] valueForKey:@"statusBarWindow"] valueForKey:@"statusBar11"];
+        NSLog(@"%@", statusBar);
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+        NSLog(@"11 ---> %@", exception.name);
+        NSLog(@"22 ---> %@", exception.reason);
+        NSLog(@"33 ---> %@", exception.userInfo);
+    }
+    
+    UIView *statusBar = [[[UIApplication sharedApplication] valueForKey:@"statusBarWindow"] valueForKey:@"statusBar"];
+    
+    UIView *foregroundView = statusBar.subviews.lastObject;
+    Class cls = NSClassFromString(@"UIStatusBarOpenInSafariItemView");
+    
+    [foregroundView.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        
+//        NSLog(@"%@", obj);
+        
+        if ([obj isKindOfClass:cls]) {
+            NSLog(@"222 ---> %@", obj);
+//            [obj removeFromSuperview];
+            UIView *navigationItemButton = obj.subviews.firstObject;
+            NSLog(@"333 ---> %@", navigationItemButton);
+            UILabel *buttonLabel = navigationItemButton.subviews.lastObject;
+            NSLog(@"444 ---> %@", buttonLabel);
+            NSLog(@"555 ---> %@", buttonLabel.text);
+            buttonLabel.text = @"moblink";
+            *stop = YES;
+        }
+    }];
+    
+//    if ([statusBar respondsToSelector:@selector(setBackgroundColor:)]) {
+//        
+//        statusBar.backgroundColor = color;
+//    }
+}
+
+
 /**
  拦截导航栏返回按钮代理方法
  
@@ -73,6 +116,8 @@
 
 - (void)setupUI
 {
+//    [self setStatusBarBackgroundColor:[UIColor redColor]];
+    
     UILabel *label = [[UILabel alloc] init];
     label.bounds = CGRectMake(0, 0, 150, 150);
     label.center = CGPointMake(self.view.center.x, self.view.center.y - 50);

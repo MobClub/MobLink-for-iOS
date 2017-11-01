@@ -26,7 +26,7 @@ static NSString *const newsReuseId = @"newsReuseId";
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"今日新闻";
     self.tableView.rowHeight = 80 * PUBLICSCALE;
-    [self.tableView registerClass:[MLDNewsTableViewCell class] forCellReuseIdentifier:newsReuseId];
+    [self.tableView registerNib:[UINib nibWithNibName:@"MLDNewsTableViewCell" bundle:nil] forCellReuseIdentifier:newsReuseId];
 }
 
 #pragma mark - Table view data source
