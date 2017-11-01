@@ -180,16 +180,16 @@
 	
 		
 	```
-		// 根据场景信息初始化方法
-    	- (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
-		{
-    		// 使用xib进行初始化
-    		if (self = [super initWithNibName:@"xib 名称" bundle:nil])
-    		{
-        		self.scene = scene;
-    		}
-    		return self;
-		}
+	// 根据场景信息初始化方法
+    - (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
+	{
+    	// 使用xib进行初始化
+    	if (self = [super initWithNibName:@"xib 名称" bundle:nil])
+    	{
+        	self.scene = scene;
+    	}
+    	return self;
+	}
 	```
 	
 	iii. 获取MobId
@@ -255,8 +255,8 @@
 
 3. 随后直接在你的网页源码的适当位置粘贴前面复制的JS代码，再根据你的需求做响应修改。代码及相关注释示例如下：
 
-	```
-	<script type="text/javascript" src="//f.moblink.mob.com/v2_0_1/moblink.js?appkey=请替换你自己的AppKey></script>
+```
+<script type="text/javascript" src="//f.moblink.mob.com/v2_0_1/moblink.js?appkey=请替换你自己的AppKey></script>
 /*
  * MobLink 支持数组=>MobLink([...]) 和对象=>MobLink({...}) 两种初始化形式
  * 页面上有多个元素需要跳转时使用数组方式,仅单个元素需要跳转时可以使用对象的方式进行初始化
@@ -264,7 +264,6 @@
  * path: 对应App里的路径
  * params: 网页需要带给客户端的参数
  */
- 
  // 单元素初始化方式
  MobLink({
      el: '',
@@ -301,7 +300,7 @@
          }
      }
  ]);
-	```
+```
 
 ## 三、高级功能
 
@@ -362,18 +361,18 @@
 
 	```
 	- (void) IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL, RestoreStyle))restoreHandler
-{
-    NSLog(@"Will Restore Scene - Path:%@",scene.path);
+	{
+    		NSLog(@"Will Restore Scene - Path:%@",scene.path);
     
     
-    [[MLDTool shareInstance] showAlertWithTitle:nil
-                                        message:@"是否进行场景恢复？"
-                                    cancelTitle:@"否"
-                                     otherTitle:@"是"
-                                     clickBlock:^(MLDButtonType type) {
-                                         type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler(NO, Default);
-                                     }];
-}
+    		[[MLDTool shareInstance] showAlertWithTitle:nil
+                                        	message:@"是否进行场景恢复？"
+                                    		cancelTitle:@"否"
+                                     		otherTitle:@"是"
+                                     		clickBlock:^(MLDButtonType type) {
+                                         		type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler(NO, Default);
+                                     		}];
+	}
 	```
 
 	#### <a name="complete">场景恢复完成示例代码</a>
