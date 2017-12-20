@@ -1,1 +1,3354 @@
-var $pluginID = "com.mob.sharesdk.QQ";eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('c 45="7I://7H.1K.1w";c 1f={33:"5f",32:"7G",4o:"7F",4n:"7E",5o:"7D",1n:"7C",4p:"7B"};c 1m={1J:0,1g:1};c 15={};f w(R){h.5T=R;h.1q={};h.2B=7;h.2x=7;h.2r=7;h.30=7;h.19=$6.d.7A()}w.D.R=f(){W h.5T};w.D.7z=f(p,b){$6.J.1o(p,$6.d.F.2p,7)};w.D.1e=f(){W"w"};w.D.2S=f(){a(h.1q[1f.4p]!==38){W h.1q[1f.4p]}W 1h};w.D.G=f(){a(h.1q[1f.33]!==38){W h.1q[1f.33]}W 7};w.D.31=f(){a(h.1q[1f.32]!==38){W h.1q[1f.32]}W 7};w.D.5S=f(){a(h.1q[1f.4o]!==38){W h.1q[1f.4o]}W $6.d.5S()};w.D.1n=f(){a(h.1q[1f.1n]!==38){W h.1q[1f.1n]}W 0};w.D.3Y=f(){W"5R-2H-"+$6.d.g.w+"-"+h.G()};w.D.49=f(){a(h.1q[1f.4n]!==38){W h.1q[1f.4n]}W $6.d.49()};w.D.7y=f(2y){a(7x.1k===0){W h.1q}r{h.1q=h.5n(2y);h.2B=h.5p(2y);h.5s();h.4t(h.G())}};w.D.7w=f(){c e=h;c 2z="5R-2H";$6.A.4Z("5Q",1h,2z,f(b){a(b!=7){c 3l=b.2y;a(3l==7){3l={}}3l["7v"+e.R()]=e.G();$6.A.50("5Q",3l,1h,2z,7)}})};w.D.7u=f(){W 2X};w.D.41=f(p,1d){c x=7;a(h.5r()){a(1d==7){1d={}}a(1d["2q"]==7&&h.2B==7){1d["2q"]=["5P","7t","7s","7r","7q"]}c e=h;h.5l(f(1p,20){a(1p){e.5i(p,20,1d)}r{c l=7;a(h.19==="1b-1a"){l="分享平台［"+e.1e()+"］尚未配置2D 2C:"+e.2r+"，无法进行授权!"}r{l="2H［"+e.1e()+"］5w 1s 4b 2D 2C:"+e.2r+",7p 4w 41!"}c x={N:$6.d.T.5v,l:l};$6.J.1o(p,$6.d.F.M,x)}})}r{c l=7;a(h.19==="1b-1a"){l="分享平台［"+h.1e()+"］应用信息无效!"}r{l="2H［"+h.1e()+"］5L 7o!"}x={N:$6.d.T.7n,l:l};$6.J.1o(p,$6.d.F.M,x)}};w.D.51=f(4l,o){c e=h;h.2A(f(K){a(4l!=7){c l=7;a(h.19==="1b-1a"){l="分享平台［"+e.1e()+"］不支持获取其他用户资料!"}r{l="2H ["+e.1e()+"］4d 1s 4c 5x 7m\'s 7l!"}c x={N:$6.d.T.3E,l:l};a(o!=7){o($6.d.F.M,x)}W}e.5O("3B://5j.1K.1w/K/5P","4i",7,7,f(17,b){c Y=b;a(17===$6.d.F.1X){Y={3Z:$6.d.g.1g,1Y:K.1y.1Y};e.3X(Y,b);a(Y["1Y"]===K["1Y"]){Y["1y"]=K["1y"]}}a(o!=7){o(17,Y)}})})};w.D.5O=f(q,5N,1v,5M,o){c x=7;c e=h;h.2A(f(K){a(K!=7){a(1v==7){1v={}}1v["7k"]=e.G();a(K.1y!=7){1v["29"]=K.1y.3i;1v["2R"]=K.1y.3h.2R}$6.A.4j($6.d.g.1g,7,q,5N,1v,5M,f(b){a(b!=7){a(b["N"]!=7){a(o){o($6.d.F.M,b)}}r{c 1I=$6.O.4h($6.O.3H(b["3L"]));a(b["4k"]===5J){a(o){o($6.d.F.1X,1I)}}r{c 4m=$6.d.T.1c;1t(1I["N"]){Q 7j:Q 7i:Q 7h:Q 7g:Q 7f:Q 7e:Q 7d:4m=$6.d.T.5K;L}x={N:4m,14:1I};a(o){o($6.d.F.M,x)}}}}r{x={N:$6.d.T.1c};a(o){o($6.d.F.M,x)}}})}r{c l=7;a(h.19==="1b-1a"){l="尚未授权["+e.1e()+"]用户"}r{l="5L 7c ["+e.1e()+"]"}x={N:$6.d.T.5K,l:l};a(o){o($6.d.F.M,x)}}})};w.D.7b=f(p,18){c x=7;c l;c e=h;c 3M=$6.O.2b(18);a(3M!=7&&3M.4l!=7){c 1v=$6.O.7a(3M.79);a(1v!=7&&1v.29!=7){c 37;a(e.2S()){37={29:1v.29,1H:"1"}}r{37={29:1v.29}}$6.A.4j($6.d.g.1g,7,"3B://5G.1K.1w/47.0/5F","4i",37,7,f(b){a(b!=7){a(b["N"]!=7){$6.J.1o(p,$6.d.F.M,b)}r a(b["4k"]!=7&&b["4k"]===5J){c 36=$6.O.3H(b["3L"]);c 3K=3w 5E("{[\\\\s\\\\S]+}");c C=3K.5D(36);c 1I=$6.O.4h(C[0]);a(1I.2R!=7){a(1I.1H!=7){1v.1H=1I.1H}1v["2R"]=1I.2R;e.1Z(p,1v)}r{x={N:$6.d.T.1c,14:1I};$6.J.1o(p,$6.d.F.M,x)}}r{x={N:$6.d.T.1c,14:b};$6.J.1o(p,$6.d.F.M,x)}}r{x={N:$6.d.T.1c};$6.J.1o(p,$6.d.F.M,x)}})}r{l=7;a(h.19==="1b-1a"){l="无效的授权回调:["+18+"]"}r{l="5I o q:["+18+"]"}x={N:$6.d.T.5H,l:l};$6.J.1o(p,$6.d.F.M,x)}}r{l=7;a(h.19==="1b-1a"){l="无效的授权回调:["+18+"]"}r{l="5I o q:["+18+"]"}x={N:$6.d.T.5H,l:l};$6.J.1o(p,$6.d.F.M,x)}};w.D.3y=f(p,b){c e=h;c 37={29:b.29,1H:"1"};$6.A.4j($6.d.g.1g,7,"3B://5G.1K.1w/47.0/5F","4i",37,7,f(35){a(35!=7){a(35["3L"]){c 36=$6.O.3H(35["3L"]);c 3K=3w 5E("{[\\\\s\\\\S]+}");c C=3K.5D(36);a(C!=7){c 1I=$6.O.4h(C[0]);a(1I.1H!=7){b.1H=1I.1H;e.1Z(p,b)}r{$6.J.1Q("[2F-2E] 1H 3J x");$6.J.1Q(36);e.1Z(p,b)}}r{$6.J.1Q("[2F-2E] 1H 3J x");$6.J.1Q(36);e.1Z(p,b)}}r{$6.J.1Q("[2F-2E] 1H 3J x");$6.J.1Q(35);e.1Z(p,b)}}r{$6.J.1Q("[2F-2E] 1H 3J x");$6.J.1Q(35);e.1Z(p,b)}})};w.D.78=f(p,18,5C,5B){c e=h;a(18.2J(h.2r+"://")===0){$6.A.3A("3z",f(b){a(b.C){$6.A.3d("1w.6.3c.3b.1K",f(b){a(b.C){$6.A.77(e.G(),18,f(b){1t(b.17){Q $6.d.F.1X:{a(e.2S()){e.3y(p,b.C)}r{e.1Z(p,b.C)}L}Q $6.d.F.M:{c x={N:$6.d.T.1c};$6.J.1o(p,$6.d.F.M,x);L}1E:$6.J.1o(p,$6.d.F.2p,7);L}})}r{e.4g(e.G(),p,18)}})}r{e.4g(e.G(),p,18)}});W 2X}W 1h};w.D.4g=f(G,p,18){c e=h;a(18.5A(0,"1u".1k)==="1u"){$6.A.76(G,p,18,$6.d.g.w,f(b){a(b.C){a(b.34["75"]===0){a(e.2S()){e.3y(p,b.34)}r{e.1Z(p,b.34)}}r{a(b.34["74"]===0){$6.J.1o(p,$6.d.F.M,b.34)}r{$6.J.1o(p,$6.d.F.2p,b.34)}}}})}};w.D.73=f(p,18,5C,5B){c e=h;a(18.2J(h.2r+"://")===0||18.2J(h.30+"://")===0){$6.A.3A("3z",f(b){a(b.C){$6.A.3d("1w.6.3c.3b.1K",f(b){a(b.C){$6.A.72(e.G(),18,f(b){e.2A(f(K){c I=15[p];c P=7;c E=7;a(I!=7){P=I["P"];E=I["14"]}1t(b.17){Q $6.d.F.1X:{c Y={};Y["3h"]=P;Y["m"]=P["m"];c 2a=[];a(P["q"]){2a.2v(P["q"])}Y["2a"]=2a;a(P["V"]!=7){Y["B"]=[P["V"]]}r a(P["Z"]!=7){Y["B"]=[P["Z"]]}$6.J.2s(p,$6.d.F.1X,Y,K,E);L}Q $6.d.F.M:c x={N:$6.d.T.1c,14:{N:b.N,l:b.l}};$6.J.2s(p,$6.d.F.M,x,K,E);L;1E:$6.J.2s(p,$6.d.F.2p,7,K,E);L}5y 15[p];15[p]=7})})}r{e.4f(p,18)}})}r{e.4f(p,18)}});W 2X}W 1h};w.D.4f=f(p,18){c e=h;a(18.5A(0,"w".1k)==="w"){c 2b={};a(18.2J("?")!==-1){c 5z=18.3k("?");c 2G=5z[1];c 3I=2G.3k("&");25(c i=0;i<3I.1k;i++){2b[3I[i].3k("=")[0]]=71(3I[i].3k("=")[1])}}a(2b["4e"]){2b["4e"]=$6.O.3H(2b["4e"])}e.2A(f(K){c I=15[p];c P=7;c E=7;a(I!=7){P=I["P"];E=I["14"]}1t(4s(2b["x"])){Q 0:{c Y={};Y["3h"]=P;Y["m"]=P["m"];c 2a=[];a(P["q"]){2a.2v(P["q"])}Y["2a"]=2a;a(P["V"]!=7){Y["B"]=[P["V"]]}r a(P["Z"]!=7){Y["B"]=[P["Z"]]}$6.J.2s(p,$6.d.F.1X,Y,K,E);L}Q-4:$6.J.2s(p,$6.d.F.2p,7,K,E);L;1E:c x={N:$6.d.T.1c,14:{N:2b["x"]},l:2b};$6.J.2s(p,$6.d.F.M,x,K,E);L}5y 15[p];15[p]=7})}};w.D.70=f(){h.3v(7,7)};w.D.6Z=f(p,K,o){c l=7;a(h.19==="1b-1a"){l="平台［"+h.1e()+"］不支持添加好友方法!"}r{l="2H［"+h.1e()+"］4d 1s 4c 6Y 6X"}c x={N:$6.d.T.3E,l:l};a(o!=7){o($6.d.F.M,x)}};w.D.6W=f(6V,6U,o){c l=7;a(h.19==="1b-1a"){l="平台［"+h.1e()+"不支持获取好友列表方法!"}r{l="2H［"+h.1e()+"］4d 1s 4c 5x 6T 6S"}c x={N:$6.d.T.3E,l:l};a(o!=7){o($6.d.F.M,x)}};w.D.1D=f(p,v,o){c e=h;c 3F=v!=7?v["@6R"]:1h;e.24(3F,p,v,o)};w.D.24=f(3F,p,v,o){c e=h;c 3G=v!=7?v["@3G"]:7;c E={"@3G":3G};a(3F){e.5u(p,v,E,o)}r{$6.A.6Q(f(b){a(b.C){e.5k(f(1p,20){a(1p){$6.A.3A("3z",f(b){a(b.C){$6.A.3d("1w.6.3c.3b.1K",f(b){a(b.C){e.4V(p,v,E,o)}r{e.3W(p,v,E,o)}})}r{e.3W(p,v,E,o)}})}r{c l=7;a(h.19==="1b-1a"){l="尚未配置["+e.1e()+"]2D 2C:"+e.30+", 无法进行分享。"}r{l="6P\'t 1D 6O 13［"+e.1e()+"］5w 1s 4b 2D 2C:"+e.30+"!6N 6M 6L 6K 4b 2D 2C!"}c x={N:$6.d.T.5v,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}})}r{c x={N:$6.d.T.3E,l:"应用已禁用后台模式，分享平台［"+e.1e()+"］无法进行分享! 请在项目设置中开启后台模式后再试!"};a(o!=7){o($6.d.F.M,x,7,E)}}})}};w.D.5u=f(p,v,E,o){c g=7;c U=v["3V"];a(U==7){U=1m.1J}1t(U){Q 1m.1g:g=$6.d.g.1g;L;1E:g=$6.d.g.1J;L}c R=$6.d.H(g,v,"R");a(R==7){R=$6.d.X.2P}a(R===$6.d.X.2P){R=h.3n(v,g)}c e=h;c Y;1t(R){Q $6.d.X.3m:Q $6.d.X.6J:Q $6.d.X.3P:Q $6.d.X.3O:Q $6.d.X.6I:{e.24(1h,p,v,o);L}Q $6.d.X.39:{c B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){a(B.1k>9){B.1k=9}r a(B.1k===0){B=7}}a(B!=7){$6.A.4a($6.d.X.39,B,e.1n(),f(b){c 17=b.17;a(17!=7){Y={13:g,U:U,B:B};Y["B"]=B;e.3C(17,p,Y,E)}r{e.24(1h,p,v,o)}})}r{e.24(1h,p,v,o)}L}Q $6.d.X.3a:{c q=$6.d.H(g,v,"q");a(q!=7){$6.A.4a($6.d.X.3a,q,e.1n(),f(b){c 17=b.17;a(17!=7){Y={13:g,U:U,q:q};Y["2a"]=[q];e.3C(17,p,Y,E)}r{e.24(1h,p,v,o)}})}r{e.24(1h,p,v,o)}L}Q $6.d.X.5t:{c 3D=$6.d.H(g,v,"q");a(3D!=7){$6.A.4a($6.d.X.5t,3D,e.1n(),f(b){c 17=b.17;a(17!=7){Y={13:g,U:U,6H:3D};e.3C(17,p,Y,E)}r{e.24(1h,p,v,o)}})}r{e.24(1h,p,v,o)}L}1E:{e.24(1h,p,v,o);L}}};w.D.3C=f(17,p,v,E){c e=h;e.2A(f(K){a(17===$6.d.F.2p){$6.J.2s(p,$6.d.F.2p,7,K,E)}r{$6.J.2s(p,$6.d.F.1X,v,K,E)}})};w.D.6G=f(1O){c K={3Z:h.R()};h.3X(K,1O);W $6.O.5q(K)};w.D.1G=f(g,48,o){a(h.49()){h.2A(f(K){$6.d.6F(g,K,48,o)})}r{a(o){o({C:48})}}};w.D.6E=f(K){W K.1y!=7&&K.1y.3i!=7&&K.1y.54>(3w 53).52()};w.D.5s=f(){h.2r=7;c G=h.G();a(G!=7){h.2r="1u"+G;c 2y=6D(h.G());c 2G=2y.1r(16).4q();6C(2G.1k<8){2G="0"+2G}h.30="w"+2G}};w.D.5r=f(){a(h.G()!=7&&h.31()!=7){W 2X}$6.J.1Q("[2F-2E] ["+h.1e()+"]应用信息有误，不能进行相关操作。请检查本地代码中和服务端的["+h.1e()+"]平台应用配置是否有误! "+"\\n配置:"+$6.O.5q(h.1q));W 1h};w.D.5p=f(23){W 23[1f.5o]};w.D.5n=f(23){c G=$6.O.5m(23[1f.33]);c 31=$6.O.5m(23[1f.32]);a(G!=7){23[1f.33]=G}r{23[1f.33]=h.G()}a(31!=7){23[1f.32]=31}r{23[1f.32]=h.31()}W 23};w.D.5l=f(o){c e=h;$6.A.1M(f(b){c 20=7;c 2U="";c 1p=1h;c 2V=e.2r;a(b!=7&&b.2Z!=7){25(c i=0;i<b.2Z.1k;i++){c 22=b.2Z[i];a(22!=7&&22.2Y!=7){25(c j=0;j<22.2Y.1k;j++){c 2W=22.2Y[j];a(2W===2V){1p=2X;20=2W;L}}}a(1p){L}}}a(!1p){2U=2V}a(!1p){$6.J.1Q("[2F-2E] 尚未配置["+e.1e()+"]2D 2C:"+2U)}a(o!=7){o(1p,20)}})};w.D.5k=f(o){c e=h;$6.A.1M(f(b){c 20=7;c 2U="";c 1p=1h;c 2V=e.30;a(b!=7&&b.2Z!=7){25(c i=0;i<b.2Z.1k;i++){c 22=b.2Z[i];a(22!=7&&22.2Y!=7){25(c j=0;j<22.2Y.1k;j++){c 2W=22.2Y[j];a(2W===2V){1p=2X;20=2W;L}}}a(1p){L}}}a(!1p){2U=2V}a(!1p){$6.J.1Q("[2F-2E] 尚未配置["+e.1e()+"]2D 2C:"+2U+", 无法进行分享。")}a(o!=7){o(1p,20)}})};w.D.55=f(p,1d){c e=h;$6.A.6B(f(b){c 2T=b.2T;$6.A.1M(f(b){c 21="3B://5j.1K.1w/47.0/6A?";21+="17=6z&5b=i&5d=3i&6y=6x&1t=1&58=10";21+="&3e=3.2.1";a(2T!=7){21+="&5a="+2T}a(b!=7){21+="&59="+b.43}21+="&5e="+e.G();21+="&6w="+$6.O.46(45);a(1d!=7&&1d["2q"]!=7&&1C.D.1r.1B(1d["2q"])==="[1A 1z]"){21+="&1P="+$6.O.46(1d["2q"].5c(","))}r a(e.2B!=7){21+="&1P="+$6.O.46(e.2B)}$6.J.6v(p,21,45)})})};w.D.5i=f(p,20,1d){c e=h;$6.A.3A("3z",f(b){c 1P=7;a(1d!=7&&1d["2q"]!=7&&1C.D.1r.1B(1d["2q"])==="[1A 1z]"){1P=1d["2q"]}r a(h.2B!=7){c 5h=h.2B;1P=5h.3k(",")}a(b.C){$6.A.3d("1w.6.3c.3b.1K",f(b){a(b.C){$6.A.6u(e.G(),1P,e.1n(),f(b){a(b.17!=7){1t(b.17){Q $6.d.F.1X:{a(e.2S()){e.3y(p,b.C)}r{e.1Z(p,b.C)}L}Q $6.d.F.M:{$6.J.1o(p,$6.d.F.M,b.C);L}1E:$6.J.1o(p,$6.d.F.2p,7);L}}})}r{e.44(e.G(),p,1P,1d)}})}r{e.44(e.G(),p,1P,1d)}})};w.D.44=f(G,p,1P,1d){c e=h;$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 2T=b.5g?b.5g:"";c 42=b.43?b.43:"";c 40={5f:G,6t:1i,5e:G,5d:"3i",1P:1P.5c(","),5b:"i",3e:"2.9",5a:2T,59:42,58:42};$6.A.1F("6s://",f(b){a(b.C){$6.A.2K($6.d.g.w,G,{R:"41",40:40},p,f(b){a(b.C){c z="";c 3j="";a(e.1n()===1){z="56://3x/1u"+G+"/1w.1u.1u"+G+"?1L=1";3j="57://3x/1u"+G+"/1w.1u.1u"+G+"?1L=1"}r{z="57://3x/1u"+G+"/1w.1u.1u"+G+"?1L=1";3j="56://3x/1u"+G+"/1w.1u.1u"+G+"?1L=1"}$6.A.1F(z,f(b){a(b.C){$6.J.1W(z)}r{$6.A.1F(3j,f(b){a(b.C){$6.J.1W(3j)}})}})}})}r{e.55(p,1d)}})})};w.D.1Z=f(p,2Q){c e=h;c 1Y=7;a(e.2S()){1Y=2Q["1H"]}a(1Y==7){1Y=2Q["2R"]}c 1y={1Y:1Y,3i:2Q["29"],54:(3w 53).52()+2Q["6r"]*6q,3h:2Q,R:$6.d.6p.6o};c K={3Z:$6.d.g.w,1y:1y};h.3v(K,f(){e.51(7,f(17,b){a(17===$6.d.F.1X){b["1y"]=K["1y"];K=b;e.3v(K,7)}$6.J.1o(p,$6.d.F.1X,K)})})};w.D.3v=f(K,o){h.2x=K;c 2z=h.3Y();$6.A.50("4Y",h.2x,1h,2z,f(b){a(o!=7){o()}})};w.D.2A=f(o){a(h.2x!=7){a(o){o(h.2x)}}r{c e=h;c 2z=h.3Y();$6.A.4Z("4Y",1h,2z,f(b){e.2x=b!=7?b.2y:7;a(o){o(e.2x)}})}};w.D.3X=f(K,1O){a(K!=7&&1O!=7){K["3h"]=1O;K["4X"]=1O["4X"];K["6n"]=1O["6m"];c 2w=2;a(1O["2w"]==="男"){2w=0}r a(1O["2w"]==="女"){2w=1}K["2w"]=2w;K["6l"]=1O["6k"]?1:0;K["4W"]=1O["4W"]}};w.D.4V=f(p,v,E,o){c m=7;c u=7;c y=7;c B=7;c q=7;c 2o=7;c 28=7;c e=h;c g=7;c x=7;c l;c U=v["3V"];a(U==7){U=1m.1J}1t(U){Q 1m.1g:g=$6.d.g.1g;L;1E:g=$6.d.g.1J;L}c R=$6.d.H(g,v,"R");a(R==7){R=$6.d.X.2P}a(R===$6.d.X.2P){R=h.3n(v,g)}1t(R){Q $6.d.X.3m:{m=$6.d.H(g,v,"m");a(m!=7){h.1G(g,[m],f(b){m=b.C[0];$6.A.6j(e.G(),U,m,e.1n(),f(b){a(b.N!=7){a(o!=7){o($6.d.F.M,b,7,E)}}r{c I={13:g,m:m};15[p]={P:I,14:E}}})})}r{l=7;a(h.19==="1b-1a"){l="分享参数m不能为空!"}r{l="1V 1U m 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.39:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");c Z=7;B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){Z=B[0]}a(B!=7){h.1G(g,[m],f(b){m=b.C[0];$6.A.6i(e.G(),U,u,m,y,B,e.1n(),f(b){a(b.N!=7){a(o!=7){o($6.d.F.M,b,7,E)}}r{c I={};a(U===1m.1J){I={13:g,m:m,u:u,V:y,Z:Z}}r{I={13:g,m:m,u:u,V:y,Z:B}}15[p]={P:I,14:E}}})})}r{l=7;a(h.19==="1b-1a"){l="分享参数Z不能为空!"}r{l="1V 1U Z 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.3a:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");a(y==7){B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){y=B[0]}}q=$6.d.H(g,v,"q");a(u!=7&&y!=7&&q!=7){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];$6.A.6h(e.G(),U,u,m,y,q,e.1n(),f(b){a(b.N!=7){a(o!=7){o($6.d.F.M,b,7,E)}}r{c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E}}})})}r{l=7;a(h.19==="1b-1a"){l="分享参数u、y、q不能为空!"}r{l="1V 1U u、y、q 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.3P:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");a(y==7){B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){y=B[0]}}q=$6.d.H(g,v,"q");2o=$6.d.H(g,v,"4C");a(u!=7&&y!=7&&q!=7){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];$6.A.6g(e.G(),U,u,m,y,q,2o,e.1n(),f(b){a(b.N!=7){a(o!=7){o($6.d.F.M,b,7,E)}}r{c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E}}})})}r{l=7;a(h.19==="1b-1a"){l="分享参数u、y、q不能为空!"}r{l="1V 1U u、y、q 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.3O:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");a(y==7){B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){y=B[0]}}q=$6.d.H(g,v,"q");28=$6.d.H(g,v,"4B");a(u!=7&&y!=7&&q!=7){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];$6.A.4U(e.G(),U,u,m,y,q,28,e.1n(),f(b){a(b.N!=7){a(o!=7){o($6.d.F.M,b,7,E)}}r{c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E}}})})}r a(q!=7&&q.2J("4z-4y://")===0&&U===1m.1g){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];$6.A.4U(e.G(),U,u,m,7,q,28,e.1n(),f(b){a(b.N!=7){a(o!=7){o($6.d.F.M,b,7,E)}}r{c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E}}})})}r{l=7;a(h.19==="1b-1a"){l="分享参数u、y、q不能为空!"}r{l="1V 1U u、y、q 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}1E:{l=7;a(h.19==="1b-1a"){l="不支持的分享类型["+R+"]"}r{l="4v 1D R ["+R+"]"}x={N:$6.d.T.4u,l:l};a(o!=7){o($6.d.F.M,x,7,E)}L}}};w.D.2l=f(o){c e=h;c 3u="4T://";c 3t="3s://";a(e.1n()===1){3u="3s://";3t="4T://"}$6.A.1F(3u,f(b){a(b.C){o(3u)}r{$6.A.1F(3t,f(b){a(b.C){o(3t)}r{o("3s://")}})}})};w.D.3W=f(p,v,E,o){c m=7;c u=7;c y=7;c B=7;c q=7;c 2o=7;c 28=7;c e=h;c g=7;c x=7;c 1N={};c l;c U=v["3V"];a(U==7){U=1m.1J}1t(U){Q 1m.1g:g=$6.d.g.1g;L;1E:g=$6.d.g.1J;L}c R=$6.d.H(g,v,"R");a(R==7){R=$6.d.X.2P}a(R===$6.d.X.2P){R=h.3n(v,g)}1t(R){Q $6.d.X.3m:{m=$6.d.H(g,v,"m");a(m!=7){c I={13:g,m:m};15[p]={P:I,14:E};h.1G(g,[m],f(b){m=b.C[0];a(g===$6.d.g.1g){$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());c z="1D/2k?2j="+$6.O.12(11(1i))+"&2u=1&2M=2L&2i=3N&2h="+"w"+1l+"&2g=2f&27=1&2e=0&2d=2c&1L=1&3e=3.1";e.2l(f(1x){z=1x+z+"&u="+$6.O.12(11(m));$6.A.1F(z,f(b){a(b.C){$6.J.1W(z)}r{c l="1K版本过低无法进行分享";x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}})})})}r{$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());c z="3s://1D/2k?2j="+$6.O.12(11(1i))+"&27=1&2e=0&2d=2c&1L=1&2h="+"w"+1l+"&2g=2f&2u=0&2i=";z=z+"m&4E="+$6.O.12(11(m));$6.A.1F(z,f(b){a(b.C){$6.J.1W(z)}})})}})}r{l=7;a(h.19==="1b-1a"){l="分享参数m不能为空!"}r{l="1V 1U m 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.39:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");c Z=7;B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){Z=B[0]}a(B!=7){h.1G(g,[m],f(b){m=b.C[0];c I={};a(U===1m.1J){I={13:g,m:m,u:u,V:y,Z:Z}}r{I={13:g,m:m,u:u,V:y,Z:B}}15[p]={P:I,14:E};a(g===$6.d.g.1g){$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());c z="1D/2k?2j="+$6.O.12(11(1i))+"&2u=1&2M=2L&2i=3N&2h="+"w"+1l+"&2g=2f&27=1&2e=0&2d=2c&1L=1&3e=3.1";e.2l(f(1x){z=1x+z;a(m){z=z+"&u="+$6.O.12(11(m))}a(B.1k>0){c 3U=0;c 3q=[];25(c k 6f B){a(B.6e(k)){c 4S=B[k];$6.A.3f(4S,7,$6.d.g.w,f(b){3U++;a(b.2t["Z"]){3q.2v(b.2t["Z"])}a(3U===B.1k){c 3g=[];c 3r=3q.1k;c 4P="$7";c 4O={$4Q:{2O$2N:3r+5},"3T.6d":[{2O$2N:2}],"3T.3Q":[{2O$2N:3}]};c 4N="6c";c 3R={};c 3S=[];25(c i=0;i<3r;i++){c 4R={2O$2N:i+4};3S.2v(4R)}3R={$4Q:{2O$2N:3r+4},"3T.3Q":3S};3g.2v(4P,4O,4N,3R);3g.2v(3q);c 4H={$4L:["4M","4K"],$4J:"4M"};c 4G={$4L:["4I","6b","4K"],$4J:"4I"};3g.2v(4H,4G);c 4F={$6a:"69",$3Q:3g,$68:{67:{2O$2N:1}},$27:66};$6.A.2K($6.d.g.w,e.G(),4F,p,f(b){a(b.C){$6.A.1F(z,f(b){a(b.C){c I={};a(U===1m.1J){I={13:g,m:m,u:u,V:y,Z:Z}}r{I={13:g,m:m,u:u,V:y,Z:B}}15[p]={P:I,14:E};$6.J.1W(z)}r{c l="1K版本过低无法进行分享";x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}})}})}})}}}})})}r{$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());c z="1D/2k?2j="+$6.O.12(11(1i))+"&27=1&2e=0&2d=2c&1L=1&2h="+"w"+1l+"&2g=2f&2u=0&2i=";e.2l(f(1x){z=1x+z+"65&u="+$6.O.12(11(u?u:""))+"&2M=2L&3p="+$6.O.12(11(m?m:""));$6.A.3f(Z,y,$6.d.g.w,f(b){a(b.C){1N["4D"]=b.2t["Z"];1N["2n"]=b.2t["y"];c 2m={4E:1N["4D"],3o:1N["2n"]};$6.A.2K($6.d.g.w,e.G(),2m,p,f(b){a(b.C){$6.A.1F(z,f(b){a(b.C){c I={};a(U===1m.1J){I={13:g,m:m,u:u,V:y,Z:Z}}r{I={13:g,m:m,u:u,V:y,Z:B}}15[p]={P:I,14:E};$6.J.1W(z)}})}})}})})})}})}r{l=7;a(h.19==="1b-1a"){l="分享参数Z不能为空!"}r{l="1V 1U Z 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.3a:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");a(y==7){B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){y=B[0]}}q=$6.d.H(g,v,"q");a(u!=7&&y!=7&&q!=7){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E};$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());e.2l(f(1x){c z="1D/2k?2j="+$6.O.12(11(1i))+"&27=1&2e=";1t(U){Q 1m.1g:z=z+1;L;1E:z=z+0;L}z=1x+z+"&2d=2c&1L=1&2h=w"+1l+"&2g=2f&2u=0&2i=";z=z+"64&u="+$6.O.12(11(u?u:""))+"&q="+$6.O.12(11(q?q:""))+"&3p="+$6.O.12(11(m?m:""))+"&2M=2L";$6.A.3f(7,y,$6.d.g.w,f(b){a(b.C){1N["2n"]=b.2t["y"];c 2m={3o:1N["2n"]};$6.A.2K($6.d.g.w,e.G(),2m,p,f(b){a(b.C){$6.A.1F(z,f(b){a(b.C){c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E};$6.J.1W(z)}})}})}})})})})}r{l=7;a(h.19==="1b-1a"){l="分享参数u、y、q不能为空!"}r{l="1V 1U u、y、q 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.3P:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");a(y==7){B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){y=B[0]}}q=$6.d.H(g,v,"q");2o=$6.d.H(g,v,"4C");a(u!=7&&y!=7&&q!=7){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E};$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());e.2l(f(1x){c z="1D/2k?2j="+$6.O.12(11(1i))+"&27=1&2e=";1t(U){Q 1m.1g:z=z+1;L;1E:z=z+0;L}z=1x+z+"&2d=2c&1L=1&2h=w"+1l+"&2g=2f&2u=0&2i=";z=z+"63&u="+$6.O.12(11(u?u:""))+"&q="+$6.O.12(11(q?q:""))+"&3p="+$6.O.12(11(m?m:""))+"&2M=2L";a(2o){z=z+"&4A="+$6.O.12(11(2o?2o:""))}$6.A.3f(7,y,$6.d.g.w,f(b){a(b.C){1N["2n"]=b.2t["y"];c 2m={3o:1N["2n"]};$6.A.2K($6.d.g.w,e.G(),2m,p,f(b){a(b.C){$6.A.1F(z,f(b){a(b.C){c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E};$6.J.1W(z)}})}})}})})})})}r{l=7;a(h.19==="1b-1a"){l="分享参数u、y、q不能为空!"}r{l="1V 1U u、y、q 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}Q $6.d.X.3O:{m=$6.d.H(g,v,"m");u=$6.d.H(g,v,"u");y=$6.d.H(g,v,"V");a(y==7){B=$6.d.H(g,v,"B");a(1C.D.1r.1B(B)==="[1A 1z]"){y=B[0]}}q=$6.d.H(g,v,"q");28=$6.d.H(g,v,"4B");a(u!=7&&y!=7&&q!=7){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E};$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());e.2l(f(1x){c z="1D/2k?2j="+$6.O.12(11(1i))+"&27=1&2e=";1t(U){Q 1m.1g:z=z+1;L;1E:z=z+0;L}z=1x+z+"&2d=2c&1L=1&2h=w"+1l+"&2g=2f&2u=0&2i=";z=z+"4x&u="+$6.O.12(11(u?u:""))+"&q="+$6.O.12(11(q?q:""))+"&3p="+$6.O.12(11(m?m:""))+"&2M=2L";a(28){z=z+"&4A="+$6.O.12(11(28?28:""))}$6.A.3f(7,y,$6.d.g.w,f(b){a(b.C){1N["2n"]=b.2t["y"];c 2m={3o:1N["2n"]};$6.A.2K($6.d.g.w,e.G(),2m,p,f(b){a(b.C){$6.A.1F(z,f(b){a(b.C){c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E};$6.J.1W(z)}})}})}})})})})}r a(q!=7&&q.2J("4z-4y://")===0&&U===1m.1g){h.1G(g,[m,q],f(b){m=b.C[0];q=b.C[1];a(g===$6.d.g.1g){$6.A.62(f(b){a(b.C){c l=7;a(h.19==="1b-1a"){l="61暂不支持分享本地视频到空间!"}r{l="w 25 60 5Z\'t 5Y 1D 4x 4w 5X!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}r{$6.A.1M(f(b){c 1i=b.1j?b.1j:"";c 1l=e.26(e.G());e.2l(f(1x){c z="1D/2k?2j="+$6.O.12(11(1i))+"&2i=3N&2h=w"+1l+"&2g=2f&27=1&2e=0&2d=2c&1L=1&3e=3.1";a(m){z=z+"&u=="+$6.O.12(11(m?m:""))}z=1x+z+"&5W="+$6.O.12(11(q?q:""));$6.A.1F(z,f(b){a(b.C){c I={13:g,m:m,u:u,V:y,q:q};15[p]={P:I,14:E};$6.J.1W(z)}})})})}})}})}r{l=7;a(h.19==="1b-1a"){l="分享参数u、y、q不能为空!"}r{l="1V 1U u、y、q 1T 1s 1S 1R!"}x={N:$6.d.T.1c,l:l};a(o!=7){o($6.d.F.M,x,7,E)}}L}1E:{l=7;a(h.19==="1b-1a"){l="不支持的分享类型["+R+"]"}r{l="4v 1D R ["+R+"]"}x={N:$6.d.T.4u,l:l};a(o!=7){o($6.d.F.M,x,7,E)}L}}};w.D.4t=f(G){a(G!=7){$6.A.3d("1w.6.3c.3b.1K",f(b){a(b.C){$6.J.5V(G)}})}};w.D.3n=f(v,g){c R=$6.d.X.3m;c u=$6.d.H(g,v,"u");c y=$6.d.H(g,v,"V");c q=$6.d.H(g,v,"q");c B=$6.d.H(g,v,"B");a(u!=7&&(y!=7||1C.D.1r.1B(B)==="[1A 1z]")&&q!=7){R=$6.d.X.3a}r a(1C.D.1r.1B(B)==="[1A 1z]"&&g===$6.d.g.1J){R=$6.d.X.39}W R};w.D.26=f(4r){c 2I=4s(4r).1r(16).4q();a(2I.1k<8){25(c i=0;i<8-2I.1k;i++){2I="0"+2I}}W 2I};$6.d.5U($6.d.g.w,w);',62,479,'||||||mob|null|||if|data|var|shareSDK|self|function|platformType|this||||error_message|text||callback|sessionId|url|else|||title|parameters|QQ|error|thumbImage|urlstring|ext|images|result|prototype|userData|responseState|appId|getShareParam|shareParams|native|user|break|Fail|error_code|utils|content|case|type||errorCode|scene|thumb_image|return|contentType|resultData|image||utf16to8|base64Encode|platform|user_data|QQShareContentSet||state|callbackUrl|_currentLanguage|Hans|zh|APIRequestFail|settings|name|QQAppInfoKeys|QZone|false|appName|CFBundleDisplayName|length|callbackName|QQScene|QQShareType|ssdk_authStateChanged|hasReady|_appInfo|toString|not|switch|tencent|params|com|urlProtocol|credential|Array|object|apply|Object|share|default|canOpenURL|_convertUrl|unionid|response|QQFriend|qq|generalpastboard|getAppConfig|shareParameter|rawData|scope|log|nil|be|can|param|Share|openURL|Success|uid|_succeedAuthorize|urlScheme|authUrl|typeObj|appInfo|_checkShare|for|_getFormatNum|version|videoFlashUrl|access_token|urls|parseUrl|scheme|callback_type|cflag|app|src_type|callback_name|file_type|thirdAppDisplayName|to_fri|_checkShareType|shareData|thumbData|audioFlashUrl|Cancel|scopes|_authUrlScheme|ssdk_shareStateChanged|returnData|shareType|push|gender|_currentUser|value|domain|_getCurrentUser|_authScopes|Scheme|URL|WARNING|ShareSDK|str|Platform|formatNum|indexOf|ssdk_setDataToPasteboard|pasteboard|objectlocation|UID|CF|Auto|credentialRawData|openid|backUnionid|deviceModel|warningLog|callbackScheme|schema|true|CFBundleURLSchemes|CFBundleURLTypes|_shareUrlScheme|appKey|AppKey|AppID|retDic|backData|responseString|getOpenIDParams|undefined|Image|WebPage|connector|sharesdk|isPluginRegisted|sdkv|ssdk_getImageData|objectsValue|raw_data|token|otherURLString|split|curApps|Text|_getShareType|previewimagedata|description|imageArray|imageCount|mqqapi|otherURL|firstURL|_setCurrentUser|new|SSoLogin|getUnionid|QQApiInterface|ssdk_isConnectedPlatformSDK|https|_extensionShareFinish|sourceFile|UnsupportFeature|enableExtensionShare|flags|base64Decode|strs|get|reg|response_data|urlInfo|qzone|Video|Audio|objects|publicItem3|arrayListOfItem3|NS|times|qq_scene|_sharewithoutsdk|_updateUserInfo|cacheDomain|platform_type|authData|authorize|systemVersion|MOBSystemVersion|_ssoAuthorizeWithoutSDK|QQRedirectUri|urlEncode|oauth2|contents|convertUrlEnabled|ssdk_QQExtensionShare|set|support|do|error_description|_handleShareCallbackWithoutSDK|_handleSSOCallbackWithoutSDK|jsonStringToObject|GET|ssdk_callHTTPApi|status_code|query|code|ConvertUrl|AuthType|BackUnionid|toUpperCase|rawNum|Number|_setupApp|UnsupportContentType|unsupported|to|video|library|assets|flashurl|video_flash_url|audio_flash_url|fileData|file_data|valueDic|publicItemBottomFirst|publicItemBottomSeccond|NSMutableDictionary|classname|NSObject|classes|NSArray|publicItem2|publicItem1|publicItem0|class|dic|imagePath|timapi|ssdk_qqShareVideo|_share|level|nickname|currentUser|getCacheData|setCacheData|getUserInfo|getTime|Date|expired|_webAuthorize|timOpensdkSSoLogin|mqqOpensdkSSoLogin|status_version|status_os|status_machine|sdkp|join|response_type|client_id|app_id|MOBDeviceModel|scopesStr|_ssoAuthorize|openmobile|_checkShareUrlScheme|_checkUrlScheme|trim|_checkAppInfoAvailable|Scopes|_checkAuthScopes|objectToJsonString|_isAvailable|_updateCallbackURLSchemes|File|_extensionShare|UnsetURLScheme|did|getting|delete|urlObj|slice|annotation|sourceApplication|exec|RegExp|me|graph|InvalidAuthCallback|invalid|200|UserUnauth|Invalid|headers|method|callApi|get_simple_userinfo|currentApp|SSDK|authType|_type|registerPlatformClass|ssdk_plugin_qq_setup|video_assetURL|Qzone|supported|hasn|iPad|iPadQQ|isPad|audio|news|img|1e5|root|top|NSKeyedArchiver|archiver|NSDictionary|image_data_list|keys|hasOwnProperty|in|ssdk_qqShareAudio|ssdk_qqShareWebpage|ssdk_qqShareImage|ssdk_qqShareText|vip|verify_type|figureurl_2|icon|OAuth2|credentialType|1e3|expires_in|mqq|app_name|ssdk_qqAuth|ssdk_openAuthUrl|redirect_uri|mobile|display|test|m_authorize|ssdk_getDeviceModel|while|parseInt|_isUserAvaliable|convertUrl|createUserByRawData|source_file|MiniProgram|App|after|again|try|Please|because|Can|isMultitaskingSupported|extension_share|list|friend|size|cursor|getFriends|friends|adding|addFriend|cancelAuthorize|unescape|ssdk_qqHandlerShareCallback|handleShareCallback|user_cancelled|ret|ssdk_getDataFromPasteboard|ssdk_qqHandlerSSOCallback|handleSSOCallback|fragment|parseUrlParameters|handleAuthCallback|Authorization|100030|100016|100015|100014|100013|100007|100006|oauth_consumer_key|userInfo|other|InvaildPlatform|congfiguration|unable|add_share|upload_pic|add_topic|get_user_info|isSupportAuth|plat_|saveConfig|arguments|setAppInfo|authStateChanged|preferredLanguageLocalize|back_unionid|qq_share_type|auth_scopes|covert_url|auth_type|app_key|www|auth'.split('|'),0,{}))
+/**
+ * Created with JetBrains WebStorm.
+ * User: fenghj
+ * Date: 15/6/11
+ * Time: 下午3:41
+ * To change this template use File | Settings | File Templates.
+ */
+
+var $pluginID = "com.mob.sharesdk.QQ";
+
+/**
+ * QQ的回调地址
+ * @type {string}
+ */
+var QQRedirectUri = "auth://www.qq.com";
+
+/**
+ * QQ应用信息键名定义
+ * @type {{AppID: "app_id", AppKey: "app_key", AuthType: "auth_type", ConvertUrl: "covert_url"}}
+ */
+var QQAppInfoKeys = {
+    "AppID"         : "app_id",
+    "AppKey"        : "app_key",
+    "AuthType"      : "auth_type",
+    "ConvertUrl"    : "covert_url",
+    "Scopes"        : "auth_scopes",
+    "QQShareType"   : "qq_share_type",
+    "BackUnionid"   : "back_unionid"
+};
+
+/**
+ * QQ场景
+ * @type {{QQFriend: number, QZone: number}}
+ */
+var QQScene = {
+    "QQFriend"      : 0,
+    "QZone"         : 1
+};
+
+/**
+ * QQ分享内容集合
+ * @type {{}}
+ */
+var QQShareContentSet = {};
+
+/**
+ * QQ
+ * @param type  平台类型
+ * @constructor
+ */
+function QQ (type)
+{
+    this._type = type;
+    this._appInfo = {};
+    this._authScopes = null;
+    //当前授权用户
+    this._currentUser = null;
+    this._authUrlScheme = null;
+    this._shareUrlScheme = null;
+    //设置当前语言环境
+    this._currentLanguage = $mob.shareSDK.preferredLanguageLocalize();
+}
+
+/**
+ * 获取平台类型
+ * @returns {*} 平台类型
+ */
+QQ.prototype.type = function ()
+{
+    return this._type;
+};
+
+/**
+ * 授权状态改变
+ * @param sessionId         会话标识
+ * @param data              返回数据
+ * @private
+ */
+QQ.prototype.authStateChanged = function (sessionId, data)
+{
+    $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Cancel, null);
+};
+
+/**
+ * 获取平台名称
+ * @returns {string}    平台名称
+ */
+QQ.prototype.name = function ()
+{
+    return "QQ";
+};
+
+//v4.0.2增加
+//returns {*} true uid = unionid ; false uid = openid
+QQ.prototype.backUnionid = function ()
+{
+    if (this._appInfo[QQAppInfoKeys.BackUnionid] !== undefined) 
+    {
+        return this._appInfo[QQAppInfoKeys.BackUnionid];
+    }
+
+     return false;
+};
+
+/**
+ * 获取应用标识
+ * @returns {*} 应用标识
+ */
+QQ.prototype.appId = function ()
+{
+    if (this._appInfo[QQAppInfoKeys.AppID] !== undefined) 
+    {
+        return this._appInfo[QQAppInfoKeys.AppID];
+    }
+
+    return null;
+};
+
+/**
+ * 获取应用密钥
+ * @returns {*} 应用密钥
+ */
+QQ.prototype.appKey = function ()
+{
+    if (this._appInfo[QQAppInfoKeys.AppKey] !== undefined) 
+    {
+        return this._appInfo[QQAppInfoKeys.AppKey];
+    }
+
+    return null;
+};
+
+/**
+ * 获取授权方式
+ *
+ * @return  web 网页授权方式，sso 单点登录授权方式，both 两者共同使用，优先使用SSO
+ */
+QQ.prototype.authType = function ()
+{
+    if (this._appInfo[QQAppInfoKeys.AuthType] !== undefined) 
+    {
+        return this._appInfo[QQAppInfoKeys.AuthType];
+    }
+
+    return $mob.shareSDK.authType();
+};
+
+//v4.0.0增加
+//授权 分享的 客户端类型 0 = 手Q 1 = TIM
+QQ.prototype.QQShareType = function ()
+{
+    if (this._appInfo[QQAppInfoKeys.QQShareType] !== undefined) 
+    {
+        return this._appInfo[QQAppInfoKeys.QQShareType];
+    }
+
+     return 0;
+};
+
+/**
+ * 获取缓存域名
+ * @returns {string}    域名
+ */
+QQ.prototype.cacheDomain = function ()
+{
+    return "SSDK-Platform-" + $mob.shareSDK.platformType.QQ + "-" + this.appId();
+};
+
+/**
+ * 获取授权方式
+ *
+ * @return  web 网页授权方式，sso 单点登录授权方式，both 两者共同使用，优先使用SSO
+ */
+QQ.prototype.convertUrlEnabled = function ()
+{
+    if (this._appInfo[QQAppInfoKeys.ConvertUrl] !== undefined) 
+    {
+        return this._appInfo[QQAppInfoKeys.ConvertUrl];
+    }
+
+    return $mob.shareSDK.convertUrlEnabled();
+};
+
+/**
+ * 设置/获取应用信息
+ * @param value 应用信息
+ * @returns {*}
+ */
+QQ.prototype.setAppInfo = function (value)
+{
+    if (arguments.length === 0) 
+    { 
+        return this._appInfo;
+    }
+    else
+    {
+        this._appInfo = this._checkAppInfoAvailable(value);
+        this._authScopes = this._checkAuthScopes(value);
+        this._updateCallbackURLSchemes();
+        this._setupApp(this.appId());
+    }
+};
+
+/**
+ * 保存配置信息
+ */
+QQ.prototype.saveConfig = function ()
+{
+    var self = this;
+    var domain = "SSDK-Platform";
+    $mob.ext.getCacheData("currentApp", false, domain, function (data) {
+
+        if (data != null)
+        {
+            var curApps = data.value;
+            if (curApps == null)
+            {
+                curApps = {};
+            }
+
+            curApps["plat_" + self.type()] = self.appId();
+            $mob.ext.setCacheData("currentApp", curApps, false, domain, null);
+        }
+    });
+};
+
+/**
+ * 获取是否支持授权
+ * @returns {boolean} true 支持， false 不支持
+ */
+QQ.prototype.isSupportAuth = function ()
+{
+    return true;
+};
+
+/**
+ * 用户授权
+ * @param sessionId     授权会话标识
+ * @param settings      授权设置
+ */
+QQ.prototype.authorize = function (sessionId, settings)
+{
+    var error = null;
+    if (this._isAvailable())
+    {
+        if (settings == null)
+        {
+            settings = {};
+        }
+
+        if (settings ["scopes"] == null && this._authScopes == null)
+        {
+            //设置默认权限
+            settings ["scopes"] = [
+                "get_simple_userinfo",
+                "get_user_info",
+                "add_topic",
+                "upload_pic",
+                "add_share"
+            ];
+        }
+
+        var self = this;
+        //检测URL Scheme
+        this._checkUrlScheme(function (hasReady, urlScheme){
+
+            if (hasReady)
+            {
+                //进行SSO授权
+                self._ssoAuthorize(sessionId, urlScheme, settings);
+            }
+            else
+            {
+                var error_message = null;
+                                             
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享平台［" + self.name() + "］尚未配置URL Scheme:" + self._authUrlScheme + "，无法进行授权!";
+                }
+                else
+                {
+                    error_message = "Platform［" + self.name() + "］did not set URL Scheme:" + self._authUrlScheme + ",unable to authorize!";
+                }
+
+                var error = {
+                    "error_code" : $mob.shareSDK.errorCode.UnsetURLScheme,
+                    "error_message" : error_message
+                };
+                $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+            }
+        });
+    }
+    else
+    {
+        var error_message = null;
+    
+        if(this._currentLanguage === "zh-Hans")
+        {
+            error_message = "分享平台［" + this.name() + "］应用信息无效!";
+        }
+        else
+        {
+            error_message = "Platform［" + this.name() + "］Invalid congfiguration!";
+        }
+
+        error = {
+            "error_code" : $mob.shareSDK.errorCode.InvaildPlatform,
+            "error_message" : error_message
+        };
+        $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 获取用户信息
+ * @param query         查询信息
+ * @param callback      方法回调
+ */
+QQ.prototype.getUserInfo = function (query, callback)
+{
+    var self = this;
+    this._getCurrentUser(function(user) {
+
+        if (query != null)
+        {
+            var error_message = null;
+ 
+            if(this._currentLanguage === "zh-Hans")
+            {
+                error_message = "分享平台［" + self.name() + "］不支持获取其他用户资料!";
+            }
+            else
+            {
+                error_message = "Platform [" + self.name() + "］do not support getting other's userInfo!";
+            }
+
+            var error = {
+                "error_code" : $mob.shareSDK.errorCode.UnsupportFeature,
+                "error_message" : error_message
+            };
+            if (callback != null)
+            {
+                callback ($mob.shareSDK.responseState.Fail, error);
+            }
+
+            return;
+        }
+
+        self.callApi("https://openmobile.qq.com/user/get_simple_userinfo", "GET", null, null, function (state, data) {
+
+            var resultData = data;
+            if (state === $mob.shareSDK.responseState.Success)
+            {
+                //转换用户数据
+                resultData = {
+                    "platform_type" : $mob.shareSDK.platformType.QZone,
+                    "uid" : user.credential.uid
+                };
+                self._updateUserInfo(resultData, data);
+
+                //如果用户数据和授权用户相同
+                if (resultData["uid"] === user["uid"])
+                {
+                    //将授权凭证赋值给用户信息
+                    resultData["credential"] = user["credential"];
+                }
+            }
+
+            if (callback != null)
+            {
+                callback (state, resultData);
+            }
+        });
+    });
+};
+
+/**
+ * 调用API接口
+ * @param url           接口URL
+ * @param method        请求方式
+ * @param params        请求参数
+ * @param headers       请求头
+ * @param callback      方法回调, 回调方法声明如下:function (state, data);
+ */
+QQ.prototype.callApi = function (url, method, params, headers, callback)
+{
+    //获取当前用户信息
+    var error = null;
+    var self = this;
+    this._getCurrentUser(function (user){
+
+        if (user != null)
+        {
+            if (params == null)
+            {
+                //如果传入空的请求参数则创建一个新参数对象
+                params = {};
+            }
+
+            params["oauth_consumer_key"] = self.appId();
+
+            //将授权用户的授权令牌作为参数进行HTTP请求
+            if (user.credential != null)
+            {
+                params["access_token"] = user.credential.token;
+                params["openid"] = user.credential.raw_data.openid;
+            }
+
+            $mob.ext.ssdk_callHTTPApi($mob.shareSDK.platformType.QZone, null, url, method, params, headers, function (data) {
+
+                if (data != null)
+                {
+                    if (data ["error_code"] != null)
+                    {
+                        //失败
+                        if (callback)
+                        {
+                            callback ($mob.shareSDK.responseState.Fail, data);
+                        }
+                    }
+                    else
+                    {
+                        var response = $mob.utils.jsonStringToObject($mob.utils.base64Decode(data["response_data"]));
+                        if (data ["status_code"] === 200)
+                        {
+                            //成功
+                            if (callback)
+                            {
+                                callback ($mob.shareSDK.responseState.Success, response);
+                            }
+                        }
+                        else
+                        {
+                            //失败
+                            var code = $mob.shareSDK.errorCode.APIRequestFail;
+
+                            //判断是否为尚未授权
+                            switch (response["error_code"])
+                            {
+                                case 100006:
+                                case 100007:
+                                case 100013:
+                                case 100014:
+                                case 100015:
+                                case 100016:
+                                case 100030:
+                                    code = $mob.shareSDK.errorCode.UserUnauth;
+                                    break;
+                            }
+
+                            error = {
+                                "error_code" : code,
+                                "user_data" : response
+                            };
+                            if (callback)
+                            {
+                                callback ($mob.shareSDK.responseState.Fail, error);
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    //失败
+                    error = {
+                        "error_code" : $mob.shareSDK.errorCode.APIRequestFail
+                    };
+                    if (callback)
+                    {
+                        callback ($mob.shareSDK.responseState.Fail, error);
+                    }
+                }
+            });
+        }
+        else
+        {
+            var error_message = null;
+ 
+            if(this._currentLanguage === "zh-Hans")
+            {
+                error_message = "尚未授权[" + self.name() + "]用户";
+            }
+            else
+            {
+                error_message = "Invalid Authorization [" + self.name() + "]";
+            }
+
+            //尚未授权
+            error = {
+                "error_code" : $mob.shareSDK.errorCode.UserUnauth,
+                "error_message" : error_message
+            };
+            if (callback)
+            {
+                callback ($mob.shareSDK.responseState.Fail, error);
+            }
+        }
+    });
+};
+
+
+
+/**
+ * 处理用户授权回调
+ * @param sessionId     授权会话标识
+ * @param callbackUrl   回调地址
+ */
+QQ.prototype.handleAuthCallback = function (sessionId, callbackUrl)
+{
+    var error = null;
+    var error_message;
+    var self = this;
+    var urlInfo = $mob.utils.parseUrl(callbackUrl);
+    if (urlInfo != null && urlInfo.query != null)
+    {
+        var params = $mob.utils.parseUrlParameters(urlInfo.fragment);
+        if (params != null && params.access_token != null)
+        {
+            var getOpenIDParams;
+            if(self.backUnionid())
+            {
+                getOpenIDParams = {
+                    "access_token" : params.access_token,
+                    "unionid" : "1"
+                };
+            }
+            else
+            {
+                getOpenIDParams = {
+                    "access_token" : params.access_token
+                };
+            }
+
+            $mob.ext.ssdk_callHTTPApi($mob.shareSDK.platformType.QZone, null, "https://graph.qq.com/oauth2.0/me", "GET", getOpenIDParams, null, function (data) {
+
+                if (data != null)
+                {
+                    if (data ["error_code"] != null)
+                    {
+                        //失败
+                        $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, data);
+                    }
+                    else if (data ["status_code"] != null && data ["status_code"] === 200)
+                    {
+                        //应该是无效代码
+                        // var callback = function (obj)
+                        // {
+                        //     return obj;
+                        // };
+                        var responseString = $mob.utils.base64Decode(data["response_data"]);
+                        var reg = new RegExp('{[\\s\\S]+}');
+                        var result = reg.exec(responseString);
+                        var response = $mob.utils.jsonStringToObject(result[0]);
+                        if (response.openid != null)
+                        {
+                            //授权成功
+                            if(response.unionid != null)
+                            {
+                                params.unionid = response.unionid; 
+                            }
+                            params["openid"] = response.openid;
+                            self._succeedAuthorize(sessionId, params);
+                        }
+                        else
+                        {
+                            //授权失败
+                            error = {
+                                "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                                "user_data" : response
+                            };
+                            $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+                        }
+                    }
+                    else
+                    {
+                        //失败
+                        error = {
+                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                            "user_data" : data
+                        };
+                        $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+                    }
+                }
+                else
+                {
+                    //失败
+                    error = {
+                        "error_code" : $mob.shareSDK.errorCode.APIRequestFail
+                    };
+                    $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+                }
+            });
+        }
+        else
+        {
+            error_message = null;
+ 
+            if(this._currentLanguage === "zh-Hans")
+            {
+                error_message = "无效的授权回调:[" + callbackUrl + "]";
+            }
+            else
+            {
+                error_message = "invalid callback url:[" + callbackUrl + "]";
+            }
+
+            error = {
+                "error_code" : $mob.shareSDK.errorCode.InvalidAuthCallback,
+                "error_message" : error_message
+            };
+            $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+        }
+    }
+    else
+    {
+        error_message = null;
+ 
+        if(this._currentLanguage === "zh-Hans")
+        {
+            error_message = "无效的授权回调:[" + callbackUrl + "]";
+        }
+        else
+        {
+            error_message = "invalid callback url:[" + callbackUrl + "]";
+        }
+        error = {
+            "error_code" : $mob.shareSDK.errorCode.InvalidAuthCallback,
+            "error_message" : error_message
+        };
+        $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+    }
+};
+
+QQ.prototype.getUnionid = function (sessionId,data)
+{
+    var self = this;
+    var getOpenIDParams = {
+        "access_token" : data.access_token,
+         "unionid" : "1"
+     };
+     $mob.ext.ssdk_callHTTPApi($mob.shareSDK.platformType.QZone, null, "https://graph.qq.com/oauth2.0/me", "GET", getOpenIDParams, null, function (backData) {
+        if (backData != null)
+        {
+            if(backData["response_data"])
+            {
+                var responseString = $mob.utils.base64Decode(backData["response_data"]);
+                var reg = new RegExp('{[\\s\\S]+}');
+                 var result = reg.exec(responseString);
+                 if(result != null)
+                 {
+                    var response = $mob.utils.jsonStringToObject(result[0]);
+                    if(response.unionid != null)
+                    {
+                        data.unionid = response.unionid;
+                        self._succeedAuthorize(sessionId, data);
+                    }
+                    else
+                    {
+                        $mob.native.log("[ShareSDK-WARNING] unionid get error");
+                        $mob.native.log(responseString);
+                        self._succeedAuthorize(sessionId, data);
+                    }
+                }
+                else
+                {
+                    $mob.native.log("[ShareSDK-WARNING] unionid get error");
+                    $mob.native.log(responseString);
+                    self._succeedAuthorize(sessionId, data);
+                }
+            }
+            else
+            {
+                $mob.native.log("[ShareSDK-WARNING] unionid get error");
+                $mob.native.log(backData);
+                self._succeedAuthorize(sessionId, data);
+            }
+        }
+        else
+        {
+            $mob.native.log("[ShareSDK-WARNING] unionid get error");
+            $mob.native.log(backData);
+            self._succeedAuthorize(sessionId, data);
+        }
+    });
+};
+
+/**
+ * 处理SSO授权回调
+ * @param sessionId     会话ID
+ * @param callbackUrl   回调URL
+ * @param sourceApplication     原始应用名称
+ * @param annotation            附加数据
+ */
+QQ.prototype.handleSSOCallback = function (sessionId, callbackUrl, sourceApplication, annotation)
+{
+    var self = this;
+    if (callbackUrl.indexOf(this._authUrlScheme + "://") === 0)
+    {
+        $mob.ext.ssdk_isConnectedPlatformSDK("QQApiInterface",function(data)
+        {
+            if(data.result)
+            {
+                $mob.ext.isPluginRegisted("com.mob.sharesdk.connector.qq", function (data) {
+                    //授权返回的数据
+                    if(data.result)
+                    {
+                        //处理回调
+                        $mob.ext.ssdk_qqHandlerSSOCallback(self.appId(), callbackUrl, function (data) {
+
+                            switch (data.state)
+                            {
+                                case $mob.shareSDK.responseState.Success:
+                                {
+                                    if(self.backUnionid())
+                                    {
+                                        self.getUnionid(sessionId, data.result);
+                                    }
+                                    else
+                                    {
+                                        self._succeedAuthorize(sessionId, data.result);
+                                    }
+                                    break;
+                                }
+                                case $mob.shareSDK.responseState.Fail:
+                                {
+                                    //授权失败
+                                    var error = {
+                                        "error_code" : $mob.shareSDK.errorCode.APIRequestFail
+                                    };
+
+                                    $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error);
+                                    break;
+                                }
+                                default :
+                                    $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Cancel, null);
+                                    break;
+                            }
+
+                        });
+                    }
+                    else
+                    {
+                        self._handleSSOCallbackWithoutSDK(self.appId(), sessionId, callbackUrl);
+                    }
+                });
+            }
+            else
+            {
+                self._handleSSOCallbackWithoutSDK(self.appId(), sessionId, callbackUrl);
+            }
+        });
+        return true;
+    }
+    return false;
+};
+
+QQ.prototype._handleSSOCallbackWithoutSDK = function (appId, sessionId, callbackUrl)
+{
+    var self = this;
+
+    if(callbackUrl.slice(0, "tencent".length) === "tencent")
+    {
+        //获取UIPasteboard取得并解析后的字典数据
+        $mob.ext.ssdk_getDataFromPasteboard(appId, sessionId, callbackUrl,$mob.shareSDK.platformType.QQ,function(data){
+
+            //$mob.native.log("data.retDic.ret " + data.retDic["ret"] + " user_cancelled " + data.retDic["user_cancelled"]);
+
+            if(data.result)
+            {
+                if(data.retDic["ret"] === 0)
+                {
+                    //成功
+                    if(self.backUnionid())
+                    {
+                        self.getUnionid(sessionId, data.retDic);
+                    }
+                    else
+                    {
+                        self._succeedAuthorize(sessionId, data.retDic);
+                    }
+                }
+                else
+                {
+                    if(data.retDic["user_cancelled"] === 0)
+                    {
+                        //失败
+                        $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, data.retDic);
+                    }
+                    else
+                    {
+                        //取消
+                        $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Cancel, data.retDic);
+                    }
+                }
+            }
+        });
+    }
+};
+
+/**
+ * 处理分享回调
+ * @param sessionId     会话ID
+ * @param callbackUrl   回调URL
+ * @param sourceApplication     原始应用名称
+ * @param annotation            附加数据
+ */
+QQ.prototype.handleShareCallback = function (sessionId, callbackUrl, sourceApplication, annotation)
+{
+    var self = this;
+    if (callbackUrl.indexOf(this._authUrlScheme + "://") === 0 || callbackUrl.indexOf(this._shareUrlScheme + "://") === 0)
+    {
+        $mob.ext.ssdk_isConnectedPlatformSDK("QQApiInterface",function(data) {
+
+            if (data.result)
+            {
+                $mob.ext.isPluginRegisted("com.mob.sharesdk.connector.qq", function (data) {
+                    //分享返回的数据
+                    if (data.result)
+                    {
+                        $mob.ext.ssdk_qqHandlerShareCallback(self.appId(), callbackUrl, function (data) {
+
+                            self._getCurrentUser(function (user) {
+
+                                //从分享内容集合中取出分享内容
+                                var shareParams = QQShareContentSet [sessionId];
+                                var content = null;
+                                var userData = null;
+                                if (shareParams != null)
+                                {
+                                    content = shareParams["content"];
+                                    userData = shareParams["user_data"];
+                                }
+
+                                switch (data.state)
+                                {
+                                    case $mob.shareSDK.responseState.Success:
+                                    {
+                                        //转换数据
+                                        var resultData = {};
+                                        resultData["raw_data"] = content;
+                                        resultData["text"] = content["text"];
+
+                                        var urls = [];
+                                        if (content["url"])
+                                        {
+                                            urls.push(content["url"]);
+                                        }
+                                        resultData["urls"] = urls;
+
+                                        if (content ["thumb_image"] != null)
+                                        {
+                                            resultData["images"] = [content ["thumb_image"]];
+                                        }
+                                        else if (content ["image"] != null)
+                                        {
+                                            resultData["images"] = [content ["image"]];
+                                        }
+
+                                        $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Success, resultData, user, userData);
+
+                                        break;
+                                    }
+                                    case $mob.shareSDK.responseState.Fail:
+                                        //失败
+                                        var error = {
+                                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                                            "user_data" :  {"error_code" : data.error_code, "error_message" : data.error_message}
+                                        };
+
+                                        $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error, user, userData);
+                                        break;
+                                    default :
+                                        //取消
+                                        $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Cancel, null, user, userData);
+                                        break;
+                                }
+
+                                //移除分享参数集合中的数据
+                                delete QQShareContentSet[sessionId];
+                                QQShareContentSet[sessionId] = null;
+
+                            });
+                        });
+                    }
+                    else
+                    {
+                        self._handleShareCallbackWithoutSDK(sessionId,callbackUrl);
+                    }
+                });
+            }
+            else
+            {
+                self._handleShareCallbackWithoutSDK(sessionId,callbackUrl);
+            }
+        });
+
+        return true;
+    }
+
+    return false;
+};
+
+QQ.prototype._handleShareCallbackWithoutSDK = function (sessionId, callbackUrl)
+{
+    var self = this;
+    if(callbackUrl.slice(0, "QQ".length) === "QQ")
+    {
+        var parseUrl = {};
+
+        if (callbackUrl.indexOf("?") !== -1)
+        {
+            var urlObj = callbackUrl.split("?");
+            var str = urlObj[1];
+            var strs = str.split("&");
+            for(var i = 0; i < strs.length; i ++) 
+            {
+                parseUrl[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+            }
+        }
+
+        if(parseUrl["error_description"])
+        {
+            //对数据进行base64解码
+            parseUrl["error_description"] = $mob.utils.base64Decode(parseUrl["error_description"]);
+        }
+
+        self._getCurrentUser(function (user) {
+
+            //从分享内容集合中取出分享内容
+            var shareParams = QQShareContentSet [sessionId];
+            var content = null;
+            var userData = null;
+            if (shareParams != null)
+            {
+                content = shareParams["content"];
+                userData = shareParams["user_data"];
+            }
+
+            switch (Number(parseUrl["error"]))
+            {
+                //成功
+                case 0:
+                {
+                    //转换数据
+                    var resultData = {};
+                    resultData["raw_data"] = content;
+                    resultData["text"] = content["text"];
+
+                    var urls = [];
+                    if (content["url"])
+                    {
+                        urls.push(content["url"]);
+                    }
+                    resultData["urls"] = urls;
+
+                    if (content ["thumb_image"] != null)
+                    {
+                        resultData["images"] = [content ["thumb_image"]];
+                    }
+                    else if (content ["image"] != null)
+                    {
+                        resultData["images"] = [content ["image"]];
+                    }
+
+                    $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Success, resultData, user, userData);
+                    break;
+                }
+                //取消
+                case -4:
+                    $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Cancel, null, user, userData);
+                    break;
+                //失败
+                default :
+                    var error = {
+                        "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                        "user_data" :  {"error_code" : parseUrl["error"]},
+                        "error_message" : parseUrl
+                    };
+
+                    $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Fail, error, user, userData);
+                    break;
+            }
+
+            //移除分享参数集合中的数据
+            delete QQShareContentSet[sessionId];
+            QQShareContentSet[sessionId] = null;
+        });
+    }
+};
+
+/**
+ * 取消授权
+ */
+QQ.prototype.cancelAuthorize = function ()
+{
+    this._setCurrentUser(null, null);
+};
+
+/**
+ * 添加好友
+ * @param sessionId     会话标识
+ * @param user          用户信息
+ * @param callback      方法回调，回调方法声明如下:function (stat, data);
+ */
+QQ.prototype.addFriend = function (sessionId, user, callback)
+{
+    var error_message = null;
+    
+    if(this._currentLanguage === "zh-Hans")
+    {
+        error_message = "平台［" + this.name() + "］不支持添加好友方法!";
+    }
+    else
+    {
+        error_message = "Platform［" + this.name() + "］do not support adding friends";
+    }
+
+    var error = {
+        "error_code" : $mob.shareSDK.errorCode.UnsupportFeature,
+        "error_message" : error_message
+    };
+
+    if (callback != null)
+    {
+        callback ($mob.shareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 获取好友列表
+ * @param cursor        分页游标
+ * @param size          分页尺寸
+ * @param callback      方法回调，回调方法声明如下:function (state, data);
+ */
+QQ.prototype.getFriends = function (cursor, size, callback)
+{
+    var error_message = null;
+    
+    if(this._currentLanguage === "zh-Hans")
+    {
+        error_message = "平台［" + this.name() + "不支持获取好友列表方法!";
+    }
+    else
+    {
+        error_message = "Platform［" + this.name() + "］do not support getting friend list";
+    }
+
+    var error = {
+        "error_code" : $mob.shareSDK.errorCode.UnsupportFeature,
+        "error_message" : error_message
+    };
+
+    if (callback != null)
+    {
+        callback ($mob.shareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 分享内容
+ * @param sessionId         会话ID
+ * @param parameters        分享参数
+ * @param callback          方法回调，回调方法声明如下:function (state, data, user, userData);
+ */
+QQ.prototype.share = function (sessionId, parameters, callback)
+{
+    //获取分享统计标识
+    var self = this;
+    //使用系统分享
+    var enableExtensionShare = parameters != null ? parameters ["@extension_share"] : false;
+    self._checkShare(enableExtensionShare,sessionId,parameters,callback)
+};
+
+QQ.prototype._checkShare = function (enableExtensionShare,sessionId, parameters, callback)
+{
+    var self = this;
+     //获取分享统计标识
+    var flags = parameters != null ? parameters ["@flags"] : null;
+    var userData = {
+        "@flags" : flags
+    };
+    if(enableExtensionShare)
+    {
+        self._extensionShare(sessionId, parameters, userData, callback);
+    }
+    else
+    {
+        //检测是否支持多任务
+        $mob.ext.isMultitaskingSupported(function (data){
+
+            if (data.result)
+            {
+                self._checkShareUrlScheme(function (hasReady, urlScheme) {
+
+                    if (hasReady)
+                    {
+                        $mob.ext.ssdk_isConnectedPlatformSDK("QQApiInterface",function(data)
+                        {
+                            if(data.result)
+                            {
+                                $mob.ext.isPluginRegisted("com.mob.sharesdk.connector.qq", function (data) {
+
+                                    if (data.result)
+                                    {
+                                        self._share(sessionId, parameters, userData, callback);
+                                    }
+                                    else
+                                    {
+                                        self._sharewithoutsdk(sessionId, parameters, userData, callback);
+                                    }
+                                });
+                            }
+                            else
+                            {
+                                self._sharewithoutsdk(sessionId, parameters, userData, callback);
+                            }
+                        });
+                    }
+                    else
+                    {
+                        var error_message = null;
+
+                        if(this._currentLanguage === "zh-Hans")
+                        {
+                            error_message = "尚未配置[" + self.name() + "]URL Scheme:" + self._shareUrlScheme + ", 无法进行分享。";
+                        }
+                        else
+                        {
+                            error_message = "Can't share because platform［" + self.name() + "］did not set URL Scheme:" + self._shareUrlScheme + "!Please try again after set URL Scheme!";
+                        }
+
+                        var error = {
+                            "error_code" : $mob.shareSDK.errorCode.UnsetURLScheme,
+                            "error_message" : error_message
+                        };
+                        if (callback != null)
+                        {
+                            callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                        }
+                    }
+                });
+            }
+            else
+            {
+                //返回错误
+                var error = {
+                    "error_code" : $mob.shareSDK.errorCode.UnsupportFeature,
+                    "error_message" : "应用已禁用后台模式，分享平台［" + self.name() + "］无法进行分享! 请在项目设置中开启后台模式后再试!"
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+        });
+    }
+};
+
+QQ.prototype._extensionShare = function (sessionId, parameters, userData, callback)
+{
+    var platformType = null;
+    var scene = parameters ["qq_scene"];
+    if (scene == null)
+    {
+        scene = QQScene.QQFriend;
+    }
+    switch (scene)
+    {
+        case QQScene.QZone:
+            platformType = $mob.shareSDK.platformType.QZone;
+            break;
+        default :
+            platformType = $mob.shareSDK.platformType.QQFriend;
+            break;
+    }
+
+    var type = $mob.shareSDK.getShareParam(platformType, parameters, "type");
+    if (type == null)
+    {
+        type = $mob.shareSDK.contentType.Auto;
+    }
+    if (type === $mob.shareSDK.contentType.Auto)
+    {
+        type =  this._getShareType(parameters, platformType);
+    }
+    var self = this;
+    var resultData;
+    switch (type)
+    {
+        case $mob.shareSDK.contentType.Text:
+        case $mob.shareSDK.contentType.App:
+        case $mob.shareSDK.contentType.Audio:
+        case $mob.shareSDK.contentType.Video:
+        case $mob.shareSDK.contentType.MiniProgram:
+        {
+            self._checkShare(false , sessionId, parameters, callback);
+            break;
+        }
+        case $mob.shareSDK.contentType.Image:
+        {
+            var images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+            if (Object.prototype.toString.apply(images) === '[object Array]')
+            {
+                if(images.length > 9)
+                {
+                    images.length = 9;
+                }
+                else if(images.length === 0)
+                {
+                    images = null;
+                }
+            }
+            //确认至少有一张图片
+            if(images != null)
+            {
+                $mob.ext.ssdk_QQExtensionShare($mob.shareSDK.contentType.Image , images, self.QQShareType(), function (data){
+                    var state = data.state;
+                    if(state != null)
+                    {
+                        resultData= {"platform" : platformType, "scene" : scene, "images" : images};
+                        resultData["images"] = images;
+                        self._extensionShareFinish(state , sessionId , resultData, userData);
+                    }
+                    else
+                    {
+                        self._checkShare(false , sessionId, parameters, callback);
+                    }
+                });
+            }
+            else
+            {
+                self._checkShare(false , sessionId, parameters, callback);
+            }
+            break;
+        }
+        case $mob.shareSDK.contentType.WebPage:
+        {
+            var url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+            if (url != null)
+            {
+                $mob.ext.ssdk_QQExtensionShare($mob.shareSDK.contentType.WebPage , url, self.QQShareType(), function (data){
+                    var state = data.state;
+                    if(state != null)
+                    {
+                        resultData= {"platform" : platformType, "scene" : scene, "url" : url};
+                        resultData["urls"] = [url];
+                        self._extensionShareFinish(state , sessionId , resultData, userData);
+                    }
+                    else
+                    {
+                        self._checkShare(false , sessionId, parameters, callback);
+                    }
+                });
+            }
+            else
+            {
+                self._checkShare(false , sessionId, parameters, callback);
+            }
+            break;
+        }
+        case $mob.shareSDK.contentType.File:
+        {
+            var sourceFile = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+            if (sourceFile != null)
+            {
+                $mob.ext.ssdk_QQExtensionShare($mob.shareSDK.contentType.File , sourceFile, self.QQShareType(), function (data){
+                    var state = data.state;
+                    if(state != null)
+                    {
+                        resultData = {"platform" : platformType, "scene" : scene, "source_file" : sourceFile};
+                        self._extensionShareFinish(state , sessionId , resultData, userData);
+                    }
+                    else
+                    {
+                        self._checkShare(false , sessionId, parameters, callback);
+                    }
+                });
+            }
+            else
+            {
+                self._checkShare(false , sessionId, parameters, callback);
+            }
+            break;
+        }
+        default :
+        {
+            self._checkShare(false , sessionId, parameters, callback);
+            break;
+        }
+    }
+};
+
+QQ.prototype._extensionShareFinish = function (state , sessionId, parameters , userData)
+{
+    var self = this;
+    self._getCurrentUser(function (user) {
+        if(state === $mob.shareSDK.responseState.Cancel)
+        {
+            $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Cancel, null, user, userData);
+        }
+        else // $mob.shareSDK.responseState.Success:
+        {
+            $mob.native.ssdk_shareStateChanged(sessionId, $mob.shareSDK.responseState.Success, parameters, user, userData);
+        }
+    });
+};
+
+/**
+ * 创建用户信息
+ * @param rawData       原始用户数据
+ * @returns {null}      用户数据
+ */
+QQ.prototype.createUserByRawData = function (rawData)
+{
+    //转换用户数据
+    var user = {
+        "platform_type" : this.type()
+    };
+    this._updateUserInfo(user, rawData);
+    return $mob.utils.objectToJsonString(user);
+};
+
+/**
+ * 转换链接
+ * @param contents      内容列表
+ * @param callback      回调
+ * @private
+ */
+QQ.prototype._convertUrl = function (platformType ,contents, callback)
+{
+    if (this.convertUrlEnabled())
+    {
+        this._getCurrentUser(function(user){
+            $mob.shareSDK.convertUrl(platformType, user, contents, callback);
+
+        });
+    }
+    else
+    {
+        if (callback)
+        {
+            callback ({"result" : contents});
+        }
+    }
+};
+
+/**
+ * 用户是否有效
+ * @param user      用户信息
+ * @returns {boolean}   如果授权凭证过期或者不存在则返回false，否则返回true
+ * @private
+ */
+QQ.prototype._isUserAvaliable = function (user)
+{
+
+    return user.credential != null && user.credential.token != null && user.credential.expired > new Date().getTime();
+
+};
+
+/**
+ * 更新回调链接
+ * @private
+ */
+QQ.prototype._updateCallbackURLSchemes = function ()
+{
+    //先删除之前的回调地址
+    this._authUrlScheme = null;
+
+    var appId = this.appId();
+    if (appId != null)
+    {
+        this._authUrlScheme = "tencent" + appId;
+
+        var value = parseInt(this.appId());
+        var str = value.toString(16).toUpperCase();
+        while (str.length < 8)
+        {
+            str = "0" + str;
+        }
+        this._shareUrlScheme = "QQ" + str;
+    }
+};
+
+/**
+ * 检测应用是否有效
+ * @returns {boolean}   true 有效 false 无效
+ * @private
+ */
+QQ.prototype._isAvailable = function ()
+{
+    if (this.appId() != null && this.appKey() != null)
+    {
+        return true;
+    }
+
+    $mob.native.log("[ShareSDK-WARNING] [" + this.name() + "]应用信息有误，不能进行相关操作。请检查本地代码中和服务端的[" + this.name() + "]平台应用配置是否有误! " +
+        "\n配置:" + $mob.utils.objectToJsonString(this._appInfo));
+
+    return false;
+};
+
+/**
+ * 检测应用信息中的授权信息
+ * @param appInfo   应用信息
+ * @private
+ */
+QQ.prototype._checkAuthScopes = function (appInfo)
+{
+    return appInfo [QQAppInfoKeys.Scopes];
+};
+
+/**
+ * 检测应用信息有效性
+ * @param appInfo   应用信息
+ * @private
+ */
+QQ.prototype._checkAppInfoAvailable = function (appInfo)
+{
+    //过滤
+    var appId = $mob.utils.trim(appInfo [QQAppInfoKeys.AppID]);
+    var appKey = $mob.utils.trim(appInfo [QQAppInfoKeys.AppKey]);
+    
+    if (appId != null)
+    {
+        appInfo [QQAppInfoKeys.AppID] = appId;
+    }
+    else
+    {
+        appInfo [QQAppInfoKeys.AppID] = this.appId();
+    }
+    
+    if (appKey != null) 
+    {
+        appInfo [QQAppInfoKeys.AppKey] = appKey;
+    }
+    else
+    {
+        appInfo [QQAppInfoKeys.AppKey] = this.appKey();
+    }
+    
+    return appInfo;
+};
+
+/**
+ * 检测是否配置URL Scheme
+ * @param callback 方法回调
+ * @private
+ */
+QQ.prototype._checkUrlScheme = function (callback)
+{
+    var self = this;
+    $mob.ext.getAppConfig(function (data){
+
+        var urlScheme = null;
+        var warningLog = "";
+        var hasReady = false;
+
+        var callbackScheme = self._authUrlScheme;
+
+        if (data != null && data.CFBundleURLTypes != null)
+        {
+
+            for (var i = 0; i < data.CFBundleURLTypes.length; i++)
+            {
+                var typeObj = data.CFBundleURLTypes [i];
+                if (typeObj != null && typeObj.CFBundleURLSchemes != null)
+                {
+                    for (var j = 0; j < typeObj.CFBundleURLSchemes.length; j++)
+                    {
+                        var schema = typeObj.CFBundleURLSchemes [j];
+                        if (schema === callbackScheme)
+                        {
+                            hasReady = true;
+                            urlScheme = schema;
+                            break;
+                        }
+                    }
+                }
+
+                if (hasReady)
+                {
+                    break;
+                }
+            }
+
+        }
+
+        if (!hasReady)
+        {
+            warningLog = callbackScheme;
+        }
+
+        if (!hasReady)
+        {
+            $mob.native.log("[ShareSDK-WARNING] 尚未配置[" + self.name() + "]URL Scheme:" + warningLog );
+        }
+
+        if (callback != null)
+        {
+            callback (hasReady, urlScheme);
+        }
+
+    });
+};
+
+/**
+ * 检测是否配置URL Scheme
+ * @param callback  方法回调
+ * @private
+ */
+QQ.prototype._checkShareUrlScheme = function (callback)
+{
+    var self = this;
+    $mob.ext.getAppConfig(function (data){
+
+        var urlScheme = null;
+        var warningLog = "";
+        var hasReady = false;
+
+        var callbackScheme = self._shareUrlScheme;
+
+        if (data != null && data.CFBundleURLTypes != null)
+        {
+
+            for (var i = 0; i < data.CFBundleURLTypes.length; i++)
+            {
+                var typeObj = data.CFBundleURLTypes [i];
+                if (typeObj != null && typeObj.CFBundleURLSchemes != null)
+                {
+                    for (var j = 0; j < typeObj.CFBundleURLSchemes.length; j++)
+                    {
+                        var schema = typeObj.CFBundleURLSchemes [j];
+                        if (schema === callbackScheme)
+                        {
+                            hasReady = true;
+                            urlScheme = schema;
+                            break;
+                        }
+                    }
+                }
+
+                if (hasReady)
+                {
+                    break;
+                }
+            }
+        }
+
+        if (!hasReady)
+        {
+            warningLog = callbackScheme;
+        }
+
+        if (!hasReady)
+        {
+            $mob.native.log("[ShareSDK-WARNING] 尚未配置[" + self.name() + "]URL Scheme:" + warningLog + ", 无法进行分享。");
+        }
+
+        if (callback != null)
+        {
+            callback (hasReady, urlScheme);
+        }
+
+    });
+};
+
+/**
+ * 网页授权
+ * @param sessionId     会话标识
+ * @param settings      授权设置
+ * @private
+ */
+QQ.prototype._webAuthorize = function (sessionId, settings)
+{
+    var self = this;
+    $mob.ext.ssdk_getDeviceModel(function (data){
+        var deviceModel = data.deviceModel;
+        $mob.ext.getAppConfig(function (data){
+            var authUrl = "https://openmobile.qq.com/oauth2.0/m_authorize?";
+            authUrl += "state=test&sdkp=i&response_type=token&display=mobile&switch=1&status_version=10";
+            authUrl += "&sdkv=3.2.1";
+            if(deviceModel != null)
+            {
+                authUrl+= "&status_machine="+deviceModel;
+            }
+            if(data != null)
+            {
+                authUrl+= "&status_os="+data.MOBSystemVersion;
+            }
+            authUrl += "&client_id="+self.appId();
+            authUrl += "&redirect_uri="+$mob.utils.urlEncode(QQRedirectUri);
+            if (settings != null && settings ["scopes"] != null && Object.prototype.toString.apply(settings ["scopes"]) === '[object Array]')
+            {
+                authUrl += "&scope=" + $mob.utils.urlEncode(settings ["scopes"].join(","));
+            }
+            else if (self._authScopes != null)
+            {   
+                authUrl += "&scope=" + $mob.utils.urlEncode(self._authScopes);
+            }
+            //打开授权
+            $mob.native.ssdk_openAuthUrl(sessionId, authUrl, QQRedirectUri);
+        });
+    });
+};
+
+/**
+ * SSO授权
+ * @param sessionId     会话标识
+ * @param urlScheme     回调URL Scheme
+ * @param settings      授权设置
+ * @private
+ */
+QQ.prototype._ssoAuthorize = function (sessionId, urlScheme, settings)
+{
+    var self = this;
+
+    $mob.ext.ssdk_isConnectedPlatformSDK("QQApiInterface",function(data)
+    {
+        var scope = null;
+
+        if (settings != null && settings ["scopes"] != null && Object.prototype.toString.apply(settings ["scopes"]) === '[object Array]')
+        {
+            scope = settings ["scopes"];
+        }
+        else if (this._authScopes != null)
+        {
+            var scopesStr = this._authScopes;
+            scope = scopesStr.split(",");
+        }
+
+        if(data.result)
+        {
+            $mob.ext.isPluginRegisted("com.mob.sharesdk.connector.qq", function (data) {
+
+                if (data.result)
+                {
+                    $mob.ext.ssdk_qqAuth(self.appId(), scope, self.QQShareType(), function (data) {
+
+                        if (data.state != null)
+                        {
+                            switch (data.state)
+                            {
+                                case $mob.shareSDK.responseState.Success:
+                                {
+                                    if(self.backUnionid())
+                                    {
+                                        self.getUnionid(sessionId, data.result);
+                                    }
+                                    else
+                                    {
+                                        self._succeedAuthorize(sessionId, data.result);
+                                    }
+                                    break;
+                                }
+                                case $mob.shareSDK.responseState.Fail:
+                                {
+                                    //授权失败
+                                    $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Fail, data.result);
+                                    break;
+                                }
+                                default :
+                                    $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Cancel, null);
+                                    break;
+                            }
+                        }
+                    });
+                }
+                else
+                {
+                    self._ssoAuthorizeWithoutSDK(self.appId(),sessionId, scope , settings);
+                }
+            });
+        }
+        else
+        {
+            self._ssoAuthorizeWithoutSDK(self.appId(),sessionId, scope , settings);
+        }
+    });
+};
+
+QQ.prototype._ssoAuthorizeWithoutSDK = function (appId, sessionId, scope ,settings)
+{
+    var self = this;
+
+    $mob.ext.getAppConfig(function (data){
+
+        var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+        var deviceModel = data.MOBDeviceModel?data.MOBDeviceModel:"";
+        var systemVersion = data.MOBSystemVersion?data.MOBSystemVersion:"";
+        var authData = {
+            "app_id":appId,
+            "app_name":appName,
+            "client_id":appId,
+            "response_type":"token",
+            "scope":scope.join(","),
+            "sdkp" :"i",
+            "sdkv" : "2.9",
+            "status_machine" : deviceModel,
+            "status_os" : systemVersion,
+            "status_version" : systemVersion
+        };
+
+        $mob.ext.canOpenURL("mqq://",function(data){
+            if (data.result)
+            {
+                //模拟的SSO
+                $mob.ext.ssdk_setDataToPasteboard($mob.shareSDK.platformType.QQ, appId, {"type":"authorize","authData":authData} , sessionId, function(data){
+                    if(data.result)
+                    {
+                        var urlstring = "";
+                        var otherURLString = "";
+                        if(self.QQShareType() === 1) //TIM
+                        {
+                            urlstring = "timOpensdkSSoLogin://SSoLogin/tencent" + appId + "/com.tencent.tencent" + appId + "?generalpastboard=1";
+                            otherURLString = "mqqOpensdkSSoLogin://SSoLogin/tencent" + appId + "/com.tencent.tencent" + appId + "?generalpastboard=1";
+                        }
+                        else
+                        {
+                            urlstring = "mqqOpensdkSSoLogin://SSoLogin/tencent" + appId + "/com.tencent.tencent" + appId + "?generalpastboard=1";
+                            otherURLString = "timOpensdkSSoLogin://SSoLogin/tencent" + appId + "/com.tencent.tencent" + appId + "?generalpastboard=1";
+                        }
+                        $mob.ext.canOpenURL(urlstring,function(data){
+                            if (data.result)
+                            {
+                                $mob.native.openURL(urlstring);
+                            }
+                            else
+                            {
+                                $mob.ext.canOpenURL(otherURLString,function(data){
+                                    if (data.result)
+                                    {
+                                        $mob.native.openURL(otherURLString);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+            else
+            {
+                //模拟的网页授权
+                self._webAuthorize(sessionId,settings);
+            }
+        });
+    });
+};
+
+/**
+ * 授权成功
+ * @param sessionId             会话ID
+ * @param credentialRawData     授权凭证原始数据
+ * @private
+ */
+QQ.prototype._succeedAuthorize = function (sessionId, credentialRawData)
+{
+    var self = this;
+    //成功
+    var uid = null;
+    if(self.backUnionid())
+    {
+        uid = credentialRawData['unionid'];
+    }
+    if(uid == null)
+    {
+        uid = credentialRawData['openid'];
+    }
+
+    //成功
+    var credential = {
+        "uid"       : uid,
+        "token"     : credentialRawData["access_token"],
+        "expired"   : (new Date().getTime() +  credentialRawData ["expires_in"] * 1000),
+        "raw_data"  : credentialRawData,
+        "type"      : $mob.shareSDK.credentialType.OAuth2
+    };
+
+    var user = {
+        "platform_type" : $mob.shareSDK.platformType.QQ,
+        "credential" : credential
+    };
+
+    //设置当前授权用户
+    this._setCurrentUser(user, function () {
+
+        //获取用户信息
+        self.getUserInfo(null, function (state, data) {
+
+            if (state === $mob.shareSDK.responseState.Success)
+            {
+                //设置授权凭证给去的用户信息
+                data["credential"] = user["credential"];
+                user = data;
+
+                //重新设置当前用户
+                self._setCurrentUser(user, null);
+            }
+
+            $mob.native.ssdk_authStateChanged(sessionId, $mob.shareSDK.responseState.Success, user);
+        });
+    });
+};
+
+/**
+ * 设置当前用户信息
+ * @param user      用户信息
+ * @param callback  回调方法
+ * @private
+ */
+QQ.prototype._setCurrentUser = function (user, callback)
+{
+    this._currentUser = user;
+
+    var domain = this.cacheDomain();
+    $mob.ext.setCacheData("currentUser", this._currentUser, false, domain, function (data) {
+
+        if (callback != null)
+        {
+            callback ();
+        }
+    });
+};
+
+/**
+ * 获取当前用户信息
+ * @param callback  回调方法
+ * @private
+ */
+QQ.prototype._getCurrentUser = function (callback)
+{
+    if (this._currentUser != null)
+    {
+        if (callback)
+        {
+            callback (this._currentUser);
+        }
+    }
+    else
+    {
+        var self = this;
+        var domain = this.cacheDomain();
+        $mob.ext.getCacheData("currentUser", false, domain, function (data) {
+
+            self._currentUser = data != null ? data.value : null;
+
+            if (callback)
+            {
+                callback (self._currentUser);
+            }
+
+        });
+    }
+};
+
+/**
+ * 更新用户信息
+ * @param user      用户信息
+ * @param rawData   原始数据
+ * @private
+ */
+QQ.prototype._updateUserInfo = function (user, rawData)
+{
+    if (user != null && rawData != null)
+    {
+        user["raw_data"] = rawData;
+        user["nickname"] = rawData["nickname"];
+        user["icon"] = rawData["figureurl_2"];
+
+        //性别
+        var gender = 2;
+        if (rawData["gender"] === "男")
+        {
+            gender = 0;
+        }
+        else if (rawData["gender"] === "女")
+        {
+            gender = 1;
+        }
+        user["gender"] = gender;
+
+        user["verify_type"] = rawData["vip"] ? 1 : 0;
+        user["level"] = rawData["level"];
+    }
+};
+
+/**
+ * 分享内容
+ * @param sessionId         会话标识
+ * @param parameters        分享参数
+ * @param userData          用户自定义数据
+ * @param callback          回调
+ * @private
+ */
+QQ.prototype._share = function (sessionId, parameters, userData, callback)
+{
+    //先判断是否使用客户端分享
+    var text = null;
+    var title = null;
+    var thumbImage = null;
+    var images = null;
+    var url = null;
+    var audioFlashUrl = null;
+    var videoFlashUrl = null;
+    var self = this;
+    var platformType = null;
+    var error = null;
+    var error_message;
+
+    var scene = parameters ["qq_scene"];
+    if (scene == null)
+    {
+        scene = QQScene.QQFriend;
+    }
+
+    switch (scene)
+    {
+        case QQScene.QZone:
+            platformType = $mob.shareSDK.platformType.QZone;
+            break;
+        default :
+            platformType = $mob.shareSDK.platformType.QQFriend;
+            break;
+    }
+
+    var type = $mob.shareSDK.getShareParam(platformType, parameters, "type");
+    if (type == null)
+    {
+        type = $mob.shareSDK.contentType.Auto;
+    }
+    if (type === $mob.shareSDK.contentType.Auto)
+    {
+        type =  this._getShareType(parameters, platformType);
+    }
+
+    switch (type)
+    {
+        case $mob.shareSDK.contentType.Text:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            if (text != null)
+            {
+                this._convertUrl(platformType ,[text], function (data) {
+
+                    text = data.result[0];
+                    $mob.ext.ssdk_qqShareText(self.appId(), scene, text, self.QQShareType(), function (data) {
+
+                        if (data.error_code != null)
+                        {
+                            if (callback != null)
+                            {
+                                callback ($mob.shareSDK.responseState.Fail, data, null, userData);
+                            }
+                        }
+                        else
+                        {
+                            //调用成功后不回调，等待微信客户端回调时再触发
+                            //记录分享内容
+                            var shareParams = {"platform" : platformType, "text" : text};
+                            QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+                        }
+                    });
+                });
+            }
+            else
+            {
+                error_message = null;
+                
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数text不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param text can not be nil!";
+                }
+
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        case $mob.shareSDK.contentType.Image:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            var image = null;
+
+            images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+            if (Object.prototype.toString.apply(images) === '[object Array]')
+            {
+                //取第一张图片进行分享
+                image = images [0];
+            }
+
+            if (images != null)
+            {
+                this._convertUrl(platformType , [text], function (data) {
+
+                    text = data.result[0];
+
+                    $mob.ext.ssdk_qqShareImage(self.appId(), scene, title, text, thumbImage, images, self.QQShareType(), function (data){
+
+                        if (data.error_code != null)
+                        {
+                            if (callback != null)
+                            {
+                                callback ($mob.shareSDK.responseState.Fail, data, null, userData);
+                            }
+                        }
+                        else
+                        {
+                            //调用成功后不回调，等待QQ客户端回调时再触发
+                            //记录分享内容
+                                               
+                            var shareParams = {};
+                            if (scene === QQScene.QQFriend)
+                            {
+                                shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : image};
+                            }
+                            else
+                            {
+                                shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : images};
+                            }
+                                               
+                            QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+                        }
+                    });
+                });
+            }
+            else
+            {
+                error_message = null;
+                
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数image不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param image can not be nil!";
+                }
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        case  $mob.shareSDK.contentType.WebPage:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            if (thumbImage == null)
+            {
+                images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+                if (Object.prototype.toString.apply(images) === '[object Array]')
+                {
+                    //取第一张图片进行分享
+                    thumbImage = images [0];
+                }
+            }
+
+            url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+
+            if (title != null && thumbImage != null && url != null)
+            {
+                this._convertUrl(platformType , [text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    $mob.ext.ssdk_qqShareWebpage(self.appId(), scene, title, text, thumbImage, url, self.QQShareType(), function (data) {
+
+                        if (data.error_code != null)
+                        {
+                            if (callback != null)
+                            {
+                                callback ($mob.shareSDK.responseState.Fail, data, null, userData);
+                            }
+                        }
+                        else
+                        {
+                            //调用成功后不回调，等待微信客户端回调时再触发
+                            //记录分享内容
+                            var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                            QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+                        }
+                    });
+                });
+            }
+            else
+            {
+                error_message = null;
+                
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数title、thumbImage、url不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param title、thumbImage、url can not be nil!";
+                }
+
+                error =
+                {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        case $mob.shareSDK.contentType.Audio:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            if (thumbImage == null)
+            {
+                images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+                if (Object.prototype.toString.apply(images) === '[object Array]')
+                {
+                    //取第一张图片进行分享
+                    thumbImage = images [0];
+                }
+            }
+
+            url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+            audioFlashUrl = $mob.shareSDK.getShareParam(platformType, parameters, "audio_flash_url");
+
+            if (title != null && thumbImage != null && url != null)
+            {
+                this._convertUrl(platformType , [text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    $mob.ext.ssdk_qqShareAudio(self.appId(), scene, title, text, thumbImage, url, audioFlashUrl, self.QQShareType(), function (data) {
+
+                        if (data.error_code != null)
+                        {
+                            if (callback != null)
+                            {
+                                callback ($mob.shareSDK.responseState.Fail, data, null, userData);
+                            }
+                        }
+                        else
+                        {
+                            //调用成功后不回调，等待微信客户端回调时再触发
+                            //记录分享内容
+                            var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                            QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+                        }
+                    });
+                });
+            }
+            else
+            {
+                error_message = null;
+                
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数title、thumbImage、url不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param title、thumbImage、url can not be nil!";
+                }
+
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        case $mob.shareSDK.contentType.Video:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            if (thumbImage == null)
+            {
+                images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+                if (Object.prototype.toString.apply(images) === '[object Array]')
+                {
+                    //取第一张图片进行分享
+                    thumbImage = images [0];
+                }
+            }
+
+            url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+            videoFlashUrl = $mob.shareSDK.getShareParam(platformType, parameters, "video_flash_url");
+
+            if (title != null && thumbImage != null && url != null)
+            {
+                this._convertUrl(platformType , [text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    $mob.ext.ssdk_qqShareVideo(self.appId(), scene, title, text, thumbImage, url, videoFlashUrl, self.QQShareType(), function (data) {
+
+                        if (data.error_code != null)
+                        {
+                            if (callback != null)
+                            {
+                                callback ($mob.shareSDK.responseState.Fail, data, null, userData);
+                            }
+                        }
+                        else
+                        {
+                            //调用成功后不回调，等待微信客户端回调时再触发
+                            //记录分享内容
+                            var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                            QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+                        }
+                    });
+                });
+            }
+            else if(url != null && url.indexOf("assets-library://") === 0 && scene === QQScene.QZone)  
+            {
+                //如果url为本地相册视频(QQ空间分享的新功能),那么是可以不需要thumbImage或者title的
+                this._convertUrl(platformType ,[text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    $mob.ext.ssdk_qqShareVideo(self.appId(), scene, title, text, null, url, videoFlashUrl, self.QQShareType(), function (data) {
+
+                        if (data.error_code != null)
+                        {
+                            if (callback != null)
+                            {
+                                callback ($mob.shareSDK.responseState.Fail, data, null, userData);
+                            }
+                        }
+                        else
+                        {
+                            //调用成功后不回调，等待微信客户端回调时再触发
+                            //记录分享内容
+                            var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                            QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+                        }
+                    });
+                });
+            }
+            else 
+            {
+
+                error_message = null;
+                
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数title、thumbImage、url不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param title、thumbImage、url can not be nil!";
+                }
+
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        default :
+        {
+            error_message = null;
+            
+            if(this._currentLanguage === "zh-Hans")
+            {
+                error_message = "不支持的分享类型[" + type + "]";
+            }
+            else
+            {
+                error_message = "unsupported share type [" + type + "]";
+            }
+
+            error = {
+                "error_code" : $mob.shareSDK.errorCode.UnsupportContentType,
+                "error_message" : error_message
+            };
+
+            if (callback != null)
+            {
+                callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+            }
+            break;
+        }
+    }
+};
+
+QQ.prototype._checkShareType = function(callback)
+{
+    var self = this;
+    var firstURL = "mqqapi://";
+    var otherURL = "timapi://";
+
+    if(self.QQShareType() === 1)//TIM
+    {
+        firstURL = "timapi://";
+        otherURL = "mqqapi://";
+    }
+    $mob.ext.canOpenURL(firstURL,function(data){
+        if (data.result)
+        {
+            callback(firstURL);
+        }
+        else
+        {
+            $mob.ext.canOpenURL(otherURL,function(data){
+                if (data.result)
+                {
+                    callback(otherURL);
+                }
+                else
+                {
+                    callback("mqqapi://");
+                }
+            });
+        }
+    });
+};
+
+QQ.prototype._sharewithoutsdk = function (sessionId, parameters, userData, callback)
+{
+    //先判断是否使用客户端分享
+    var text = null;
+    var title = null;
+    var thumbImage = null;
+    var images = null;
+    var url = null;
+    var audioFlashUrl = null;
+    var videoFlashUrl = null;
+    var self = this;
+    var platformType = null;
+    var error = null;
+    var shareParameter = {};
+    var error_message;
+
+    var scene = parameters ["qq_scene"];
+    if (scene == null)
+    {
+        scene = QQScene.QQFriend;
+    }
+
+    switch (scene)
+    {
+        case QQScene.QZone:
+            platformType = $mob.shareSDK.platformType.QZone;
+            break;
+        default :
+            platformType = $mob.shareSDK.platformType.QQFriend;
+            break;
+    }
+
+    var type = $mob.shareSDK.getShareParam(platformType, parameters, "type");
+    if (type == null)
+    {
+        type = $mob.shareSDK.contentType.Auto;
+    }
+    if (type === $mob.shareSDK.contentType.Auto)
+    {
+        type =  this._getShareType(parameters, platformType);
+    }
+
+    switch (type)
+    {
+        case $mob.shareSDK.contentType.Text:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+
+            if (text != null)
+            {
+                //记录分享内容
+                var shareParams = {"platform" : platformType, "text" : text};
+                QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                this._convertUrl(platformType ,[text], function (data) {
+                    text = data.result[0];
+                    if(platformType === $mob.shareSDK.platformType.QZone)
+                    {
+                        $mob.ext.getAppConfig(function (data){
+
+                            //构造链接
+                            var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                            var callbackName = self._getFormatNum(self.appId());
+                            var urlstring = "share/to_fri?thirdAppDisplayName=" + 
+                                    $mob.utils.base64Encode(utf16to8(appName)) + 
+                                    "&shareType=1&objectlocation=pasteboard&file_type=qzone&callback_name=" + 
+                                    "QQ" + 
+                                    callbackName + 
+                                    "&src_type=app&version=1&cflag=0&callback_type=scheme&generalpastboard=1&sdkv=3.1";
+                            
+                            self._checkShareType(function(urlProtocol){
+                                urlstring = urlProtocol + urlstring + "&title=" + $mob.utils.base64Encode(utf16to8(text));
+                                $mob.ext.canOpenURL(urlstring,function(data){
+                                                    
+                                    if (data.result)
+                                    {
+                                        $mob.native.openURL(urlstring);
+                                    }
+                                    else
+                                    {
+                                        var error_message = "qq版本过低无法进行分享";
+                                        error = {
+                                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                                            "error_message" : error_message
+                                        };
+
+                                        if (callback != null)
+                                        {
+                                            callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                                        }
+                                    }
+                                });
+                            });
+                        });
+                    }
+                    else
+                    {
+                        $mob.ext.getAppConfig(function (data){
+
+                            //构造链接
+                            var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                            var callbackName = self._getFormatNum(self.appId());
+                            var urlstring = "share/to_fri?thirdAppDisplayName=" + 
+                                $mob.utils.base64Encode(utf16to8(appName)) + 
+                                "&version=1&cflag=0&callback_type=scheme&generalpastboard=1&callback_name=" + 
+                                "QQ" + 
+                                callbackName + 
+                                "&src_type=app&shareType=0&file_type=";
+                            
+                            
+                            self._checkShareType(function(urlProtocol){
+                                urlstring = urlProtocol + urlstring + "text&file_data=" + $mob.utils.base64Encode(utf16to8(text));
+                                $mob.ext.canOpenURL(urlstring,function(data){
+                                    if (data.result)
+                                    {
+                                        $mob.native.openURL(urlstring);
+                                    }
+                                    else
+                                    {
+                                        var error_message = "qq版本过低无法进行分享";
+                                            error = {
+                                                "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                                                "error_message" : error_message
+                                            };
+
+                                            if (callback != null)
+                                            {
+                                                callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                                            }
+                                    }
+                                });
+                            });
+                        });
+                    }
+                });
+            }
+            else
+            {
+                error_message = null;
+
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数text不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param text can not be nil!";
+                }
+
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        case $mob.shareSDK.contentType.Image:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            var image = null;
+
+            images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+
+            if (Object.prototype.toString.apply(images) === '[object Array]')
+            {
+                //分享到QQ好友，取第一张图片进行分享。
+                image = images [0];
+            }
+
+            if (images != null)
+            {
+                this._convertUrl(platformType ,[text], function (data) {
+
+                    text = data.result[0];
+
+                    //记录分享内容
+                    var shareParams = {};
+                    if (scene === QQScene.QQFriend)
+                    {
+                        shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : image};
+                    }
+                    else
+                    {
+                        shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : images};
+                    }
+
+                    QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                    if(platformType === $mob.shareSDK.platformType.QZone)
+                    {
+                        $mob.ext.getAppConfig(function (data){
+
+                                    //构造链接
+                                    var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                                    var callbackName = self._getFormatNum(self.appId());
+                                    var urlstring = "share/to_fri?thirdAppDisplayName=" + 
+                                        $mob.utils.base64Encode(utf16to8(appName)) + 
+                                        "&shareType=1&objectlocation=pasteboard&file_type=qzone&callback_name=" + 
+                                        "QQ" + 
+                                        callbackName + 
+                                        "&src_type=app&version=1&cflag=0&callback_type=scheme&generalpastboard=1&sdkv=3.1";
+
+                                    self._checkShareType(function(urlProtocol){
+                                        urlstring = urlProtocol + urlstring;
+                                        if(text)
+                                        {
+                                            urlstring = urlstring + "&title=" + $mob.utils.base64Encode(utf16to8(text));
+                                        }
+                                        if(images.length > 0)
+                                        {
+                                            var times = 0;
+                                            var imageArray = [];
+                                            for (var k in images)
+                                            {
+                                                if(images.hasOwnProperty(k))
+                                                {
+                                                    var imagePath = images[k];
+                                                    $mob.ext.ssdk_getImageData(imagePath,null,$mob.shareSDK.platformType.QQ,function(data)
+                                                    {
+                                                        times++;
+
+                                                        if(data.returnData["image"])
+                                                        {
+                                                            imageArray.push(data.returnData["image"]);
+                                                        }
+
+                                                        if(times === images.length)
+                                                        {
+                                                            var objectsValue = [];
+                                                            var imageCount = imageArray.length;
+                                                            var publicItem0 = "$null";
+                                                            var publicItem1 = {
+                                                                "$class" : {"CF$UID" : (imageCount + 5)},
+                                                                "NS.keys" : [{"CF$UID" : 2}],
+                                                                "NS.objects" : [{"CF$UID" : 3}]};
+                                                            var publicItem2 = "image_data_list";
+                                                            var publicItem3 = {};
+                                                            var arrayListOfItem3 = [];
+                                                            for (var i = 0; i < imageCount; i++)
+                                                            {
+                                                                var dic = {"CF$UID" : (i + 4)};
+                                                                arrayListOfItem3.push(dic);
+                                                            }
+                                                            publicItem3 = {
+                                                                "$class" : {"CF$UID" : (imageCount + 4)},
+                                                                "NS.objects" : arrayListOfItem3};
+                                                            objectsValue.push(publicItem0,publicItem1,publicItem2,publicItem3);
+
+                                                            //添加所有图片
+                                                            objectsValue.push(imageArray);
+
+                                                            //倒数第一，第二个Item为固定内容
+                                                            var publicItemBottomSeccond = {
+                                                                "$classes" : ["NSArray","NSObject"],
+                                                                "$classname" : "NSArray"};
+
+                                                            var publicItemBottomFirst = {
+                                                                "$classes" : ["NSMutableDictionary","NSDictionary","NSObject"],
+                                                                "$classname" : "NSMutableDictionary"};
+                                                            objectsValue.push(publicItemBottomSeccond,publicItemBottomFirst);
+
+                                                            var valueDic = {"$archiver" : "NSKeyedArchiver",
+                                                                "$objects" : objectsValue,
+                                                                "$top" : {"root" : {"CF$UID" : 1}},
+                                                                "$version" : 100000};
+
+                                                            //数据传递给UIPasteboard
+                                                            $mob.ext.ssdk_setDataToPasteboard($mob.shareSDK.platformType.QQ , self.appId(), valueDic , sessionId,function(data){
+                                                                if(data.result)
+                                                                {
+                                                                    $mob.ext.canOpenURL(urlstring,function(data){
+                                                                        if (data.result)
+                                                                        {
+                                                                            //记录分享内容
+                                                                            var shareParams = {};
+                                                                            if (scene === QQScene.QQFriend)
+                                                                            {
+                                                                                shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : image};
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : images};
+                                                                            }
+
+                                                                            QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                                                                            //$mob.native.log("urlstring " + urlstring);
+                                                                            $mob.native.openURL(urlstring);
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            var error_message = "qq版本过低无法进行分享";
+                                                                            error = {
+                                                                                "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                                                                                "error_message" : error_message
+                                                                            };
+
+                                                                            if (callback != null)
+                                                                            {
+                                                                                callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                                                                            }
+                                                                        }
+                                                                    });
+                                                                }
+                                                            });
+                                                        }
+                                                    });
+
+                                                }
+                                            }
+                                        }
+                                    });
+                                });
+                    }
+                    else
+                    {
+                        $mob.ext.getAppConfig(function (data){
+
+                            //构造链接
+                            var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                            var callbackName = self._getFormatNum(self.appId());
+                            var urlstring = "share/to_fri?thirdAppDisplayName=" + 
+                                $mob.utils.base64Encode(utf16to8(appName)) + 
+                                "&version=1&cflag=0&callback_type=scheme&generalpastboard=1&callback_name=" + 
+                                "QQ" + 
+                                callbackName + 
+                                "&src_type=app&shareType=0&file_type=";
+
+                            self._checkShareType(function(urlProtocol){
+
+                                urlstring = urlProtocol + urlstring + "img&title=" + $mob.utils.base64Encode(utf16to8(title?title:"")) + 
+                                "&objectlocation=pasteboard&description=" + $mob.utils.base64Encode(utf16to8(text?text:""));
+
+                                $mob.ext.ssdk_getImageData(image,thumbImage,$mob.shareSDK.platformType.QQ,function(data) {
+
+                                    if (data.result)
+                                    {
+                                        //图片
+                                        shareParameter["fileData"] = data.returnData["image"];
+                                        shareParameter["thumbData"] = data.returnData["thumbImage"];
+
+                                        var shareData = {"file_data":shareParameter["fileData"],"previewimagedata":shareParameter["thumbData"]};
+
+                                        //数据传递给UIPasteboard
+                                        $mob.ext.ssdk_setDataToPasteboard($mob.shareSDK.platformType.QQ , self.appId(), shareData , sessionId,function(data){
+                                            if(data.result)
+                                            {
+                                                $mob.ext.canOpenURL(urlstring,function(data){
+                                                    if (data.result)
+                                                    {
+                                                        //记录分享内容
+                                                        var shareParams = {};
+                                                        if (scene === QQScene.QQFriend)
+                                                        {
+                                                            shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : image};
+                                                        }
+                                                        else
+                                                        {
+                                                            shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "image" : images};
+                                                        }
+
+                                                        QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                                                        //$mob.native.log("urlstring " + urlstring);
+                                                        $mob.native.openURL(urlstring);
+                                                    }
+                                                    else
+                                                    {
+                                                    	var error_message = "qq版本过低无法进行分享";
+				                                        error = {
+				                                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+				                                            "error_message" : error_message
+				                                        };
+
+				                                        if (callback != null)
+				                                        {
+				                                            callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+				                                        }
+                                                    }
+                                                });
+                                            }
+                                        });
+                                    }
+                                });
+                            });
+                        });
+                    }
+                });
+            }
+            else
+            {
+                error_message = null;
+
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数image不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param image can not be nil!";
+                }
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+            break;
+        }
+        case  $mob.shareSDK.contentType.WebPage:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            if (thumbImage == null)
+            {
+                images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+                if (Object.prototype.toString.apply(images) === '[object Array]')
+                {
+                    //取第一张图片进行分享
+                    thumbImage = images [0];
+                }
+            }
+
+            url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+
+            if (title != null && thumbImage != null && url != null)
+            {
+                this._convertUrl(platformType ,[text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    //记录分享内容
+                    var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                    QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                    $mob.ext.getAppConfig(function (data){
+
+                        //构造链接
+                        var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                        var callbackName = self._getFormatNum(self.appId());
+
+                        self._checkShareType(function(urlProtocol){
+                            var urlstring = "share/to_fri?thirdAppDisplayName=" + $mob.utils.base64Encode(utf16to8(appName)) + 
+                            "&version=1&cflag=";
+                            switch (scene)
+                            {
+                                case QQScene.QZone:
+                                    urlstring = urlstring + 1;
+                                    break;
+                                default :
+                                    urlstring = urlstring + 0;
+                                    break;
+                            }
+                            urlstring = urlProtocol + urlstring + "&callback_type=scheme&generalpastboard=1&callback_name=QQ" + callbackName + 
+                                "&src_type=app&shareType=0&file_type=";
+
+                            urlstring = urlstring + 
+                                "news&title=" + $mob.utils.base64Encode(utf16to8(title?title:"")) + 
+                                "&url=" + $mob.utils.base64Encode(utf16to8(url?url:"")) + 
+                                "&description=" + $mob.utils.base64Encode(utf16to8(text?text:""))+"&objectlocation=pasteboard";
+
+                            $mob.ext.ssdk_getImageData(null,thumbImage,$mob.shareSDK.platformType.QQ,function(data) {
+
+                                if (data.result)
+                                {
+                                    //图片
+                                    //shareParameter["fileData"] = data.returnData["image"];
+                                    shareParameter["thumbData"] = data.returnData["thumbImage"];
+
+                                    var shareData = {"previewimagedata":shareParameter["thumbData"]};
+
+                                    //数据传递给UIPasteboard
+                                    $mob.ext.ssdk_setDataToPasteboard($mob.shareSDK.platformType.QQ , self.appId(), shareData , sessionId,function(data){
+                                        if(data.result)
+                                        {
+                                            $mob.ext.canOpenURL(urlstring,function(data){
+                                                if (data.result)
+                                                {
+                                                    //记录分享内容
+                                                    var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                                                    QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                                                    //$mob.native.log("urlstring " + urlstring);
+                                                    $mob.native.openURL(urlstring);
+                                                }
+                                                else
+                                                {
+                                                	var error_message = "qq版本过低无法进行分享";
+			                                        error = {
+			                                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+			                                            "error_message" : error_message
+			                                        };
+
+			                                        if (callback != null)
+			                                        {
+			                                            callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+			                                        }
+                                                }
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        });
+                    });
+                });
+            }
+            else
+            {
+                error_message = null;
+
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数title、thumbImage、url不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param title、thumbImage、url can not be nil!";
+                }
+
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        case $mob.shareSDK.contentType.Audio:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            if (thumbImage == null)
+            {
+                images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+                if (Object.prototype.toString.apply(images) === '[object Array]')
+                {
+                    //取第一张图片进行分享
+                    thumbImage = images [0];
+                }
+            }
+
+            url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+            audioFlashUrl = $mob.shareSDK.getShareParam(platformType, parameters, "audio_flash_url");
+
+            if (title != null && thumbImage != null && url != null)
+            {
+                this._convertUrl(platformType ,[text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    //记录分享内容
+                    var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                    QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                    $mob.ext.getAppConfig(function (data){
+
+                        //构造链接
+                        var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                        var callbackName = self._getFormatNum(self.appId());
+
+                        self._checkShareType(function(urlProtocol){
+                            var urlstring = "share/to_fri?thirdAppDisplayName=" + $mob.utils.base64Encode(utf16to8(appName)) + 
+                            "&version=1&cflag=";
+                            switch (scene)
+                            {
+                                case QQScene.QZone:
+                                    urlstring = urlstring + 1;
+                                    break;
+                                default :
+                                    urlstring = urlstring + 0;
+                                    break;
+                            }
+                            urlstring = urlProtocol + urlstring + "&callback_type=scheme&generalpastboard=1&callback_name=QQ" + callbackName + 
+                                "&src_type=app&shareType=0&file_type=";
+
+                            urlstring = urlstring + 
+                                "audio&title=" + $mob.utils.base64Encode(utf16to8(title?title:"")) + 
+                                "&url=" + $mob.utils.base64Encode(utf16to8(url?url:"")) + 
+                                "&description=" + $mob.utils.base64Encode(utf16to8(text?text:""))+"&objectlocation=pasteboard";
+
+                            if(audioFlashUrl)
+                            {
+                                urlstring = urlstring + "&flashurl=" + $mob.utils.base64Encode(utf16to8(audioFlashUrl?audioFlashUrl:""));
+                            }
+
+                            $mob.ext.ssdk_getImageData(null,thumbImage,$mob.shareSDK.platformType.QQ,function(data) {
+
+                                if (data.result)
+                                {
+                                    //图片
+                                    //shareParameter["fileData"] = data.returnData["image"];
+                                    shareParameter["thumbData"] = data.returnData["thumbImage"];
+
+                                    var shareData = {"previewimagedata":shareParameter["thumbData"]};
+
+                                    //数据传递给UIPasteboard
+                                    $mob.ext.ssdk_setDataToPasteboard($mob.shareSDK.platformType.QQ , self.appId(), shareData , sessionId,function(data){
+                                        if(data.result)
+                                        {
+                                            $mob.ext.canOpenURL(urlstring,function(data){
+                                                if (data.result)
+                                                {
+                                                    //记录分享内容
+                                                    var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                                                    QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                                                    //$mob.native.log("urlstring " + urlstring);
+                                                    $mob.native.openURL(urlstring);
+                                                }
+                                                else
+                                                {
+                                                	var error_message = "qq版本过低无法进行分享";
+			                                        error = {
+			                                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+			                                            "error_message" : error_message
+			                                        };
+
+			                                        if (callback != null)
+			                                        {
+			                                            callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+			                                        }
+                                                }
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        });
+                        
+                    });
+                });
+            }
+            else
+            {
+                error_message = null;
+
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数title、thumbImage、url不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param title、thumbImage、url can not be nil!";
+                }
+
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        case $mob.shareSDK.contentType.Video:
+        {
+            text = $mob.shareSDK.getShareParam(platformType, parameters, "text");
+            title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+
+            thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+            if (thumbImage == null)
+            {
+                images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+                if (Object.prototype.toString.apply(images) === '[object Array]')
+                {
+                    //取第一张图片进行分享
+                    thumbImage = images [0];
+                }
+            }
+
+            url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+            videoFlashUrl = $mob.shareSDK.getShareParam(platformType, parameters, "video_flash_url");
+
+            if (title != null && thumbImage != null && url != null)
+            {
+                this._convertUrl(platformType ,[text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    //记录分享内容
+                    var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                    QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                    $mob.ext.getAppConfig(function (data){
+
+                        //构造链接
+                        var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                        var callbackName = self._getFormatNum(self.appId());
+
+                        self._checkShareType(function(urlProtocol){
+
+                            var urlstring = "share/to_fri?thirdAppDisplayName=" + $mob.utils.base64Encode(utf16to8(appName)) + 
+                            "&version=1&cflag=";
+                            switch (scene)
+                            {
+                                case QQScene.QZone:
+                                    urlstring = urlstring + 1;
+                                    break;
+                                default :
+                                    urlstring = urlstring + 0;
+                                    break;
+                            }
+                            urlstring = urlProtocol + urlstring + "&callback_type=scheme&generalpastboard=1&callback_name=QQ" + callbackName + 
+                                "&src_type=app&shareType=0&file_type=";
+
+                            urlstring = urlstring + 
+                                "video&title=" + $mob.utils.base64Encode(utf16to8(title?title:"")) + 
+                                "&url=" + $mob.utils.base64Encode(utf16to8(url?url:"")) + 
+                                "&description=" + $mob.utils.base64Encode(utf16to8(text?text:""))+"&objectlocation=pasteboard";
+
+                            if(videoFlashUrl)
+                            {
+                                urlstring = urlstring + "&flashurl=" + $mob.utils.base64Encode(utf16to8(videoFlashUrl?videoFlashUrl:""));
+                            }
+
+                            $mob.ext.ssdk_getImageData(null,thumbImage,$mob.shareSDK.platformType.QQ,function(data) {
+
+                                if (data.result)
+                                {
+                                    //图片
+                                    //shareParameter["fileData"] = data.returnData["image"];
+                                    shareParameter["thumbData"] = data.returnData["thumbImage"];
+
+                                    var shareData = {"previewimagedata":shareParameter["thumbData"]};
+
+                                    //数据传递给UIPasteboard
+                                    $mob.ext.ssdk_setDataToPasteboard($mob.shareSDK.platformType.QQ , self.appId(), shareData , sessionId,function(data){
+                                        if(data.result)
+                                        {
+                                            $mob.ext.canOpenURL(urlstring,function(data){
+                                                if (data.result)
+                                                {
+                                                    //记录分享内容
+                                                    var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                                                    QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                                                    //$mob.native.log("urlstring " + urlstring);
+                                                    $mob.native.openURL(urlstring);
+                                                }
+                                                else
+                                                {
+                                                	var error_message = "qq版本过低无法进行分享";
+			                                        error = {
+			                                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+			                                            "error_message" : error_message
+			                                        };
+
+			                                        if (callback != null)
+			                                        {
+			                                            callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+			                                        }
+                                                }
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        });
+                    });
+                });
+            }
+            else if(url != null && url.indexOf("assets-library://") === 0 && scene === QQScene.QZone)
+            {
+                //如果url为本地相册视频(QQ空间分享的新功能),那么是可以不需要thumbImage或者title的
+                this._convertUrl(platformType ,[text, url], function (data) {
+
+                    text = data.result[0];
+                    url = data.result[1];
+
+                    if(platformType === $mob.shareSDK.platformType.QZone)
+                    {
+                        $mob.ext.isPad(function (data){
+
+                            //iPad
+                            if (data.result)
+                            {
+                                var error_message = null;
+
+                                if(this._currentLanguage === "zh-Hans")
+                                {
+                                    error_message = "iPadQQ暂不支持分享本地视频到空间!";
+                                }
+                                else
+                                {
+                                    error_message = "QQ for iPad hasn't supported share video to Qzone!";
+                                }
+
+                                error = {
+                                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                                    "error_message" : error_message
+                                };
+
+                                if (callback != null)
+                                {
+                                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                                }
+                            }
+                            else
+                            {
+                                $mob.ext.getAppConfig(function (data){
+
+                                    //构造链接
+                                    var appName = data.CFBundleDisplayName?data.CFBundleDisplayName:"";
+                                    var callbackName = self._getFormatNum(self.appId());
+
+                                    self._checkShareType(function(urlProtocol){
+                                        var urlstring = "share/to_fri?thirdAppDisplayName=" + $mob.utils.base64Encode(utf16to8(appName)) + 
+                                        "&file_type=qzone&callback_name=QQ" + callbackName + 
+                                        "&src_type=app&version=1&cflag=0&callback_type=scheme&generalpastboard=1&sdkv=3.1";
+                                        if(text)
+                                        {
+                                            urlstring = urlstring + "&title==" + $mob.utils.base64Encode(utf16to8(text?text:""));
+                                        }
+                                        urlstring = urlProtocol + urlstring + "&video_assetURL=" + $mob.utils.base64Encode(utf16to8(url?url:""));
+
+                                        $mob.ext.canOpenURL(urlstring,function(data){
+                                            if (data.result)
+                                            {
+                                                //记录分享内容
+                                                var shareParams = {"platform" : platformType, "text" : text, "title" : title, "thumb_image" : thumbImage, "url" : url};
+                                                QQShareContentSet [sessionId] = {"content" : shareParams, "user_data" : userData};
+
+                                                //$mob.native.log("urlstring " + urlstring);
+                                                $mob.native.openURL(urlstring);
+                                            }
+                                            else
+                                            {
+                                            	var error_message = "qq版本过低无法进行分享";
+		                                        error = {
+		                                            "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+		                                            "error_message" : error_message
+		                                        };
+
+		                                        if (callback != null)
+		                                        {
+		                                            callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+		                                        }
+                                            }
+                                        });
+                                    });
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+            else
+            {
+
+                error_message = null;
+
+                if(this._currentLanguage === "zh-Hans")
+                {
+                    error_message = "分享参数title、thumbImage、url不能为空!";
+                }
+                else
+                {
+                    error_message = "Share param title、thumbImage、url can not be nil!";
+                }
+
+                error = {
+                    "error_code" : $mob.shareSDK.errorCode.APIRequestFail,
+                    "error_message" : error_message
+                };
+
+                if (callback != null)
+                {
+                    callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+                }
+            }
+
+            break;
+        }
+        default :
+        {
+            error_message = null;
+
+            if(this._currentLanguage === "zh-Hans")
+            {
+                error_message = "不支持的分享类型[" + type + "]";
+            }
+            else
+            {
+                error_message = "unsupported share type [" + type + "]";
+            }
+
+            error = {
+                "error_code" : $mob.shareSDK.errorCode.UnsupportContentType,
+                "error_message" : error_message
+            };
+
+            if (callback != null)
+            {
+                callback ($mob.shareSDK.responseState.Fail, error, null, userData);
+            }
+            break;
+        }
+    }
+};
+
+/**
+ * 初始化应用
+ * @param appId     应用标识
+ * @private
+ */
+QQ.prototype._setupApp = function (appId)
+{
+    if (appId != null)
+    {
+        $mob.ext.isPluginRegisted("com.mob.sharesdk.connector.qq", function (data) {
+
+            if (data.result)
+            {
+                //注册微信
+                $mob.native.ssdk_plugin_qq_setup(appId);
+            }
+        });
+    }
+};
+
+/**
+ * 根据分享参数返回分享类型
+ * @param parameters            分享参数
+ * @param platformType          平台类型
+ * @private
+ */
+QQ.prototype._getShareType = function (parameters, platformType)
+{
+    var type = $mob.shareSDK.contentType.Text;
+    var title = $mob.shareSDK.getShareParam(platformType, parameters, "title");
+    var thumbImage = $mob.shareSDK.getShareParam(platformType, parameters, "thumb_image");
+    var url = $mob.shareSDK.getShareParam(platformType, parameters, "url");
+    var images = $mob.shareSDK.getShareParam(platformType, parameters, "images");
+
+    if (title != null && (thumbImage != null || Object.prototype.toString.apply(images) === '[object Array]') && url != null)
+    {
+        type = $mob.shareSDK.contentType.WebPage;
+    }
+    else if (Object.prototype.toString.apply(images) === '[object Array]' && platformType === $mob.shareSDK.platformType.QQFriend)
+    {
+        type = $mob.shareSDK.contentType.Image;
+    }
+    
+    return type;
+};
+
+QQ.prototype._getFormatNum = function (rawNum)
+{
+    var formatNum = Number(rawNum).toString(16).toUpperCase();  //十六进制保持8位且大写：比如由100371282转换05FB8B52
+    if(formatNum.length < 8)
+    {
+        for(var i=0;i<(8-formatNum.length);i++)
+        {
+            formatNum = "0"+formatNum;
+        }
+    }
+    return formatNum;
+};
+
+//注册平台
+$mob.shareSDK.registerPlatformClass($mob.shareSDK.platformType.QQ, QQ);

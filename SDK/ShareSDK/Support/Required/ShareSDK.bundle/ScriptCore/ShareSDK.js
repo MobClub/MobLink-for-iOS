@@ -1,1 +1,942 @@
-var $pluginID = "com.mob.sharesdk.base";eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('d 1f=f;d 13={};d N={};d l={F:{},E:{},D:{}};d 1r="4M-4L";h 1e(1d){X.2o=1d;X.1z={2n:"4K",4J:2p,2m:2p};X.4I={}}1e.1A.1d=h(){m X.2o};1e.1A.1x=h(){m X.1z["2n"]};1e.1A.1w=h(){m X.1z["2m"]};h 4H(){}h c(){}c.u={1y:0,4G:1,4F:2,4E:5,4D:6,4C:7,4B:8,4A:10,4z:11,4y:12,4x:14,4w:15,4v:16,4u:17,4t:18,2l:19,4s:20,4r:21,4q:22,4p:23,4o:24,4n:25,4m:26,4l:27,4k:30,4j:34,4i:35,4h:36,4g:37,4f:38,4e:39,4d:40,4c:41,4b:42,4a:43,49:44,48:45,47:46,3Z:3Y,3X:3W,3V:3U,3T:3S,3R:3Q,3P:3O,3N:3M,3L:3K,3J:3I,3H:3G};c.J={3F:0,3E:1,I:2,3D:3,3C:4};c.L={1y:0,K:3B,3A:3z,3y:3x,3w:3v,3u:3t,3s:3r,3q:3p,3o:3n,3m:3l};c.3k={1y:0,3j:1,3i:2,2l:3};c.3h={3g:0,3f:1,3e:2,3d:3,3c:4,3b:5,3a:6,33:7,32:8,31:9,2Z:10};c.2Y={2X:0,2W:1,2V:2};c.2U=h(b,2k){13[b]=2k};c.t=h(b){d a=N[b];d B;e(a==f){d y=13[b];e(y!=f){a=1c y(b);N[b]=a;B={};e(l["F"][b]){B=l["F"][b]}e(l["E"][b]){B=l["E"][b]}e(l["D"][b]){B=l["D"][b]}a.V(B);a.U()}}x{B={};e(l["F"][b]){B=l["F"][b]}e(l["E"][b]){B=l["E"][b]}e(l["D"][b]){B=l["D"][b]}a.V(B);a.U()}m a};c.1x=h(){m 1f.1x()};c.1w=h(){m 1f.1w()};c.2T=h(b,Z,z,Y){e(z!=f&&z.T>0){d 1u=/(2S?:\\/\\/){1}[A-2R-2Q-2P\\.\\-\\/:\\?&%=,;\\[\\]\\{\\}`~!@#\\$\\^\\*\\(\\)\\+\\\\|]+/g;d 2j=/<2O[^>]*>/g;d 2i=/(\\w+)\\s*=\\s*["|\']([^"\']*)["|\']/g;d 1g={};d 1v={};1b(d i=0;i<z.T;i++){d O=z[i];e(O!=f){d W=O.1o(1u);e(W!=f){1b(d j=0;j<W.T;j++){1g[W[j]]=""}}W=O.1o(2j);e(W!=f){1b(d n=0;n<W.T;n++){d 1h=f;2N((1h=2i.2M(W[n]))!=f){e(1h[1]==="2L"||1h[1]==="2K"){1v[1h[2]]=""}}}}}}d 1l=[];1b(d R 2J 1g){e(1v[R]==f){1l.2I(R)}}e(1l.T>0){$p.2H.2G(b,1l,Z,h(r){e(r.M==f){1b(d i=0;i<z.T;i++){d O=z[i];e(O!=f){O=O.1J(1u,h(){d R=2h[0];1b(d j=0;j<r.1g.T;j++){d 1t=r.1g[j];e(1t["2F"]===R){m 1t["2E"]}}m R});z[i]=O}}}e(Y){Y({1s:z})}})}x{e(Y){Y({1s:z})}}}x{e(Y){Y({1s:z})}}};c.2D=h(1d){e(1f==f){1f=1c 1e(1d)}};c.2C=h(b,1a){l["F"][b]=1a;d a=N[b];e(a==f){d y=13[b];e(y!=f){a=1c y(b);N[b]=a;e(l["F"][b]){a.V(l["F"][b]);a.U()}}}x{e(l["F"][b]){a.V(l["F"][b]);a.U()}}};c.2B=h(b,1a){l["E"][b]=1a;d a=N[b];e(a==f){d y=13[b];e(y!=f){a=1c y(b);N[b]=a;e(l["E"][b]){a.V(l["E"][b]);a.U()}}}x{e(l["E"][b]){a.V(l["E"][b]);a.U()}}};c.2A=h(b,1a){l["D"][b]=1a;d a=N[b];e(a==f){d y=13[b];e(y!=f){a=1c y(b);N[b]=a;e(l["D"][b]){a.V(l["D"][b]);a.U()}}}x{e(l["D"][b]){a.V(l["D"][b]);a.U()}}};c.2z=h(2g){e(2h.T===0){m 1r}x{1r=2g}};c.2f=h(k,b,2e){d a=c.t(b);e(a!=f){a.2f(k,2e)}x{d o={M:c.L.K,v:"无法授权! 分享平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.2c(k,c.J.I,o)}};c.2d=h(k,b,S){d a=c.t(b);e(a!=f){a.2d(k,S)}x{d o={M:c.L.K,v:"无法授权! 分享平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.2c(k,c.J.I,o)}};c.2b=h(k,b,S,1k,1j){d a=c.t(b);e(a!=f){m a.2b(k,S,1k,1j)}m 1m};c.2a=h(k,b,S,1k,1j){d a=c.t(b);e(a!=f){m a.2a(k,S,1k,1j)}m 1m};c.29=h(k,b,S,28){d a=c.t(b);e(a!=f){a.29(k,S,28)}x{d o={M:c.L.K,v:"无法添加好友! 平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.1q(k,c.J.I,o)}};c.1Z=h(b){d a=c.t(b);e(a!=f){a.1Z()}};c.1Y=h(k,b,1X){d a=c.t(b);e(a!=f){a.1Y(1X,h(C,r){$p.q.1W(k,C,r)})}x{d o={M:c.L.K,v:"无法获取用户信息! 分享平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.1W(k,c.J.I,o)}};c.1V=h(k,b,Z){d a=c.t(b);e(a!=f){a.1V(k,Z,h(C,r){$p.q.1q(k,C,r)})}x{d o={M:c.L.K,v:"无法添加好友! 分享平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.1q(k,c.J.I,o)}};c.1U=h(k,b,1T,1S){d a=c.t(b);e(a!=f){a.1U(1T,1S,h(C,r){$p.q.1R(k,C,r)})}x{d o={M:c.L.K,v:"无法获取好友列表! 分享平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.1R(k,c.J.I,o)}};c.1Q=h(k,b,H){d a=c.t(b);e(a!=f){a.1Q(k,H,h(C,r,Z,1P){$p.q.1O(k,C,r,Z,1P)})}x{d o={M:c.L.K,v:"无法分享! 分享平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.1O(k,c.J.I,o,f)}};c.1N=h(k,b,R,1M,H,1L){d a=c.t(b);e(a!=f){a.1N(R,1M,H,1L,h(C,r){$p.q.1K(k,C,r)})}x{d o={M:c.L.K,v:"无法调用2y! 分享平台("+b+")尚未初始化!"};$p.q.Q("[c-P] "+o["v"]);$p.q.1K(k,c.J.I,o)}};c.1G=h(u,H,1i){d 1H=X;d G=f;e(H!=f){d 1p=H["@a("+u+")"];e(1p!=f){G=1p[1i]}e(G==f){G=H[1i]}e(2x G==="2w"){G=G.1J(/@G\\((\\w+)\\)/g,h(1I){d 1F=1I.1o(/\\((\\w+)\\)/)[1];d 1n=1H.1G(u,H,1F);m 1n?1n:""})}}m G};c.2v=h(u){d a=c.t(u);e(a!=f){m a.2u()}m f};c.1E=h(u){d a=c.t(u);e(a!=f){m a.1E()}m 1m};c.2t=h(u){d a=c.t(u);e(a!=f){m a.1i()}m f};c.1D=h(u,1C){d a=c.t(u);e(a!=f){m a.1D(1C)}m f};c.2s=h(u,k,r){d a=c.t(u);e(a!=f){m a.2r(k,r)}};c.1B=h(u,k,r){d a=c.t(u);e(a!=f){m a.1B(k,r)}};$p.2q=c;',62,297,'||||||||||platform|type|ShareSDK|var|if|null||function|||sessionId|_appInfo|return||error|mob|native|data||getPlatformByType|platformType|error_message||else|PlatformClass|contents||config|state|sever|local|xml|value|parameters|Fail|responseState|UninitPlatform|errorCode|error_code|_registerPlatforms|content|WARNING|log|url|callbackUrl|length|saveConfig|setAppInfo|items|this|callback|user||||_registerPlatformClasses|||||||appInfo|for|new|appKey|SSDKContext|_context|urls|kvRes|name|annotation|sourceApplication|urlArr|false|bindValue|match|platParams|ssdk_addFriendStateChanged|_currentLanguage|result|shortUrlInfo|regexp|imageTagsUrls|convertUrlEnabled|authType|Unknown|_localConfiguration|prototype|uploadFinishCallback|userRawData|createUserByRawData|isSupportAuth|bindName|getShareParam|self|word|replace|ssdk_callApiStateChanged|headers|method|callApi|ssdk_shareStateChanged|userData|share|ssdk_getFriendsStateChanged|size|cursor|getFriends|addFriend|ssdk_getUserInfoStateChanged|query|getUserInfo|cancelAuthorize|||||||||uid|handleAddFriendCallback|handleShareCallback|handleSSOCallback|ssdk_authStateChanged|handleAuthCallback|settings|authorize|language|arguments|imgKvRegexp|imgRegexp|platformCls|SMS|convert_url|auth_type|_appKey|true|shareSDK|authStateChanged|authStatheChanged|getPlatformName|cacheDomain|getPlatformCacheDomain|string|typeof|API|preferredLanguageLocalize|setPlatformServerConfiguration|setPlatformLocalConfiguration|setPlatformXMLConfiguration|initialize|surl|source|ssdk_getShortUrls|ext|push|in|path|src|exec|while|img|9_|z0|Za|https|convertUrl|registerPlatformClass|Unlisted|Private|Public|privacyStatus|MiniProgram||FBMessageVideo|FBMessageImages|File|||||||Video|Audio|App|WebPage|Image|Text|Auto|contentType|OAuth2|OAuth1x|credentialType|208|NotYetInstallClient|207|UnsetURLScheme|206|UnsupportContentType|205|UserUnauth|204|APIRequestFail|203|InvalidAuthCallback|202|InvaildPlatform|201|UnsupportFeature|200|BeginUPLoad|Cancel|Success|Begin|998|QQ|997|WeChat|996|Evernote|995|KaKao|994|YiXin|54|MeiPai|53|YouTube|52|DingTalk|51|AliSocialTimeline|50|AliSocial||||||||FacebookMessenger|KaKaoStory|KaKaoTalk|WhatsApp|Line|MingDao|YiXinFav|YiXinTimeline|YiXinSession|WeChatFav|VKontakte|Dropbox|Flickr|Pinterest|YouDaoNote|Pocket|Instapaper|QQFriend|WeChatTimeline|WeChatSession|Copy|Print|Mail|Tumblr|LinkedIn|Instagram|GooglePlus|YinXiang|Twitter|Facebook|Kaixin|Renren|QZone|DouBan|TencentWeibo|SinaWeibo|SSDKNativeCommandProvider|_serverConfiguration|stat|both|Hans|zh'.split('|'),0,{}))
+/**
+ * Created with JetBrains WebStorm.
+ * User: vim888
+ * Date: 15/2/10
+ * Time: 上午10:09
+ * To change this template use File | Settings | File Templates.
+ */
+
+var $pluginID = "com.mob.sharesdk.base";
+
+//上下文对象
+var _context = null;
+//登记的平台类型列表
+var _registerPlatformClasses = {};
+//登记平台列表
+var _registerPlatforms = {};
+//各平台应用信息
+var _appInfo = {
+    "xml" : {},
+    "local" : {},
+    "sever" : {}
+};
+
+//系统语言默认为中文
+var _currentLanguage = "zh-Hans";
+
+/**
+ * 上下文对象
+ * @param appKey    应用标识
+ * @constructor
+ */
+function SSDKContext (appKey)
+{
+    this._appKey = appKey;
+
+    //本地配置信息
+    this._localConfiguration = {
+        "auth_type" :  "both",           //授权方式：web 网页授权方式，sso 单点登录授权方式，both 两者共同使用，优先使用SSO
+        "stat" : true,                   //数据统计开关
+        "convert_url" : true             //转换短链开关
+    };
+
+    //服务器配置信息
+    this._serverConfiguration = {};
+}
+
+/**
+ * 获取应用标识
+ * @returns {*}
+ */
+SSDKContext.prototype.appKey = function ()
+{
+    return this._appKey;
+};
+
+/**
+ * 获取授权方式
+ *
+ * @return web 网页授权方式，sso 单点登录授权方式，both 两者共同使用，优先使用SSO
+ */
+SSDKContext.prototype.authType = function ()
+{
+    return this._localConfiguration ["auth_type"];
+};
+
+/**
+ * 获取转换短链功能是否开启
+ * @returns {*}  true 开启， false 关闭
+ */
+SSDKContext.prototype.convertUrlEnabled = function ()
+{
+    return this._localConfiguration ["convert_url"];
+};
+
+/**
+ * 本地命令服务
+ * @constructor
+ */
+function SSDKNativeCommandProvider ()
+{
+
+}
+
+/**
+ * ShareSDK APIs
+ * @constructor
+ */
+function ShareSDK ()
+{
+
+}
+
+/**
+ * 平台类型定义
+ * @type {{}}
+ */
+ShareSDK.platformType = {
+    "Unknown"               : 0,            //未知
+    "SinaWeibo"             : 1,            //新浪微博
+    "TencentWeibo"          : 2,            //腾讯微博
+    "DouBan"                : 5,            //豆瓣
+    "QZone"                 : 6,            //QQ空间
+    "Renren"                : 7,            //人人网
+    "Kaixin"                : 8,            //开心网
+    "Facebook"              : 10,           //Facebook
+    "Twitter"               : 11,           //Twitter
+    "YinXiang"              : 12,           //印象笔记
+    "GooglePlus"            : 14,           //Google+
+    "Instagram"             : 15,           //Instagram
+    "LinkedIn"              : 16,           //LinkedIn
+    "Tumblr"                : 17,           //Tumblr
+    "Mail"                  : 18,           //邮件
+    "SMS"                   : 19,           //短信
+    "Print"                 : 20,           //打印
+    "Copy"                  : 21,           //拷贝
+    "WeChatSession"         : 22,           //微信好友
+    "WeChatTimeline"        : 23,           //微信朋友圈
+    "QQFriend"              : 24,           //QQ好友
+    "Instapaper"            : 25,           //Instapaper
+    "Pocket"                : 26,           //Pocket
+    "YouDaoNote"            : 27,           //有道云笔记
+    "Pinterest"             : 30,           //Pinterest
+    "Flickr"                : 34,           //Flickr
+    "Dropbox"               : 35,           //Dropbox
+    "VKontakte"             : 36,           //VKontakte
+    "WeChatFav"             : 37,           //微信收藏
+    "YiXinSession"          : 38,           //易信好友
+    "YiXinTimeline"         : 39,           //易信朋友圈
+    "YiXinFav"              : 40,           //易信收藏
+    "MingDao"               : 41,           //明道
+    "Line"                  : 42,           //Line
+    "WhatsApp"              : 43,           //WhatsApp
+    "KaKaoTalk"             : 44,           //KaKao Talk
+    "KaKaoStory"            : 45,           //KaKao Story
+    "FacebookMessenger"     : 46,           //Facebook Messenger
+    "AliPaySocial"          : 50,           //支付宝好友
+    "AliPaySocialTimeline"  : 51,           //支付宝朋友圈
+    "DingTalk"              : 52,           //钉钉
+    "YouTube"               : 53,           //youtube
+    "MeiPai"                : 54,           //美拍
+    "YiXin"                 : 994,          //易信
+    "KaKao"                 : 995,          //KaKao
+    "Evernote"              : 996,          //印象笔记国际版
+    "WeChat"                : 997,          //微信
+    "QQ"                    : 998           //QQ
+};
+
+/**
+ * 回复状态定义
+ * @type {{}}
+ */
+ShareSDK.responseState = {
+    "Begin"     : 0,        //开始
+    "Success"   : 1,        //成功
+    "Fail"      : 2,        //失败
+    "Cancel"    : 3,        //取消
+    "BeginUPLoad" : 4       //开始上传
+};
+
+/**
+ * 错误码定义
+ * @type {{}}
+ */
+ShareSDK.errorCode = {
+    "Unknown"               : 0,        //未知
+    "UninitPlatform"        : 200,      //未初始化平台
+    "UnsupportFeature"      : 201,      //不支持的功能
+    "InvaildPlatform"       : 202,      //无效的应用平台
+    "InvalidAuthCallback"   : 203,      //无效的授权回调
+    "APIRequestFail"        : 204,      //API请求失败
+    "UserUnauth"            : 205,      //用户尚未授权
+    "UnsupportContentType"  : 206,      //不支持的分享类型
+    "UnsetURLScheme"        : 207,      //尚未设置Url Scheme
+    "NotYetInstallClient"   : 208       //尚未安装客户端
+};
+
+/**
+ * 授权类型
+ * @type {{Unknown: number, OAuth1x: number, OAuth2: number}}
+ */
+ShareSDK.credentialType = {
+    "Unknown"               : 0,        //未知
+    "OAuth1x"               : 1,        //OAuth1.x
+    "OAuth2"                : 2,         //OAuth2.0
+    "SMS"                : 3         //SMS
+};
+
+/**
+ * 分享内容类型
+ * @type {{Text: number, Image: number, WebPage: number, App: number, Audio: number, Video: number}}
+ */
+ShareSDK.contentType = {
+    "Auto"          : 0,
+    "Text"          : 1,
+    "Image"         : 2,
+    "WebPage"       : 3,
+    "App"           : 4,
+    "Audio"         : 5,
+    "Video"         : 6,
+    "File"          : 7,
+    "FBMessageImages": 8,
+    "FBMessageVideo": 9,
+    "MiniProgram"   : 10
+};
+
+ShareSDK.privacyStatus = {
+    "Public"      : 0,
+    "Private"     : 1,
+    "Unlisted"    : 2,
+};
+
+/**
+ * 登记平台类型
+ * @param type          平台类型
+ * @param platformCls   平台类
+ */
+ShareSDK.registerPlatformClass = function (type, platformCls)
+{
+    _registerPlatformClasses [type] = platformCls;
+};
+
+/**
+ * 获取平台对象
+ * @param type          平台类型
+ * @returns {*}         平台对象
+ */
+ShareSDK.getPlatformByType = function (type)
+{
+    var platform = _registerPlatforms [type];
+    var config;
+    if (platform == null)
+    {
+        var PlatformClass = _registerPlatformClasses [type];
+        if (PlatformClass != null)
+        {
+            platform = new PlatformClass(type);
+            _registerPlatforms [type] = platform;
+
+            config = {};
+
+            if (_appInfo["xml"][type])
+            {
+                config = _appInfo["xml"][type];
+            }
+            if (_appInfo["local"][type])
+            {
+                config = _appInfo["local"][type];
+            }
+            if (_appInfo["sever"][type])
+            {
+                config = _appInfo["sever"][type];
+            }
+            platform.setAppInfo(config);
+            platform.saveConfig();
+        }
+    }
+    else
+    {
+        config = {};
+        if (_appInfo["xml"][type])
+        {
+            config = _appInfo["xml"][type];
+        }
+        if (_appInfo["local"][type])
+        {
+            config = _appInfo["local"][type];
+        }
+        if (_appInfo["sever"][type])
+        {
+            config = _appInfo["sever"][type];
+        }
+        platform.setAppInfo(config);
+        platform.saveConfig();
+    }
+
+    return platform;
+};
+
+/**
+ * 获取平台授权方式
+ *
+ * @return web 网页授权方式，sso 单点登录授权方式，both 两者共同使用，优先使用SSO
+ */
+ShareSDK.authType = function ()
+{
+    return _context.authType();
+};
+
+/**
+ * 获取转换短链功能是否开启
+ * @returns {*}  true 开启， false 关闭
+ */
+ShareSDK.convertUrlEnabled = function ()
+{
+    return _context.convertUrlEnabled();
+};
+
+
+/**
+ * 转换链接
+ * @param type          平台类型
+ * @param user          用户信息
+ * @param contents      内容列表
+ * @param callback      回调
+ */
+ShareSDK.convertUrl = function (type, user, contents, callback)
+{
+    if (contents != null && contents.length > 0)
+    {
+        var regexp = /(https?:\/\/){1}[A-Za-z0-9_\.\-\/:\?&%=,;\[\]\{\}`~!@#\$\^\*\(\)\+\\|]+/g;
+        var imgRegexp = /<img[^>]*>/g;
+        var imgKvRegexp = /(\w+)\s*=\s*["|']([^"']*)["|']/g;
+
+        var urls = {};
+        var imageTagsUrls = {};
+
+        for (var i = 0; i < contents.length; i++)
+        {
+            var content = contents[i];
+            if (content != null)
+            {
+                //先获取需要转换的链接
+                var items = content.match(regexp);
+                if (items != null)
+                {
+                    for (var j = 0; j < items.length; j++)
+                    {
+                        urls [items[j]] = "";
+                    }
+                }
+
+                //获取是否有图片标签，图片标签链接不进行短链转换，否则无法显示图片
+                items = content.match(imgRegexp);
+                if (items != null)
+                {
+                    for (var n = 0; n < items.length; n++)
+                    {
+                        var kvRes = null;
+                        while ((kvRes = imgKvRegexp.exec(items[n])) != null)
+                        {
+                            if (kvRes[1] === "src" || kvRes[1] === "path")
+                            {
+                                imageTagsUrls[kvRes[2]] = "";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        var urlArr = [];
+        for (var url in urls)
+        {
+            if (imageTagsUrls[url] == null)
+            {
+                urlArr.push(url);
+            }
+        }
+
+        if (urlArr.length > 0)
+        {
+            //转换链接
+            $mob.ext.ssdk_getShortUrls(type, urlArr, user, function (data) {
+
+                if (data.error_code == null)
+                {
+                    //替换短链到内容中
+                    for (var i = 0; i < contents.length; i++)
+                    {
+                        var content = contents[i];
+                        if (content != null)
+                        {
+                            content = content.replace(regexp, function () {
+
+                                var url = arguments[0];
+                                for (var j = 0; j < data.urls.length; j++)
+                                {
+                                    var shortUrlInfo = data.urls [j];
+                                    if (shortUrlInfo["source"] === url)
+                                    {
+                                        return shortUrlInfo["surl"];
+                                    }
+                                }
+                                return url;
+                            });
+                            contents[i] = content;
+                        }
+                    }
+                }
+
+                if (callback)
+                {
+                    callback ({"result" : contents});
+                }
+            });
+        }
+        else
+        {
+            if (callback)
+            {
+                callback ({"result" : contents});
+            }
+        }
+    }
+    else
+    {
+        if (callback)
+        {
+            callback ({"result" : contents});
+        }
+    }
+};
+
+/**
+ * 初始化ShareSDK
+ * @param appKey    应用信息
+ */
+ShareSDK.initialize = function (appKey)
+{
+    if (_context == null)
+    {
+        _context = new SSDKContext(appKey);
+    }
+};
+
+/**
+ * 设置XML文件配置信息
+ * @param type      平台类型
+ * @param appInfo   平台应用信息
+ */
+ShareSDK.setPlatformXMLConfiguration = function (type, appInfo)
+{
+    _appInfo["xml"][type] = appInfo;
+    var platform = _registerPlatforms [type];
+    
+    if (platform == null)
+    {
+        var PlatformClass = _registerPlatformClasses [type];
+        if (PlatformClass != null)
+        {
+            platform = new PlatformClass(type);
+            _registerPlatforms [type] = platform;
+            
+            if (_appInfo["xml"][type])
+            {
+                platform.setAppInfo(_appInfo["xml"][type]);
+                platform.saveConfig();
+            }
+        }
+    }
+    else
+    {
+        if (_appInfo["xml"][type])
+        {
+            platform.setAppInfo(_appInfo["xml"][type]);
+            platform.saveConfig();
+        }
+    }
+};
+
+/**
+ * 设置平台本地配置信息
+ * @param type      平台类型
+ * @param appInfo   平台应用信息
+ */
+ShareSDK.setPlatformLocalConfiguration = function (type, appInfo)
+{
+    _appInfo["local"][type] = appInfo;
+    var platform = _registerPlatforms [type];
+    
+    if (platform == null)
+    {
+        var PlatformClass = _registerPlatformClasses [type];
+        if (PlatformClass != null)
+        {
+            platform = new PlatformClass(type);
+            _registerPlatforms [type] = platform;
+            
+            if (_appInfo["local"][type])
+            {
+                platform.setAppInfo(_appInfo["local"][type]);
+                platform.saveConfig();
+            }
+        }
+    }
+    else
+    {
+        if (_appInfo["local"][type])
+        {
+            platform.setAppInfo(_appInfo["local"][type]);
+            platform.saveConfig();
+        }
+    }
+};
+
+/**
+ * 设置平台服务器配置信息
+ * @param type      平台类型
+ * @param appInfo   平台应用信息
+ */
+ShareSDK.setPlatformServerConfiguration = function (type, appInfo)
+{
+    _appInfo["sever"][type] = appInfo;
+    var platform = _registerPlatforms [type];
+    
+    if (platform == null)
+    {
+        var PlatformClass = _registerPlatformClasses [type];
+        if (PlatformClass != null)
+        {
+            platform = new PlatformClass(type);
+            _registerPlatforms [type] = platform;
+
+            if (_appInfo["sever"][type])
+            {
+                platform.setAppInfo(_appInfo["sever"][type]);
+                platform.saveConfig();
+            }
+            
+        }
+    }
+    else
+    {
+        if (_appInfo["sever"][type])
+        {
+            platform.setAppInfo(_appInfo["sever"][type]);
+            platform.saveConfig();
+        }
+    }
+};
+
+/**
+ *  设定/获取平台的系统语言
+ *
+ *  @param type     平台类型
+ *  @param language 当前系统语言
+ */
+ShareSDK.preferredLanguageLocalize = function (language)
+{
+    if (arguments.length === 0)
+    {
+        return _currentLanguage;
+    }
+    else
+    {
+        _currentLanguage = language;
+    }
+};
+
+/**
+ * 用户授权
+ * @param sessionId     会话ID
+ * @param type          平台类型
+ * @param settings      授权设置
+ */
+ShareSDK.authorize = function (sessionId, type, settings)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.authorize(sessionId, settings);
+    }
+    else
+    {
+        var error = {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法授权! 分享平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_authStateChanged(sessionId, ShareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 处理授权回调
+ * @param sessionId     会话ID
+ * @param type          平台类型
+ * @param callbackUrl   回调URL
+ */
+ShareSDK.handleAuthCallback = function (sessionId, type, callbackUrl)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.handleAuthCallback(sessionId, callbackUrl);
+    }
+    else
+    {
+        var error =
+        {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法授权! 分享平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_authStateChanged(sessionId, ShareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 处理SSO授权回调
+ * @param sessionId     会话ID
+ * @param type          平台类型
+ * @param callbackUrl   回调URL
+ * @param sourceApplication     原始应用名称
+ * @param annotation            附加数据
+ */
+ShareSDK.handleSSOCallback = function (sessionId, type, callbackUrl, sourceApplication, annotation)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        return platform.handleSSOCallback(sessionId, callbackUrl, sourceApplication, annotation);
+    }
+
+    return false;
+};
+
+/**
+ * 处理分享回调
+ * @param sessionId             会话ID
+ * @param type                  平台类型
+ * @param callbackUrl           回调URL
+ * @param sourceApplication     原始应用名称
+ * @param annotation            附加数据
+ */
+ShareSDK.handleShareCallback = function (sessionId, type, callbackUrl, sourceApplication, annotation)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        return platform.handleShareCallback(sessionId, callbackUrl, sourceApplication, annotation);
+    }
+
+    return false;
+};
+
+/**
+ * 添加好友回调
+ * @param sessionId             会话ID
+ * @param type                  平台类型
+ * @param callbackUrl           回调URL
+ * @param uid                   用户ID
+ */
+ShareSDK.handleAddFriendCallback = function (sessionId, type, callbackUrl, uid)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.handleAddFriendCallback(sessionId, callbackUrl, uid);
+    }
+    else
+    {
+        var error = {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法添加好友! 平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_addFriendStateChanged(sessionId, ShareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 取消授权
+ * @param type          平台类型
+ */
+ShareSDK.cancelAuthorize = function (type)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.cancelAuthorize();
+    }
+};
+
+/**
+ * 获取用户信息
+ * @param sessionId         会话标识
+ * @param type              平台类型
+ * @param query             用户查询条件
+ */
+ShareSDK.getUserInfo = function (sessionId, type, query)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.getUserInfo(query, function (state, data){
+
+            $mob.native.ssdk_getUserInfoStateChanged(sessionId, state, data);
+
+        });
+    }
+    else
+    {
+        var error = {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法获取用户信息! 分享平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_getUserInfoStateChanged(sessionId, ShareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 添加好友
+ * @param sessionId         会话标志
+ * @param type              平台类型
+ * @param user              需要添加好友的用户信息
+ */
+ShareSDK.addFriend = function (sessionId, type, user)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.addFriend(sessionId, user, function (state, data) {
+
+            $mob.native.ssdk_addFriendStateChanged(sessionId, state, data);
+
+        });
+    }
+    else
+    {
+        var error = {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法添加好友! 分享平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_addFriendStateChanged(sessionId, ShareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 获取好友列表
+ * @param sessionId         会话标识
+ * @param type              平台类型
+ * @param cursor            分页游标
+ * @param size              分页尺寸
+ */
+ShareSDK.getFriends = function (sessionId, type, cursor, size)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.getFriends(cursor, size, function (state, data) {
+
+            $mob.native.ssdk_getFriendsStateChanged(sessionId, state, data);
+
+        });
+    }
+    else
+    {
+        var error = {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法获取好友列表! 分享平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_getFriendsStateChanged(sessionId, ShareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 分享内容
+ * @param sessionId             会话标识
+ * @param type                  平台类型
+ * @param parameters            分享参数
+ */
+ShareSDK.share = function (sessionId, type, parameters)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.share(sessionId, parameters, function(state, data, user, userData){
+
+            $mob.native.ssdk_shareStateChanged(sessionId, state, data, user, userData);
+
+        });
+    }
+    else
+    {
+        var error = {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法分享! 分享平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_shareStateChanged(sessionId, ShareSDK.responseState.Fail, error, null);
+    }
+};
+
+/**
+ * 调用API接口
+ * @param sessionId             会话标识
+ * @param type                  平台类型
+ * @param url                   接口地址
+ * @param method                请求接口方法
+ * @param parameters            提交接口参数
+ * @param headers               请求头
+ */
+ShareSDK.callApi = function (sessionId, type, url, method, parameters, headers)
+{
+    var platform = ShareSDK.getPlatformByType(type);
+    if (platform != null)
+    {
+        platform.callApi(url, method, parameters, headers, function (state, data) {
+
+            $mob.native.ssdk_callApiStateChanged(sessionId, state, data);
+
+        });
+    }
+    else
+    {
+        var error = {
+            "error_code" : ShareSDK.errorCode.UninitPlatform,
+            "error_message" : "无法调用API! 分享平台(" + type + ")尚未初始化!"
+        };
+
+        $mob.native.log("[ShareSDK-WARNING] " + error["error_message"]);
+        $mob.native.ssdk_callApiStateChanged(sessionId, ShareSDK.responseState.Fail, error);
+    }
+};
+
+/**
+ * 获取分享参数
+ * @param platformType  平台类型
+ * @param parameters    参数集合
+ * @param name          参数名称
+ * @returns 参数值
+ */
+ShareSDK.getShareParam = function (platformType, parameters, name)
+{
+    var self = this;
+    var value = null;
+
+    if (parameters != null)
+    {
+        var platParams = parameters["@platform(" + platformType + ")"];
+        if (platParams != null)
+        {
+            value = platParams [name];
+        }
+        if (value == null)
+        {
+            value = parameters [name];
+        }
+
+        if (typeof(value) === "string")
+        {
+            value = value.replace(/@value\((\w+)\)/g, function (word) {
+
+                var bindName = word.match(/\((\w+)\)/)[1];
+                var bindValue = self.getShareParam(platformType, parameters, bindName);
+
+                return bindValue ? bindValue : "";
+
+            });
+        }
+    }
+
+    return value;
+};
+
+/**
+ * 获取平台缓存域名
+ * @param platformType   平台类型
+ * @returns {null}
+ */
+ShareSDK.getPlatformCacheDomain = function (platformType)
+{
+    var platform = ShareSDK.getPlatformByType(platformType);
+    if (platform != null)
+    {
+        return platform.cacheDomain();
+    }
+
+    return null;
+};
+
+/**
+ * 判断平台是否支持授权
+ * @param platformType   平台类型
+ */
+ShareSDK.isSupportAuth = function (platformType)
+{
+    var platform = ShareSDK.getPlatformByType(platformType);
+    if (platform != null)
+    {
+        return platform.isSupportAuth();
+    }
+
+    return false;
+};
+
+/**
+ * 获取平台名称
+ * @param platformType  平台类型
+ * @returns 平台名称
+ */
+ShareSDK.getPlatformName = function (platformType)
+{
+    var platform = ShareSDK.getPlatformByType(platformType);
+    if (platform != null)
+    {
+        return platform.name();
+    }
+
+    return null;
+};
+
+ShareSDK.createUserByRawData = function (platformType, userRawData)
+{
+    var platform = ShareSDK.getPlatformByType(platformType);
+    if (platform != null)
+    {
+        return platform.createUserByRawData(userRawData);
+    }
+    return null;
+};
+
+ShareSDK.authStatheChanged = function (platformType, sessionId, data)
+{
+    var platform = ShareSDK.getPlatformByType(platformType);
+    if (platform != null)
+    {
+        return platform.authStateChanged(sessionId, data);
+    }
+};
+
+ShareSDK.uploadFinishCallback = function (platformType, sessionId, data)
+{
+    var platform = ShareSDK.getPlatformByType(platformType);
+    if (platform != null)
+    {
+        return platform.uploadFinishCallback(sessionId, data);
+    }
+};
+
+$mob.shareSDK = ShareSDK;
