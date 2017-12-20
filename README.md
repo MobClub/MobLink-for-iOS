@@ -10,27 +10,27 @@
 	
 	![mob_reg](http://onmw6wg88.bkt.clouddn.com/mob_reg.png)
 
-2. 注册或登录完成后，会返回至首页，点击右上角的**“进入后台”**，会跳转至管理后台，点击**下拉列表**，选择**“创建新应用”**。如下图：
+2. 注册或登录完成后，会返回至首页，点击右上角的 **“进入后台”** ，会跳转至管理后台，点击 **“下拉列表”** ，选择 **“创建新应用”** 。如下图：
 
 	![Snip20170612_9](http://onmw6wg88.bkt.clouddn.com/Snip20170612_9.png)
 	
-	输入应用名称后点击**“保存”**，如下图：
+	输入应用名称后点击 **“保存”** ，如下图：
 	
 	![mob_create_app](http://onmw6wg88.bkt.clouddn.com/Snip20170525_11.png)
 	
-	应用创建后在左边导航栏点击**“添加产品”**，如下图：
+	应用创建后在左边导航栏点击 **“添加产品”** ，如下图：
 	
 	![mob_add_product](http://onmw6wg88.bkt.clouddn.com/Snip20170525_12.png)
 	
-	在产品列表中选择MobLink并点击**“马上开始”**，如下图：
+	在产品列表中选择MobLink并点击 **“马上开始”** ，如下图：
 	
 	![mob_start](http://onmw6wg88.bkt.clouddn.com/Snip20170525_14.png)
 	
-	此时左边导航栏就能看到您添加的产品了，点击**“概况”**即可看到您接下来需要的AppKey和AppSecret了，如下图：
+	此时左边导航栏就能看到您添加的产品了，点击 **“概况”** 即可看到您接下来需要的AppKey和AppSecret了，如下图：
 	
 	![mob_appkey](http://onmw6wg88.bkt.clouddn.com/Snip20170525_16.png)
 
-3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击**“保存”**以确保生效。
+3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击 **“保存”** 以确保生效。
 
 	![mob_conf](http://onmw6wg88.bkt.clouddn.com/Snip20170525_17.png)
 	
@@ -68,7 +68,7 @@
     	<tr>
         	<td>右上角跳转链接</td>
         	<td>否</td>
-        	<td>通过Universal Link跳转到app后右上角会出现一个“mob.com”标志，点击后会通过Safari打开一个链接，可以在这里填写您想要打开的链接，如果不填，则默认打开之前的Web页面</td>
+        	<td>通过Universal Link跳转到app后右上角会出现一个 “mob.com” 标志，点击后会通过Safari打开一个链接，可以在这里填写您想要打开的链接，如果不填，则默认打开之前的Web页面</td>
     	</tr>
     	<tr>
         	<td>Universal Link开关</td>
@@ -84,7 +84,7 @@
 ![Snip20170525_2](http://onmw6wg88.bkt.clouddn.com/Snip20170525_2.png)
 
 
->**说明：**
+> **说明：**
 
 > * Sample文件夹里存放MobLinkDemo - MobLink的演示demo（供使用参考）
 
@@ -134,13 +134,13 @@
 	
 	![Snip20170525_9](http://onmw6wg88.bkt.clouddn.com/Snip20170525_9.png)
 	
-	然后在项目中配置Universal Link，***<font color=red>请务必填写与后台生成的Universal Link地址</font>*** 参考下图：
+	然后在项目中配置Universal Link， ***<font color=red>请务必填写与后台生成的Universal Link地址</font>*** 参考下图：
 	
 	![Snip20170526_11](http://onmw6wg88.bkt.clouddn.com/Snip20170526_11.png)
 	
 3. 添加代码
 
-	i. 在Info.plist文件中右键空白处，选择**“Add Row”**，添加“MOBAppKey”和“MOBAppSecret”对应值为上述在管理后台中获得的AppKey和AppSecret（点击**“显示”**查看），如下图所示：
+	i. 在Info.plist文件中右键空白处，选择 **“Add Row”** ，添加“MOBAppKey”和“MOBAppSecret”对应值为上述在管理后台中获得的AppKey和AppSecret（点击 **“显示”** 查看），如下图所示：
 	
 	![Snip20170526_12](http://onmw6wg88.bkt.clouddn.com/Snip20170526_12.png)
 	
@@ -175,20 +175,22 @@
 	```
 	
 	**<font color="red">关于实现带有场景参数初始化方法的补充：</font>**
+	
 	如果您的控制器采用xib的方式来初始化的，那么实现该初始化方法时请参考如下代码：
+	
 		
-		```
-		// 根据场景信息初始化方法
-    	- (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
-		{
-    		// 使用xib进行初始化
-    		if (self = [super initWithNibName:@"xib 名称" bundle:nil])
-    		{
-        		self.scene = scene;
-    		}
-    		return self;
-		}
-		```
+	```
+	// 根据场景信息初始化方法
+    - (instancetype)initWithMobLinkScene:(MLSDKScene *)scene
+	{
+    	// 使用xib进行初始化
+    	if (self = [super initWithNibName:@"xib 名称" bundle:nil])
+    	{
+        	self.scene = scene;
+    	}
+    	return self;
+	}
+	```
 	
 	iii. 获取MobId
 	
@@ -253,8 +255,8 @@
 
 3. 随后直接在你的网页源码的适当位置粘贴前面复制的JS代码，再根据你的需求做响应修改。代码及相关注释示例如下：
 
-	```
-	<script type="text/javascript" src="//f.moblink.mob.com/v2_0_1/moblink.js?appkey=请替换你自己的AppKey></script>
+```
+<script type="text/javascript" src="//f.moblink.mob.com/v2_0_1/moblink.js?appkey=请替换你自己的AppKey></script>
 /*
  * MobLink 支持数组=>MobLink([...]) 和对象=>MobLink({...}) 两种初始化形式
  * 页面上有多个元素需要跳转时使用数组方式,仅单个元素需要跳转时可以使用对象的方式进行初始化
@@ -298,7 +300,7 @@
          }
      }
  ]);
-	```
+```
 
 ## 三、高级功能
 
@@ -359,18 +361,18 @@
 
 	```
 	- (void) IMLSDKWillRestoreScene:(MLSDKScene *)scene Restore:(void (^)(BOOL, RestoreStyle))restoreHandler
-{
-    NSLog(@"Will Restore Scene - Path:%@",scene.path);
+	{
+    		NSLog(@"Will Restore Scene - Path:%@",scene.path);
     
     
-    [[MLDTool shareInstance] showAlertWithTitle:nil
-                                        message:@"是否进行场景恢复？"
-                                    cancelTitle:@"否"
-                                     otherTitle:@"是"
-                                     clickBlock:^(MLDButtonType type) {
-                                         type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler(NO, Default);
-                                     }];
-}
+    		[[MLDTool shareInstance] showAlertWithTitle:nil
+                                        	message:@"是否进行场景恢复？"
+                                    		cancelTitle:@"否"
+                                     		otherTitle:@"是"
+                                     		clickBlock:^(MLDButtonType type) {
+                                         		type == MLDButtonTypeSure ? restoreHandler(YES, Default) : restoreHandler(NO, Default);
+                                     		}];
+	}
 	```
 
 	#### <a name="complete">场景恢复完成示例代码</a>
