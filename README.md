@@ -79,6 +79,14 @@
 
 ## 二、下载客户端SDK
 
+### 1.使用CocoaPods自动集成MobLink
+
+MobLink支持使用CocoaPods集成，请在您app的 `Podfile` 中添加 `pod 'mob_linksdk'` 后执行 `pod update`。
+
+**注意：** 最初MobLink的Pod就叫 `MobLink`，但为了统一维护，现MobLink的Pod已更名为`mob_linksdk`，之前的pod也可以使用，但只更新到MobLink的2.0.5版本，后续版本将不再更新之前的pod，请各位开发者即使更新到新的pod `mob_linksdk` 上来。
+
+### 2.手动集成MobLink
+
 请从官网[下载客户端SDK](http://mob.com/)，解压后可得到如下文件夹目录：
 
 ![Snip20170525_2](http://onmw6wg88.bkt.clouddn.com/Snip20170525_2.png)
@@ -96,7 +104,7 @@
 
 ### 一、iOS 快速集成
 
-1. 在项目中添加SDK
+1. 在项目中添加SDK（使用CocoaPods集成的请忽略该步骤）
 
 	i. 将MobLink.framework，MOBFoundation.framework添加到项目中，如下图：
 	
@@ -445,5 +453,7 @@ Universal Link除了能直接打开App，也能够通过Safari 打开。打开Ap
 #### 2、使用您自己注册的Universal Link
 
 如果您已经有自己注册的Universal Link或者打算使用自己的Universal Link,此Universal Link地址应该指向有效的内容地址。因为如果指向的内容无效，那么用户在没有安装App或者Safari方式打开此Universal Link时会显示404，引起不好的用户体验。为此，我们更建议您使用我们的**免费**Universal Link服务。
+
+
 
 
