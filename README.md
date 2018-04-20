@@ -38,7 +38,7 @@
 	
 	此时左边导航栏就能看到您添加的产品了，点击 **“概况”** 即可看到您接下来需要的AppKey和AppSecret了，如下图：
 	
-	![mob_appkey](http://onmw6wg88.bkt.clouddn.com/Snip20170525_16.png)
+	![mob_appkey](http://onmw6wg88.bkt.clouddn.com/mob_appkey.png)
 
 3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击 **“保存”** 以确保生效。
 
