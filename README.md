@@ -13,8 +13,8 @@
 
 ## 一、到Mob官网申请MobLink所需的APPKey
 1. 打开[Mob官网](http://mob.com/)，在官网首页选择登录或注册，新用户先注册，老用户直接登录。
-
-    	![mob_home](http://onmw6wg88.bkt.clouddn.com/mob.png)
+	
+	![mob_home](http://onmw6wg88.bkt.clouddn.com/mob.png)
 
 	注册页面如下图：
 	
