@@ -8,8 +8,9 @@
 
 #import "MLDTool.h"
 
-#import <ShareSDKUI/ShareSDK+SSUI.h>
-#import <ShareSDKUI/SSUIShareActionSheetStyle.h>
+#import <ShareSDKUI/ShareSDKUI.h>
+#import <ShareSDK/NSMutableDictionary+SSDKInit.h>
+#import <ShareSDK/NSMutableDictionary+SSDKShare.h>
 #import <ShareSDKExtension/ShareSDK+Extension.h>
 #import <MobLink/MobLink.h>
 #import <MobLink/MLSDKScene.h>
@@ -121,55 +122,84 @@ static NSString *const baseShareUrl = @"http://f.moblink.mob.com/test";
                                       title:title
                                        type:SSDKContentTypeWebPage];
     
-    if ([ShareSDK isClientInstalled:SSDKPlatformTypeSinaWeibo])
-    {
-        [shareParams SSDKEnableUseClientShare];
-    }
-    else
-    {
-        [shareParams SSDKSetupSinaWeiboShareParamsByText:[NSString stringWithFormat:@"%@%@",text,urlStr]
-                                                   title:title
-                                                   image:FileImage(imageName)
-                                                     url:nil
-                                                latitude:0
-                                               longitude:0
-                                                objectID:nil
-                                                    type:SSDKContentTypeImage];
-    }
+//    if ([ShareSDK isClientInstalled:SSDKPlatformTypeSinaWeibo])
+//    {
+//        [shareParams SSDKEnableUseClientShare];
+//    }
+//    else
+//    {
+//        [shareParams SSDKSetupSinaWeiboShareParamsByText:[NSString stringWithFormat:@"%@%@",text,urlStr]
+//                                                   title:title
+//                                                   image:FileImage(imageName)
+//                                                     url:nil
+//                                                latitude:0
+//                                               longitude:0
+//                                                objectID:nil
+//                                                    type:SSDKContentTypeImage];
+//    }
     
-    [SSUIShareActionSheetStyle setShareActionSheetStyle:ShareActionSheetStyleSimple];
+    SSUIShareSheetConfiguration *config = [[SSUIShareSheetConfiguration alloc] init];
+    config.style = SSUIActionSheetStyleSimple;
     
-    NSMutableArray *platformItems = [NSMutableArray arrayWithObject:@(SSDKPlatformTypeSinaWeibo)];
-    if ([ShareSDK isClientInstalled:SSDKPlatformTypeWechat])
-    {
-        [platformItems addObjectsFromArray:@[@(SSDKPlatformSubTypeWechatSession), @(SSDKPlatformSubTypeWechatTimeline)]];
-    }
-    if ([ShareSDK isClientInstalled:SSDKPlatformTypeQQ])
-    {
-        [platformItems addObject:@(SSDKPlatformTypeQQ)];
-    }
-    
-    SSUIShareActionSheetController *sheet = [ShareSDK showShareActionSheet:[MOBFDevice isPad] ? onView : nil
-                                                                     items:platformItems
-                                                               shareParams:shareParams
-                                                       onShareStateChanged:^(SSDKResponseState state, SSDKPlatformType platformType, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error, BOOL end) {
-                                                           
-                                                           switch (state)
-                                                           {
-                                                               case SSDKResponseStateSuccess:
-                                                                   [self showAlertWithMessage:@"分享成功！"];
-                                                                   break;
-                                                               case SSDKResponseStateFail:
-                                                                   [self showAlertWithMessage:@"分享失败！"];
-                                                                   break;
-                                                                   
-                                                               default:
-                                                                   break;
-                                                           }
-                                                       }];
-    
-    [sheet.directSharePlatforms addObject:@(SSDKPlatformTypeSinaWeibo)];
+    [ShareSDK showShareActionSheet:[MOBFDevice isPad] ? onView : nil
+                       customItems:nil
+                       shareParams:shareParams
+                sheetConfiguration:config
+                    onStateChanged:^(SSDKResponseState state, SSDKPlatformType platformType, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error, BOOL end) {
+                        switch (state)
+                        {
+                            case SSDKResponseStateSuccess:
+                                [self showAlertWithMessage:@"分享成功！"];
+                                break;
+                            case SSDKResponseStateFail:
+                                [self showAlertWithMessage:@"分享失败！"];
+                                break;
+                                
+                            default:
+                                break;
+                        }
+                    }];
 }
+
+- (void)shareMiniProgramWithTitle:(NSString *)title
+                      description:(NSString *)desc
+                       webPageUrl:(NSString *)url
+                             path:(NSString *)path
+                       thumbImage:(NSString *)image
+                         userName:(NSString *)username
+                  withShareTicket:(BOOL)shareticket
+                  miniProgramType:(NSUInteger)type
+                  platformSubType:(SSDKPlatformType)platformType
+{
+    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+    [parameters SSDKSetupWeChatMiniProgramShareParamsByTitle:title
+                                                 description:desc
+                                                  webpageUrl:[NSURL URLWithString:url]
+                                                        path:path
+                                                  thumbImage:image
+                                                hdThumbImage:image
+                                                    userName:username
+                                             withShareTicket:shareticket
+                                             miniProgramType:type
+                                          forPlatformSubType:platformType];
+    [ShareSDK share:platformType parameters:parameters onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
+        switch (state)
+        {
+            case SSDKResponseStateSuccess:
+                [self showAlertWithMessage:@"分享成功！"];
+                break;
+            case SSDKResponseStateFail:
+                [self showAlertWithMessage:@"分享失败！"];
+                break;
+                
+            default:
+                break;
+        }
+    }];
+}
+
+
+
 
 /**
  显示弹窗信息,默认无标题,无点击回调

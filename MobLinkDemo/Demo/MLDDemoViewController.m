@@ -222,6 +222,17 @@
     {
         [[MLDTool shareInstance] showAlertWithMessage:@"请先获取MobID！"];
     }
+    
+//    [[MLDTool shareInstance] shareMiniProgramWithTitle:@"MiniProgram For MobLink"
+//                                           description:@"Test MiniProgram For MobLink"
+//                                            webPageUrl:@"http://www.mob.com"
+//                                                  path:@"pages/index/index?mobid=3fr4"
+//                                            thumbImage:[UIImage imageNamed:@"miniprogram.jpg"]
+//                                              userName:@"gh_531c99d3b4a7"
+//                                       withShareTicket:YES
+//                                       miniProgramType:2
+//                                       platformSubType:SSDKPlatformSubTypeWechatSession];
+    
 }
 
 // 视图将要消失时关闭所有弹窗

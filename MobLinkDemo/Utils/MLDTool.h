@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "MLDAlertView.h"
+#import <ShareSDK/ShareSDK.h>
 
 @class MLSDKScene;
 
@@ -66,6 +67,29 @@
                  image:(NSString *)imageName
                   path:(NSString *)path
                 onView:(UIView *)onView;
+
+/**
+ 分享到微信小程序
+
+ @param title 标题
+ @param desc 描述
+ @param url 网页链接
+ @param path 小程序对应的页面路径
+ @param image 卡片封面图
+ @param username 小程序开发者名称
+ @param shareticket 是否使用带shareTicket的转发
+ @param type 小程序的版本（0=正式、1=开发、2=体验）
+ @param platformType 分享平台
+ */
+- (void)shareMiniProgramWithTitle:(NSString *)title
+                      description:(NSString *)desc
+                       webPageUrl:(NSString *)url
+                             path:(NSString *)path
+                       thumbImage:(NSString *)image
+                         userName:(NSString *)username
+                  withShareTicket:(BOOL)shareticket
+                  miniProgramType:(NSUInteger)type
+                  platformSubType:(SSDKPlatformType)platformType;
 
 /**
  显示场景信息

@@ -9,8 +9,11 @@
 #import "MLDMainViewController.h"
 
 #import "MLDDemoViewController.h"
+#import "MLDMiniViewController.h"
 #import "MLDSceneViewController.h"
 #import "MLDParamsViewController.h"
+
+//#import "MLDMiniRestoreViewController.h"
 
 @interface MLDMainViewController ()
 
@@ -32,12 +35,16 @@
     // 演示
     MLDDemoViewController *demoCtr = [[MLDDemoViewController alloc] init];
     [self addChildViewController:demoCtr navTitle:@"演示" tabTitle:@"演示" imageName:@"ys"];
+    // 小程序
+    MLDMiniViewController *miniCtr = [[MLDMiniViewController alloc] init];
+//    MLDMiniRestoreViewController *miniCtr = [[MLDMiniRestoreViewController alloc] init];
+    [self addChildViewController:miniCtr navTitle:@"小程序" tabTitle:@"小程序" imageName:@"wxxcx"];
     // 场景
     MLDSceneViewController *sceneCtr = [[MLDSceneViewController alloc] init];
-    [self addChildViewController:sceneCtr navTitle:@"场景" tabTitle:@"常见应用场景" imageName:@"cjyycj"];
+    [self addChildViewController:sceneCtr navTitle:@"场景" tabTitle:@"应用场景" imageName:@"cjyycj"];
     // 参数
     MLDParamsViewController *paramsCtr = [[MLDParamsViewController alloc] init];
-    [self addChildViewController:paramsCtr navTitle:@"场景" tabTitle:@"传入参数场景" imageName:@"crcscj"];
+    [self addChildViewController:paramsCtr navTitle:@"场景" tabTitle:@"参数场景" imageName:@"crcscj"];
 }
 
 /**

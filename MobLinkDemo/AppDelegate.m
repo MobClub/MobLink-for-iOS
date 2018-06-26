@@ -6,6 +6,9 @@
 //  Copyright © 2017年 mob. All rights reserved.
 //
 
+// 测试appkey:1cc67a00af338 appsecret:d4bb4992f8841d888eddcaf6ee62ec03
+// 线上appkey:moba6b6c6d6 appsecret:b89d2427a3bc7ad1aea1e1e8c1d36bf3
+
 #import "AppDelegate.h"
 
 #import "MLDMainViewController.h"
@@ -64,6 +67,7 @@
     [buttonItem setBackButtonTitlePositionAdjustment:offset forBarMetrics:UIBarMetricsDefault];
     
 }
+
 
 /**
  初始化ShareSDK

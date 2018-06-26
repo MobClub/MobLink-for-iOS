@@ -143,7 +143,6 @@
 		5EC77CC41FA99EA5009E9ACB /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CA41FA99EA5009E9ACB /* ShareSDKUI.framework */; };
 		5EC77CC51FA99EA5009E9ACB /* QQConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CA61FA99EA5009E9ACB /* QQConnector.framework */; };
 		5EC77CC61FA99EA5009E9ACB /* SinaWeiboConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CA71FA99EA5009E9ACB /* SinaWeiboConnector.framework */; };
-		5EC77CC71FA99EA5009E9ACB /* SMSConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CA81FA99EA5009E9ACB /* SMSConnector.framework */; };
 		5EC77CC81FA99EA5009E9ACB /* WechatConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CA91FA99EA5009E9ACB /* WechatConnector.framework */; };
 		5EC77CC91FA99EA5009E9ACB /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CAC1FA99EA5009E9ACB /* TencentOpenAPI.framework */; };
 		5EC77CCA1FA99EA5009E9ACB /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CAE1FA99EA5009E9ACB /* libWeiboSDK.a */; };
@@ -152,6 +151,8 @@
 		5EC77CCD1FA99EA5009E9ACB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5EC77CB61FA99EA5009E9ACB /* README.txt */; };
 		5EC77CCE1FA99EA5009E9ACB /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EC77CBB1FA99EA5009E9ACB /* ShareSDK.bundle */; };
 		5EC77CCF1FA99EA5009E9ACB /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC77CBC1FA99EA5009E9ACB /* ShareSDKConnector.framework */; };
+		5EFE7B9320E2167F005802F3 /* MLDMiniRestoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE7B8F20E2167F005802F3 /* MLDMiniRestoreViewController.m */; };
+		5EFE7B9420E2167F005802F3 /* MLDMiniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE7B9120E2167F005802F3 /* MLDMiniViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -347,6 +348,10 @@
 		5EC77CB91FA99EA5009E9ACB /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		5EC77CBB1FA99EA5009E9ACB /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
 		5EC77CBC1FA99EA5009E9ACB /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		5EFE7B8F20E2167F005802F3 /* MLDMiniRestoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDMiniRestoreViewController.m; sourceTree = "<group>"; };
+		5EFE7B9020E2167F005802F3 /* MLDMiniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDMiniViewController.h; sourceTree = "<group>"; };
+		5EFE7B9120E2167F005802F3 /* MLDMiniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDMiniViewController.m; sourceTree = "<group>"; };
+		5EFE7B9220E2167F005802F3 /* MLDMiniRestoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDMiniRestoreViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,7 +359,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC77CC71FA99EA5009E9ACB /* SMSConnector.framework in Frameworks */,
 				5EC77CC91FA99EA5009E9ACB /* TencentOpenAPI.framework in Frameworks */,
 				5EC77CC81FA99EA5009E9ACB /* WechatConnector.framework in Frameworks */,
 				44B300841F0A486200812780 /* WebKit.framework in Frameworks */,
@@ -408,6 +412,7 @@
 				4494430F1E25E76C00064C11 /* AppDelegate.m */,
 				449E70DC1E54272A0034DB32 /* Main */,
 				449443241E25E88700064C11 /* Demo */,
+				5EFE7B8E20E2167F005802F3 /* MiniProgram */,
 				44B300961F0A4FE700812780 /* Scene */,
 				44B300BE1F0A4FF300812780 /* Params */,
 				449443311E25EAE100064C11 /* View */,
@@ -811,6 +816,17 @@
 			path = Required;
 			sourceTree = "<group>";
 		};
+		5EFE7B8E20E2167F005802F3 /* MiniProgram */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE7B8F20E2167F005802F3 /* MLDMiniRestoreViewController.m */,
+				5EFE7B9020E2167F005802F3 /* MLDMiniViewController.h */,
+				5EFE7B9120E2167F005802F3 /* MLDMiniViewController.m */,
+				5EFE7B9220E2167F005802F3 /* MLDMiniRestoreViewController.h */,
+			);
+			path = MiniProgram;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -844,7 +860,7 @@
 					449443071E25E76C00064C11 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = LW5266U92D;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.SafariKeychain = {
 								enabled = 1;
@@ -980,6 +996,7 @@
 				44B300911F0A4FBB00812780 /* MLDDemoRestoreAViewController.m in Sources */,
 				44B300CF1F0A4FF300812780 /* MLDTicketDetailTableViewController.m in Sources */,
 				44B300D01F0A4FF300812780 /* MLDTicketViewController.m in Sources */,
+				5EFE7B9320E2167F005802F3 /* MLDMiniRestoreViewController.m in Sources */,
 				449E70ED1E542E950034DB32 /* MLDAlertView.m in Sources */,
 				449E712E1E54501F0034DB32 /* MLDDemoViewController.m in Sources */,
 				44DA1A3C1FA0B26100AE0936 /* MLDVideoDetailTableViewCell.m in Sources */,
@@ -990,6 +1007,7 @@
 				44619E5F1E2A087E00D456FA /* RightImageButton.m in Sources */,
 				44B300BA1F0A4FE800812780 /* MLDVideoCollectionViewCell.m in Sources */,
 				44B300CB1F0A4FF300812780 /* MLDInviteSuccessViewController.m in Sources */,
+				5EFE7B9420E2167F005802F3 /* MLDMiniViewController.m in Sources */,
 				44B300CD1F0A4FF300812780 /* MLDParamsViewController.m in Sources */,
 				44B300B51F0A4FE800812780 /* MLDSceneViewController.m in Sources */,
 				449E70EA1E542C3D0034DB32 /* UIViewController+MLDBackItemHandler.m in Sources */,
@@ -1112,19 +1130,11 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MobLinkDemo/MobLinkDemo.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 永超 李 (6L4556Q7ET)";
-				DEVELOPMENT_TEAM = LW5266U92D;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/SDK/**",
-					"$(PROJECT_DIR)/SDK/MobLink",
-					"$(PROJECT_DIR)/SDK/Required",
-					"$(PROJECT_DIR)/SDK/ShareSDK",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SDK/**";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MobLinkDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = MobLinkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1137,8 +1147,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.MobLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "81c68001-dadf-488e-83b7-68e716f05020";
-				PROVISIONING_PROFILE_SPECIFIER = MobLinkDevelopment;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1149,19 +1159,11 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MobLinkDemo/MobLinkDemo.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangzhou ZhangTao Network Technology Co., Ltd.";
-				DEVELOPMENT_TEAM = LW5266U92D;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/SDK/**",
-					"$(PROJECT_DIR)/SDK/MobLink",
-					"$(PROJECT_DIR)/SDK/Required",
-					"$(PROJECT_DIR)/SDK/ShareSDK",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Optional",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformConnector",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
-					"$(PROJECT_DIR)/SDK/ShareSDK/Support/Required",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SDK/**";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MobLinkDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = MobLinkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1174,8 +1176,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.MobLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1d2eb2e2-d432-4ea4-9ad7-fec03a931e1e";
-				PROVISIONING_PROFILE_SPECIFIER = MobLink;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
