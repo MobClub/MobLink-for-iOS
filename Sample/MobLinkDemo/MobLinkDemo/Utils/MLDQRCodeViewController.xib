@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MLDQRCodeViewController">
+            <connections>
+                <outlet property="contentScrollView" destination="ogt-MO-RZl" id="2PC-Ry-V5I"/>
+                <outlet property="qrCodeImageView" destination="Gnm-ek-0KK" id="dFV-vh-Krm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogt-MO-RZl">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moblink_icon" highlightedImage="moblink_icon" translatesAutoresizingMaskIntoConstraints="NO" id="U6u-i9-0ZX">
+                            <rect key="frame" x="160" y="61" width="95" height="95"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="U6u-i9-0ZX" secondAttribute="height" multiplier="1:1" id="Aky-H5-Jv9"/>
+                                <constraint firstAttribute="width" constant="95" id="sIh-Zx-xXW"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="扫描或长按识别二维码可获得" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEA-mV-vkK">
+                            <rect key="frame" x="20" y="209" width="374" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="29" id="n0c-jZ-YLL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gnm-ek-0KK">
+                            <rect key="frame" x="116" y="281" width="183" height="183"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="183" id="MtP-Ud-MCN"/>
+                                <constraint firstAttribute="width" secondItem="Gnm-ek-0KK" secondAttribute="height" multiplier="1:1" id="wuS-6F-m5V"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" MobLink 分享了一个精彩内容" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NH2-06-2BD">
+                            <rect key="frame" x="30" y="171" width="354" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="B3Y-fa-xgc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="U6u-i9-0ZX" firstAttribute="top" secondItem="ogt-MO-RZl" secondAttribute="top" constant="61" id="B8Z-gb-26W"/>
+                        <constraint firstAttribute="bottom" secondItem="Gnm-ek-0KK" secondAttribute="bottom" constant="100" id="HsP-0e-dsl"/>
+                        <constraint firstItem="nEA-mV-vkK" firstAttribute="leading" secondItem="ogt-MO-RZl" secondAttribute="leading" constant="20" id="KCL-hz-h9N"/>
+                        <constraint firstItem="nEA-mV-vkK" firstAttribute="top" secondItem="NH2-06-2BD" secondAttribute="bottom" constant="20" id="OgG-Gy-FDl"/>
+                        <constraint firstAttribute="trailing" secondItem="nEA-mV-vkK" secondAttribute="trailing" constant="20" id="Stm-wy-z8S"/>
+                        <constraint firstItem="U6u-i9-0ZX" firstAttribute="centerX" secondItem="ogt-MO-RZl" secondAttribute="centerX" id="SzL-Jq-BXe"/>
+                        <constraint firstItem="NH2-06-2BD" firstAttribute="leading" secondItem="ogt-MO-RZl" secondAttribute="leading" constant="30" id="U0O-XP-h18"/>
+                        <constraint firstItem="NH2-06-2BD" firstAttribute="top" secondItem="U6u-i9-0ZX" secondAttribute="bottom" constant="15" id="WLt-YC-YFx"/>
+                        <constraint firstItem="Gnm-ek-0KK" firstAttribute="top" secondItem="nEA-mV-vkK" secondAttribute="bottom" constant="43" id="agq-e4-tA7"/>
+                        <constraint firstItem="NH2-06-2BD" firstAttribute="centerX" secondItem="ogt-MO-RZl" secondAttribute="centerX" id="bJu-Vn-q5F"/>
+                        <constraint firstItem="Gnm-ek-0KK" firstAttribute="centerX" secondItem="ogt-MO-RZl" secondAttribute="centerX" id="eEE-Fu-7dy"/>
+                        <constraint firstItem="nEA-mV-vkK" firstAttribute="centerX" secondItem="ogt-MO-RZl" secondAttribute="centerX" id="rEI-X6-hPy"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ogt-MO-RZl" secondAttribute="trailing" id="8UQ-O6-9s4"/>
+                <constraint firstAttribute="bottom" secondItem="ogt-MO-RZl" secondAttribute="bottom" id="DWW-s4-TS0"/>
+                <constraint firstItem="ogt-MO-RZl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="UXK-O8-iGK"/>
+                <constraint firstItem="ogt-MO-RZl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aSg-cU-T1B"/>
+            </constraints>
+            <point key="canvasLocation" x="22.5" y="12.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="moblink_icon" width="70" height="70"/>
+    </resources>
+</document>

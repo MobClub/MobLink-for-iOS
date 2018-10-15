@@ -31,6 +31,11 @@
 @property (nonatomic, copy, readonly) NSString *mobid;
 
 /**
+ 打开的原始链接
+ */
+@property (nonatomic, copy, readonly) NSString *rawURL;
+
+/**
  场景信息初始化
 
  @param path 路径,应传入需要恢复的控制器所设定的路径,即控制器在实现UIViewController+MLSDKRestore里面的+[MLSDKPath]时所返回的值。

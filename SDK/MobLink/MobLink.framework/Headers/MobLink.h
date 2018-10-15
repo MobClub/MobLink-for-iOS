@@ -4,7 +4,7 @@
 //
 //  Created by chenjd on 16/11/14.
 //  Copyright © 2016年 Mob. All rights reserved.
-//  Online
+//  Offline
 
 #import <Foundation/Foundation.h>
 #import "IMLSDKRestoreDelegate.h"
@@ -19,7 +19,7 @@
  @param scene 当前场景信息(即传入您需要还原的场景)
  @param result 回调处理,返回mobid
  */
-+ (void)getMobId:(MLSDKScene *)scene result:(void (^)(NSString *mobid))result;
++ (void)getMobId:(MLSDKScene *)scene result:(void (^)(NSString *mobid, NSError *error))result;
 
 /**
  设置场景恢复委托
