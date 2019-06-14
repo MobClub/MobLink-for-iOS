@@ -14,38 +14,38 @@
 ## 一、到Mob官网申请MobLink所需的APPKey
 1. 打开[Mob官网](http://mob.com/)，在官网首页选择登录或注册，新用户先注册，老用户直接登录。
 	
-	![mob_home](http://onmw6wg88.bkt.clouddn.com/mob_home.png)
+	![mob_home](http://sands.93lj.com/mob_home.png)
 
 	注册页面如下图：
 	
-	![mob_reg](http://onmw6wg88.bkt.clouddn.com/mob_reg.png)
+	![mob_reg](http://sands.93lj.com/mob_reg.png)
 
 2. 注册或登录完成后，会返回至首页，点击右上角的 **“进入后台”** ，会跳转至管理后台，点击 **“下拉列表”** ，选择 **“创建新应用”** 。如下图：
 
-	![Snip20170612_9](http://onmw6wg88.bkt.clouddn.com/Snip20170612_9.png)
+	![Snip20170612_9](http://sands.93lj.com/Snip20170612_9.png)
 	
 	输入应用名称后点击 **“保存”** ，如下图：
 	
-	![mob_create_app](http://onmw6wg88.bkt.clouddn.com/Snip20170525_11.png)
+	![mob_create_app](http://sands.93lj.com/Snip20170525_11.png)
 	
 	应用创建后在左边导航栏点击 **“添加产品”** ，如下图：
 	
-	![mob_add_product](http://onmw6wg88.bkt.clouddn.com/Snip20170525_12.png)
+	![mob_add_product](http://sands.93lj.com/Snip20170525_12.png)
 	
 	在产品列表中选择MobLink并点击 **“马上开始”** ，如下图：
 	
-	![mob_start](http://onmw6wg88.bkt.clouddn.com/Snip20170525_14.png)
+	![mob_start](http://sands.93lj.com/Snip20170525_14.png)
 	
 	此时左边导航栏就能看到您添加的产品了，点击 **“概况”** 即可看到您接下来需要的AppKey和AppSecret了，如下图：
 	
-	![mob_appkey](http://onmw6wg88.bkt.clouddn.com/mob_appkey.png)
+	![mob_appkey](http://sands.93lj.com/mob_appkey.png)
 
 3. 后台基础配置。请务必根据自身客户端应用实际情况，进行相关项的配置。填写完毕后请点击 **“保存”** 以确保生效。
 
-	![mob_conf](http://onmw6wg88.bkt.clouddn.com/Snip20170525_17.png)
+	![mob_conf](http://sands.93lj.com/Snip20170525_17.png)
 	
 	下面仅对iOS各项基础配置进行说明，安卓部分请参考：[安卓集成文档](http://wiki.mob.com/apply-appkey-android/)
-	
+
 	<table>
     	<tr>
         	<th colspan="3" align="center">配置说明</th>
@@ -99,7 +99,7 @@ MobLink支持使用CocoaPods集成，请在您app的 `Podfile` 中添加 `pod 'm
 
 请从官网[下载客户端SDK](http://mob.com/)，解压后可得到如下文件夹目录：
 
-![Snip20170525_2](http://onmw6wg88.bkt.clouddn.com/Snip20170525_2.png)
+![Snip20170525_2](http://sands.93lj.com/Snip20170525_2.png)
 
 
 > **说明：**
@@ -118,16 +118,16 @@ MobLink支持使用CocoaPods集成，请在您app的 `Podfile` 中添加 `pod 'm
 
 	i. 将MobLink.framework，MOBFoundation.framework添加到项目中，如下图：
 	
-	![Snip20170525_3](http://onmw6wg88.bkt.clouddn.com/Snip20170525_3.png)
+	![Snip20170525_3](http://sands.93lj.com/Snip20170525_3.png)
 
 	
 	ii. 选择将文件夹复制到项目中，如下图：
 	
-	![Snip20170525_4](http://onmw6wg88.bkt.clouddn.com/Snip20170525_4.png)
+	![Snip20170525_4](http://sands.93lj.com/Snip20170525_4.png)
 	
 	iii. 添加依赖库
 	
-	![Snip20170525_7](http://onmw6wg88.bkt.clouddn.com/Snip20170525_7.png)
+	![Snip20170525_7](http://sands.93lj.com/Snip20170525_7.png)
 	
 	>选择项目Target - Build Phases - Link Binary With Libraries，然后选择“+”进行添加系统库：
 	
@@ -141,32 +141,32 @@ MobLink支持使用CocoaPods集成，请在您app的 `Podfile` 中添加 `pod 'm
 	i. URL Scheme
 	项目中需要配置URL Scheme以用于场景恢复时跳转到应用中。请参考下图配置您自己的URL Scheme：
 	
-	![mob_url](http://onmw6wg88.bkt.clouddn.com/mob_url.png)
+	![mob_url](http://sands.93lj.com/mob_url.png)
 	
 	这里所配置的务必与后台填写的一致，如下图：
 	
-	![Snip20170525_8](http://onmw6wg88.bkt.clouddn.com/Snip20170525_8.png)
+	![Snip20170525_8](http://sands.93lj.com/Snip20170525_8.png)
 	
 	ii. Universal Link
 	后台已经为您生成好您的Universal Link，如下图：
 	
-	![Snip20170525_9](http://onmw6wg88.bkt.clouddn.com/Snip20170525_9.png)
+	![Snip20170525_9](http://sands.93lj.com/Snip20170525_9.png)
 	
 	然后在项目中配置Universal Link， ***<font color=red>请务必填写与后台生成的Universal Link地址</font>*** 参考下图：
 	
-	![Snip20170526_11](http://onmw6wg88.bkt.clouddn.com/Snip20170526_11.png)
+	![Snip20170526_11](http://sands.93lj.com/Snip20170526_11.png)
 	
 3. 添加代码
 
 	i. 在Info.plist文件中右键空白处，选择 **“Add Row”** ，添加“MOBAppKey”和“MOBAppSecret”对应值为上述在管理后台中获得的AppKey和AppSecret（点击 **“显示”** 查看），如下图所示：
 	
-	![Snip20170526_12](http://onmw6wg88.bkt.clouddn.com/Snip20170526_12.png)
+	![Snip20170526_12](http://sands.93lj.com/Snip20170526_12.png)
 	
 	无需代码即可完成MobLink的初始化工作。
 	
 	ii. 在需要恢复的控制器中实现`UIViewController+MLSDKRestore`的两个方法，如下图所示：
 	
-	![mob_restore_oc](http://onmw6wg88.bkt.clouddn.com/mob_restore_oc.png)
+	![mob_restore_oc](http://sands.93lj.com/mob_restore_oc.png)
 	
 	第一个是实现标识控制器路径的方法：
 
@@ -265,11 +265,11 @@ MobLink支持使用CocoaPods集成，请在您app的 `Podfile` 中添加 `pod 'm
 
 1. 在开发者后台找到MobLink的 **页面配置** 栏，在 **浮层配置** 选项卡中，参考下图所示步骤来个性化你的App：
 
-![mob_page](http://onmw6wg88.bkt.clouddn.com/Snip20171024_16.png)
+![mob_page](http://sands.93lj.com/Snip20171024_16.png)
 
 2. 浮层配置完成后切换到 **引用JS文件** 选项卡，直接点击 **复制** 按钮，如下图所示：
 
-![mob_js](http://onmw6wg88.bkt.clouddn.com/Snip20171024_17.png)
+![mob_js](http://sands.93lj.com/Snip20171024_17.png)
 
 3. 随后直接在你的网页源码的适当位置粘贴前面复制的JS代码，再根据你的需求做响应修改。代码及相关注释示例如下：
 
@@ -326,7 +326,7 @@ MobLink支持使用CocoaPods集成，请在您app的 `Podfile` 中添加 `pod 'm
 
 1. MobLink在运行的时候会通过delegate将整个运作过程呈现出来，所有的delegate方法都不是必须实现的，但这些delegate能够帮助您实现更多自定义的操作。设定delegate对象的方法如下图：
 	
-	![Snip20170526_13](http://onmw6wg88.bkt.clouddn.com/Snip20170526_13.png)
+	![Snip20170526_13](http://sands.93lj.com/Snip20170526_13.png)
 	
 2. delegate中各个方法的说明如下：
 	
@@ -433,11 +433,11 @@ Universal Link是苹果在WWDC 2015上提出的iOS 9的新特性之一。此特�
 
 1、URL Scheme方式：(第一张图是在微信中浏览web,下同)
 
-![scheme](http://onmw6wg88.bkt.clouddn.com/scheme.png)
+![scheme](http://sands.93lj.com/scheme.png)
 
 2、Universal Link方式：
 
-![ul](http://onmw6wg88.bkt.clouddn.com/ul.png)
+![ul](http://sands.93lj.com/ul.png)
 
 通过上述对比得知,Universal Link能够直接从微信中打开App,比起以往的URL Scheme的方式能够大大改善用户体验。
 
@@ -458,7 +458,7 @@ Universal Link是苹果在WWDC 2015上提出的iOS 9的新特性之一。此特�
 
 Universal Link除了能直接打开App，也能够通过Safari 打开。打开App或者打开Safari是两种不同的状态，并且可以相互切换。详细请看下图(从上往下看)
 
-![ul_open](http://onmw6wg88.bkt.clouddn.com/ul_open.png)
+![ul_open](http://sands.93lj.com/ul_open.png)
 
 #### 2、使用您自己注册的Universal Link
 
